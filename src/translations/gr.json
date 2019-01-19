@@ -1,6 +1,6 @@
 {
   "website":{
-	"title":"Επίσημο πορτοφόλι ιστού Karbo",
+	"title":"Επίσημο πορτοφόλι ιστού Qwertycoin",
 	"description":"Επίσημο online πορτοφόλι για το νόμισμα Qwertycoin - ανώνυμο, ασφαλές, και πλήρως διαχειριζόμενο από τον φυλλομετρητή σας για μέγιστη ασφάλεια"
   },
   "messages": {
@@ -63,7 +63,7 @@
 	  "github": "GitHub"
 	},
 	"homepage": {
-	  "mainTitle": "Ασφαλισμένο Πορτοφόλι Karbo",
+	  "mainTitle": "Ασφαλισμένο Πορτοφόλι Qwertycoin",
 	  "tagLine": "Ο απλούστερος τρόπος χρήσης του Qwertycoin - οπουδήποτε, οποτεδήποτε",
 	  "actions": {
 		"loadWallet": "Φόρτωσε το πορτοφόλι μου",
@@ -166,8 +166,8 @@
 		}
 	  },
 	  "disclaimerBlock":{
-		"title":"Κίνδυνος χρήσης του KarboWallet",
-		"content":"Το KarboWallet είναι ένα πορτοφόλι βασισμένο στον ιστό. Σας επιτρέπει να χρησιμοποιήσετε το Qwertycoin χωρίς να χρειάζετε να λειτουργείτε έναν δικό σας κόμβο Karbo. <br/> Σας συνιστούμε να θεωρείτε το KarboWallet ως ένα κανονικό πορτοφόλι"
+		"title":"Κίνδυνος χρήσης του QwertycoinWallet",
+		"content":"Το QwertycoinWallet είναι ένα πορτοφόλι βασισμένο στον ιστό. Σας επιτρέπει να χρησιμοποιήσετε το Qwertycoin χωρίς να χρειάζετε να λειτουργείτε έναν δικό σας κόμβο Qwertycoin. <br/> Σας συνιστούμε να θεωρείτε το QwertycoinWallet ως ένα κανονικό πορτοφόλι"
 	  }
 	},
 	"donatePage":{
@@ -177,9 +177,9 @@
 		"title":"Webwallet",
 		"content":"Αυτό το πορτοφόλι ιστού αναπτύχθηκε από τον Gnock στον ελεύθερό του χρόνο.<br/> Εαν θέλετε να βοηθήσετε στην ανάπτυξη, να συνεισφέρετε στα έξοδα των διακομιστών και σας αρέσει αυτή η εφαρμογή, παρακαλώ σκεφτείτε να κάνετε μια δωρεά: <br/><br/>"
 	  },
-	  "KarboFundBlock":{
+	  "QwertycoinFundBlock":{
 		"title":"Qwertycoin Dev fund",
-		"content":"Για να βοηθήσετε το Karbo, μπορείτε να κάνετε δωρεά στις παρακάτω διευθύνσεις"
+		"content":"Για να βοηθήσετε το Qwertycoin, μπορείτε να κάνετε δωρεά στις παρακάτω διευθύνσεις"
 	  }
 	},
 	"supportPage":{
@@ -193,7 +193,7 @@
 	},
 	"networkPage":{
 	  "title":"Στατιστικά Δικτύου΄",
-	  "subtitle":"Επισκόπηση τπυ δικτύου Karbo",
+	  "subtitle":"Επισκόπηση τπυ δικτύου Qwertycoin",
 	  "statsBlock":{
 		"hashrate":"Network hashrate",
 		"height":"Blockchain height",
@@ -313,7 +313,7 @@
 		"hashrate":"Hashrate",
 		"maxHashrate":"Μέγιστο Hashrate",
 		"dedicatedHardware":"Με εξειδικευμένο λογισμικό και υλισμοκό για mining μπορείτε να αμοιφθείτε περισσότερα και να βοηθήσει στην αποκέντρωση του δικτύου.",
-		"miningHandledBy":"Το mining σε αυτή τη σελίδα διαχειρίζεται από το pool get.Karbocoin.com"
+		"miningHandledBy":"Το mining σε αυτή τη σελίδα διαχειρίζεται από το pool get.Qwertycoincoin.com"
 	  }
 	},
 	"settingsPage":{

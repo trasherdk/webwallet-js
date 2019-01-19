@@ -1,6 +1,6 @@
 {
   "website":{
-	"title":"Portafoglio online ufficiale per Karbo",
+	"title":"Portafoglio online ufficiale per Qwertycoin",
 	"description":"Portafoglio online ufficiale per Qwertycoin currency - anonimo, sicuro e completamente gestito nel tuo browser per una sicurezza ottimale"
   },
   "messages": {
@@ -62,7 +62,7 @@
 	  "github": "GitHub"
 	},
 	"homepage": {
-	  "mainTitle": "Portafoglio sicuro per Karbo",
+	  "mainTitle": "Portafoglio sicuro per Qwertycoin",
 	  "tagLine": "Il modo più semplice per usare Qwertycoin - ovunque e in qualsiasi momento",
 	  "actions": {
 		"loadWallet": "Carica il mio portafoglio",
@@ -81,7 +81,7 @@
 		},
 		"technology": {
 		  "title": "Tecnologia unica",
-		  "description": "Collegato direttamente alla blockchain di Karbo!"
+		  "description": "Collegato direttamente alla blockchain di Qwertycoin!"
 		},
 		"openSource": {
 		  "title": "Completamente open-source",
@@ -165,8 +165,8 @@
 		}
 	  },
 	  "disclaimerBlock":{
-		"title":"Rischi nell'usare KarboWallet",
-		"content":"KarboWallet è una interfaccia web-based. Ti aiuta ad usare Qwertycoin senza eseguire un full node. <br/>Vi consigliamo di trattare MaraiWallet come trattereste il vostro portafoglio attuale."
+		"title":"Rischi nell'usare QwertycoinWallet",
+		"content":"QwertycoinWallet è una interfaccia web-based. Ti aiuta ad usare Qwertycoin senza eseguire un full node. <br/>Vi consigliamo di trattare MaraiWallet come trattereste il vostro portafoglio attuale."
 	  }
 	},
 	"donatePage":{
@@ -176,8 +176,8 @@
 		"title":"Webwallet",
 		"content":"Questo webwallet è sviluppato da Gnock nel suo tempo libero.<br/> Se vuoi aiutare lo sviluppo, aiutare a pagare server e ti piace questa applicazione, prendi in considerazione la possibilità di effettuare una piccola donazione.: <br/><br/>"
 	  },
-	  "KarboFundBlock":{
-		"title":"Fondo per lo sviluppo di Karbo",
+	  "QwertycoinFundBlock":{
+		"title":"Fondo per lo sviluppo di Qwertycoin",
 		"content":"Per aiutare Qwertycoin puoi donare a questo indirizzo "
 	  }
 	},
@@ -192,7 +192,7 @@
 	},
 	"networkPage":{
 	  "title":"Statistiche del network",
-	  "subtitle":"Dettagli sul network Karbo",
+	  "subtitle":"Dettagli sul network Qwertycoin",
 	  "statsBlock":{
 		"hashrate":"Network Hashrate",
 		"height":"Altezza blockchain",
@@ -312,7 +312,7 @@
 		"hashrate":"Hashrate",
 		"maxHashrate":"Max Hashrate",
 		"dedicatedHardware":"Con software e hardware dedicato al mining potresti raggiungere un hashrate da due a tre volte più elevato.",
-		"miningHandledBy":"Questo mining è gestito dalla pool get.Karbocoin.com"
+		"miningHandledBy":"Questo mining è gestito dalla pool get.Qwertycoincoin.com"
 	  }
 	},
 	"settingsPage":{

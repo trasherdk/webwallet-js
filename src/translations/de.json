@@ -166,8 +166,8 @@
 		}
 	  },
 	  "disclaimerBlock":{
-		"title":"Risiko beim benutzen der KarboWallet",
-		"content":"KarboWallet ist ein web-basierendes Interface. Es hilft beim Nutzen von Qwertycoin ohne einen vollen Node zu betreiben. <br/>Wir empfehlen KarboWallet sicherheitstechnisch wie eine richtige Wallet zu behandeln."
+		"title":"Risiko beim benutzen der QwertycoinWallet",
+		"content":"QwertycoinWallet ist ein web-basierendes Interface. Es hilft beim Nutzen von Qwertycoin ohne einen vollen Node zu betreiben. <br/>Wir empfehlen QwertycoinWallet sicherheitstechnisch wie eine richtige Wallet zu behandeln."
 	  }
 	},
 	"donatePage":{

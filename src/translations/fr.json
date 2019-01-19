@@ -1,7 +1,7 @@
 {
   "website":{
 	"title":"Portefeuille officiel en ligne pour Qwertycoin ",
-	"description":"Portefeuille en ligne officiel pour la monnaie Karbo, anonyme, sécurisé et entièrement géré dans votre navigateur for une sécurité optimale"
+	"description":"Portefeuille en ligne officiel pour la monnaie Qwertycoin, anonyme, sécurisé et entièrement géré dans votre navigateur for une sécurité optimale"
   },
   "messages": {
 	"menu": {
@@ -63,8 +63,8 @@
 	  "github": "GitHub"
 	},
 	"homepage": {
-	  "mainTitle": "Portefeuille sécurisé pour Karbo",
-	  "tagLine": "Le moyen le plus simple d'utiliser Karbo, n'importe où, n'importe quand",
+	  "mainTitle": "Portefeuille sécurisé pour Qwertycoin",
+	  "tagLine": "Le moyen le plus simple d'utiliser Qwertycoin, n'importe où, n'importe quand",
 	  "actions": {
 		"loadWallet": "Charger mon portefeuille",
 		"importWallet": "Importer un portefeuille",
@@ -166,8 +166,8 @@
 		}
 	  },
 	  "disclaimerBlock":{
-		"title":"Risques liés à l'utilisation de KarboWallet",
-		"content":"KarboWallet est un service web. Il vous aide à utiliser Qwertycoin facilement sans avoir un installer des logiciels. <br/>Nous vous conseillons de traiter ce site comme vous traiteriez votre portefeuille."
+		"title":"Risques liés à l'utilisation de QwertycoinWallet",
+		"content":"QwertycoinWallet est un service web. Il vous aide à utiliser Qwertycoin facilement sans avoir un installer des logiciels. <br/>Nous vous conseillons de traiter ce site comme vous traiteriez votre portefeuille."
 	  }
 	},
 	"donatePage":{
@@ -178,7 +178,7 @@
 		"content":"Ce portefeuille est développé par Gnock sur son temps libre.<br/>Si vous voulez aider au développement, payer les serveur et que vous aimez ce service, considérez une petite donation: <br/><br/>"
 	  },
 	  "devFundBlock":{
-		"title":"Fond de développement de Karbo",
+		"title":"Fond de développement de Qwertycoin",
 		"content":"Pour aidez Qwertycoin globalement, vous pouvez donner à cette adresse"
 	  }
 	},
@@ -188,12 +188,12 @@
 	  "getInTouchBlock":{
 		"title":"Reston en contact !",
 		"content":"Vous avez des idées, des retours pour aider à améliorer le service ? Contactez nous !",
-		"discord":"Discord Officiel de Karbo"
+		"discord":"Discord Officiel de Qwertycoin"
 	  }
 	},
 	"networkPage":{
 	  "title":"Statistiques du réseau",
-	  "subtitle":"Détails sur le réseaux Karbo",
+	  "subtitle":"Détails sur le réseaux Qwertycoin",
 	  "statsBlock":{
 		"hashrate":"Hashrate du réseau",
 		"height":"Hauteur de la Blockchain",
@@ -234,7 +234,7 @@
 	  },
 	  "thankYouDonationModal":{
 		"title":"Merci pour votre donation !",
-		"content":"Votre aide est apprécié. <br/>Cette donation contribuera à améliorer Karbo",
+		"content":"Votre aide est apprécié. <br/>Cette donation contribuera à améliorer Qwertycoin",
 		"confirmText":"Fermer"
 	  },
 	  "transferSentModal":{

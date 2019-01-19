@@ -166,8 +166,8 @@
 		}
 	  },
 	  "disclaimerBlock":{
-		"title":"Risk of Using KarboWallet",
-		"content":"KarboWallet is a web-based interface. It helps you use Qwertycoin without running a full Qwertycoin node. <br/>We recommend you treat KarboWallet like you will treat your actual wallet."
+		"title":"Risk of Using QwertycoinWallet",
+		"content":"QwertycoinWallet is a web-based interface. It helps you use Qwertycoin without running a full Qwertycoin node. <br/>We recommend you treat QwertycoinWallet like you will treat your actual wallet."
 	  }
 	},
 	"donatePage":{
@@ -179,7 +179,7 @@
 	  },
 	  "devFundBlock":{
 		"title":"Qwertycoin Dev fund",
-		"content":"To help Karbo, you can donate at these addresses"
+		"content":"To help Qwertycoin, you can donate at these addresses"
 	  }
 	},
 	"supportPage":{
