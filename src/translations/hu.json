@@ -1,7 +1,7 @@
 {
   "website":{
-	"title":"Hivatalos Karbo webtárca",
-	"description":"A Karbo hivatalos online tárcája - névtelen, biztonságos és teljes mértékben böngészőből kezelt az optimális biztonság érdekében"
+	"title":"Hivatalos Qwertycoin webtárca",
+	"description":"A Qwertycoin hivatalos online tárcája - névtelen, biztonságos és teljes mértékben böngészőből kezelt az optimális biztonság érdekében"
   },
   "messages": {
 	"menu": {
@@ -63,8 +63,8 @@
 	  "github": "GitHub"
 	},
 	"homepage": {
-	  "mainTitle": "Biztonságos Karbo tárca",
-	  "tagLine": "A Karbo használatának legegyszerűbb módja - bárhol és bármikor",
+	  "mainTitle": "Biztonságos Qwertycoin tárca",
+	  "tagLine": "A Qwertycoin használatának legegyszerűbb módja - bárhol és bármikor",
 	  "actions": {
 		"loadWallet": "Tárca betöltése",
 		"importWallet": "Tárcaimportálás",
@@ -82,7 +82,7 @@
 		},
 		"technology": {
 		  "title": "Egyedi technológia",
-		  "description": "Közvetlen kapcsolat a Karbo blokklánccal!"
+		  "description": "Közvetlen kapcsolat a Qwertycoin blokklánccal!"
 		},
 		"openSource": {
 		  "title": "Teljesen nyílt forrású",
@@ -106,7 +106,7 @@
 		"emptyWallet": "Jelenleg nincsen egyenleged ebben a tárcában.",
 		"waitSync": "Kérlek, várj, míg a tárca naprakész lesz",
 		"beReallyPatient": "A kezdeti beállítás némi időbe telhet...",
-		"getCoinAddress": "KRB fogadása"
+		"getCoinAddress": "QWC fogadása"
 	  },
 	  "txDetails":{
 		"title":"Tranzakciórészletek",
@@ -143,7 +143,7 @@
 	  },
 	  "finalizationStep":{
 		"title":"Ez egyszerű volt. A számlád rendelkezésre áll!",
-		"subtitle":"Állj készen a Karbo használatára",
+		"subtitle":"Állj készen a Qwertycoin használatára",
 		"passwordSelectionBlock":{
 		  "label":"Védd a tárcád"
 		},
@@ -167,7 +167,7 @@
 	  },
 	  "disclaimerBlock":{
 		"title":"A MasariWallet használatának kockázatai",
-		"content":"A KarboWallet egy webes felület, mely lehetővé teszi a Karbo használatát teljes csomópont futtatása nélkül.<br/>Kezeld úgy a KarboWalletet, mintha az a valódi pénztárcád lenne."
+		"content":"A KarboWallet egy webes felület, mely lehetővé teszi a Qwertycoin használatát teljes csomópont futtatása nélkül.<br/>Kezeld úgy a KarboWalletet, mintha az a valódi pénztárcád lenne."
 	  }
 	},
 	"donatePage":{
@@ -178,7 +178,7 @@
 		"content":"A webtárcát Gnock fejleszti szabadidejében.<br/>Ha szeretnéd segíteni a fejlesztést, a szerverek fizetését és tetszik az applikáció, úgy vedd fontolóra az adományozást:<br/><br/>"
 	  },
 	  "devFundBlock":{
-		"title":"Karbo fejlesztési alap",
+		"title":"Qwertycoin fejlesztési alap",
 		"content":"Ha szeretnél segíteni a Karbonak, az alábbi címekre adományozhatsz"
 	  }
 	},
@@ -188,12 +188,12 @@
 	  "getInTouchBlock":{
 		"title":"Lépjünk kapcsolatba!",
 		"content":"Visszajelzésed vagy ötleted van a tárcával kapcsolatban? Keress fel bennünket!",
-		"discord":"Karbo Discord-csatorna"
+		"discord":"Qwertycoin Discord-csatorna"
 	  }
 	},
 	"networkPage":{
 	  "title":"Hálózati statisztika",
-	  "subtitle":"Betekintés a Karbo hálózatába",
+	  "subtitle":"Betekintés a Qwertycoin hálózatába",
 	  "statsBlock":{
 		"hashrate":"Hálózati hashrate",
 		"height":"Blokklánc hossza",
@@ -203,7 +203,7 @@
 	  }
 	},
 	"sendPage":{
-	  "title":"KRB küldése",
+	  "title":"QWC küldése",
 	  "sendBlock":{
 		"address":{
 		  "label":"Kedvezményezett címe",
@@ -271,7 +271,7 @@
 	  }
 	},
 	"receivePage":{
-	  "title":"KRB fogadása",
+	  "title":"QWC fogadása",
 	  "receiveBlock":{
 		"address":{
 		  "title":"Pénz fogadására szolgáló cím:",

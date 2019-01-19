@@ -106,7 +106,7 @@
 		"emptyWallet": "У цьому гаманці поки немає коштів.",
 		"waitSync": "Будь ласка, зачекайте гаманець оновлює дані",
 		"beReallyPatient": "Початкова установка може зайняти деякий час...",
-		"getCoinAddress": "Отримати KRB"
+		"getCoinAddress": "Отримати QWC"
 	  },
 	  "txDetails":{
 		"title":"Деталі транзакції",
@@ -188,7 +188,7 @@
 	  "getInTouchBlock":{
 		"title":"Зв'яжіться з нами!",
 		"content":"Є ідеї або побажання щодо поліпшення гаманця? Напишіть нам!",
-		"discord":"Канал Karbo в Discord"
+		"discord":"Канал Qwertycoin в Discord"
 	  }
 	},
 	"networkPage":{
@@ -203,7 +203,7 @@
 	  }
 	},
 	"sendPage":{
-	  "title":"Надіслати KRB",
+	  "title":"Надіслати QWC",
 	  "sendBlock":{
 		"address":{
 		  "label":"Адреса одержувача",
@@ -271,7 +271,7 @@
 	  }
 	},
 	"receivePage":{
-	  "title":"Отримати KRB",
+	  "title":"Отримати QWC",
 	  "receiveBlock":{
 		"address":{
 		  "title":"Ваша адреса для отримання:",
@@ -299,7 +299,7 @@
 	},
 	"miningPage":{
 	  "title":"Інформація про майнінг",
-	  "subtitle":"Підтримайте мережу майнінгом і отримайте в нагороду KRB",
+	  "subtitle":"Підтримайте мережу майнінгом і отримайте в нагороду QWC",
 	  "parameterBlock":{
 		"title":"Параметри",
 		"labelDestinationAddress":"Гаманець на який майнити",

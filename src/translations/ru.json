@@ -106,7 +106,7 @@
 		"emptyWallet": "В этом кошельке пока нет средств.",
 		"waitSync": "Пожалуйста подождите пока кошелек обновляется",
 		"beReallyPatient": "Начальная установка может занять некоторое время...",
-		"getCoinAddress": "Получить KRB"
+		"getCoinAddress": "Получить QWC"
 	  },
 	  "txDetails":{
 		"title":"Детали транзакции",
@@ -188,7 +188,7 @@
 	  "getInTouchBlock":{
 		"title":"Свяжитесь с нами!",
 		"content":"Есть идеи или пожелания по улучшению кошелька? Напишите нам!",
-		"discord":"Канал Karbo в Discord"
+		"discord":"Канал Qwertycoin в Discord"
 	  }
 	},
 	"networkPage":{
@@ -203,7 +203,7 @@
 	  }
 	},
 	"sendPage":{
-	  "title":"Отправить KRB",
+	  "title":"Отправить QWC",
 	  "sendBlock":{
 		"address":{
 		  "label":"Адрес получателя",
@@ -234,7 +234,7 @@
 	  },
 	  "thankYouDonationModal":{
 		"title":"Спасибо за ваше пожертвование!",
-		"content":"Мы ценим вашу поддержку. <br/>Это пожертвование поможет сделать Karbo лучше",
+		"content":"Мы ценим вашу поддержку. <br/>Это пожертвование поможет сделать Qwertycoin лучше",
 		"confirmText":"OK"
 	  },
 	  "transferSentModal":{
@@ -271,7 +271,7 @@
 	  }
 	},
 	"receivePage":{
-	  "title":"Получить KRB",
+	  "title":"Получить QWC",
 	  "receiveBlock":{
 		"address":{
 		  "title":"Ваш адрес для получения:",
@@ -299,7 +299,7 @@
 	},
 	"miningPage":{
 	  "title":"Информация о майнинге",
-	  "subtitle":"Поддержите сеть майнингом и получите в награду KRB",
+	  "subtitle":"Поддержите сеть майнингом и получите в награду QWC",
 	  "parameterBlock":{
 		"title":"Параметры",
 		"labelDestinationAddress":"Кошелек на который майнить",

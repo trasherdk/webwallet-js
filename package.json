@@ -4,10 +4,11 @@
   "description": "Fully client side web wallet for Qwertycoin",
   "main": "index.js",
   "dependencies": {
-    "typescript": "^2.9.2",
     "workbox-build": "^3.3.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "typescript": "^2.9.2"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/qwertycoin-org/webwallet-js.git"

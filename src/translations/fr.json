@@ -1,6 +1,6 @@
 {
   "website":{
-	"title":"Portefeuille officiel en ligne pour Karbo ",
+	"title":"Portefeuille officiel en ligne pour Qwertycoin ",
 	"description":"Portefeuille en ligne officiel pour la monnaie Karbo, anonyme, sécurisé et entièrement géré dans votre navigateur for une sécurité optimale"
   },
   "messages": {
@@ -82,7 +82,7 @@
 		},
 		"technology": {
 		  "title": "Technologie unique",
-		  "description": "Connectée directement à la Blockchain Karbo !"
+		  "description": "Connectée directement à la Blockchain Qwertycoin !"
 		},
 		"openSource": {
 		  "title": "Entièrement open-source",
@@ -106,7 +106,7 @@
 		"emptyWallet": "Vous n'avez aucun fond sur ce portefeuille",
 		"waitSync": "Veuillez attendre la fin de la synchronisation",
 		"beReallyPatient": "La première synchronisation peut prendre quelques minutes...",
-		"getCoinAddress": "Obtenir mon adresse pour recevoir des KRB"
+		"getCoinAddress": "Obtenir mon adresse pour recevoir des QWC"
 	  },
 	  "txDetails":{
 		"title":"Détails de la transaction",
@@ -143,7 +143,7 @@
 	  },
 	  "finalizationStep":{
 		"title":"C'était simple. Votre portefeuille est prêt !",
-		"subtitle":"Soyer près à utiliser Karbo le plus simplement possible",
+		"subtitle":"Soyer près à utiliser Qwertycoin le plus simplement possible",
 		"passwordSelectionBlock":{
 		  "label":"Sécuriser mon portefeuille"
 		},
@@ -167,7 +167,7 @@
 	  },
 	  "disclaimerBlock":{
 		"title":"Risques liés à l'utilisation de KarboWallet",
-		"content":"KarboWallet est un service web. Il vous aide à utiliser Karbo facilement sans avoir un installer des logiciels. <br/>Nous vous conseillons de traiter ce site comme vous traiteriez votre portefeuille."
+		"content":"KarboWallet est un service web. Il vous aide à utiliser Qwertycoin facilement sans avoir un installer des logiciels. <br/>Nous vous conseillons de traiter ce site comme vous traiteriez votre portefeuille."
 	  }
 	},
 	"donatePage":{
@@ -179,7 +179,7 @@
 	  },
 	  "devFundBlock":{
 		"title":"Fond de développement de Karbo",
-		"content":"Pour aidez Karbo globalement, vous pouvez donner à cette adresse"
+		"content":"Pour aidez Qwertycoin globalement, vous pouvez donner à cette adresse"
 	  }
 	},
 	"supportPage":{
@@ -203,7 +203,7 @@
 	  }
 	},
 	"sendPage":{
-	  "title":"Envoyer des KRB",
+	  "title":"Envoyer des QWC",
 	  "sendBlock":{
 		"address":{
 		  "label":"Adresse de destination",
@@ -271,7 +271,7 @@
 	  }
 	},
 	"receivePage":{
-	  "title":"Recevoir des KRB",
+	  "title":"Recevoir des QWC",
 	  "receiveBlock":{
 		"address":{
 		  "title":"Votre adresse pour recevoir des fonds",
@@ -299,7 +299,7 @@
 	},
 	"miningPage":{
 	  "title":"Miner directement depuis votre navigateur",
-	  "subtitle":"Supportez lé réseau en minant et en améliorant la stabilité du réseau tout en étant réponsé en KRB",
+	  "subtitle":"Supportez lé réseau en minant et en améliorant la stabilité du réseau tout en étant réponsé en QWC",
 	  "parameterBlock":{
 		"title":"Paramètres",
 		"labelDestinationAddress":"Portefeuille de destination",
