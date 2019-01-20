@@ -16,25 +16,42 @@
 
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Qwertycoin API</title>
+	<meta charset="UTF-8">
+	<title>Title</title>
 </head>
 <body>
 
-<h1>Qwertycoin Wallet API relay</h1>
+<button id="payButton" disabled="disabled">Pay</button>
 
-<script src="lib/biginteger.js"></script>
-<script src="config.js"></script>
-<script src="lib/jquery-3.2.1.min.js"></script>
-<script src="lib/sha3.js"></script>
-<script src="lib/crypto.js"></script>
-<!--<script src="lib/nacl-fast-cn.js"></script>-->
-<script src="lib/nacl-fast.js"></script>
-<script src="lib/nacl-util.min.js"></script>
-<script src="lib/base58.js"></script>
-<!--<script src="lib/mnemonic.js"></script>-->
-<script src="lib/cn_utils.js"></script>
-<script data-main="api.js" src="lib/require.js"></script>
+
+<script src="api.js" ></script>
+
+<script>
+	var clickButton = document.getElementById('payButton');
+
+	function MasariLoaded(){
+		clickButton.disabled = false;
+		clickButton.addEventListener("click", function(){
+			MasariApi.makeTransfer({
+				amount:10,
+				address:'node-00.qwertycoin.org',
+				description:'Description',
+				destName:'Webwallet',
+				redirect:encodeURIComponent(window.location.href)
+			}).then(function(txHash){
+
+			});
+		});
+
+		console.log('LOADED CALLBACK');
+		MasariApi.hasWallet().then(function(hasWAllet){
+			console.log('HAS WALLET');
+			console.log(hasWAllet);
+		});
+	}
+	MasariApi.init().then(MasariLoaded);
+
+</script>
 
 </body>
 </html>
