@@ -1,6 +1,6 @@
 let global : any = typeof window !== 'undefined' ? window : self;
 global.config = {
-	apiUrl:typeof window !== 'undefined' && window.location ? window.location.href.substr(0,window.location.href.lastIndexOf('/')+1)+'api/' : 'http://159.69.208.83/api/',
+	apiUrl:typeof window !== 'undefined' && window.location ? window.location.href.substr(0,window.location.href.lastIndexOf('/')+1)+'api/' : 'https://wallet.qwertycoin.org/api/',
 	mainnetExplorerUrl: "https://explorer.qwertycoin.org/",
 	mainnetExplorerUrlHash: "https://explorer.qwertycoin.org/?hash={ID}#blockchain_transaction",
 	mainnetExplorerUrlBlock: "https://explorer.qwertycoin.org/?hash={ID}#blockchain_block",
@@ -13,11 +13,11 @@ global.config = {
 	txMinConfirms: 6,         
 	txCoinbaseMinConfirms: 6,
 	addressPrefix: 1344012,
-	integratedAddressPrefix: 112,
+	integratedAddressPrefix: 1344013,
 	addressPrefixTestnet: 1344012,
-	integratedAddressPrefixTestnet: 112,
-	subAddressPrefix: 113,
-	subAddressPrefixTestnet: 113,
+	integratedAddressPrefixTestnet: 1344013,
+	subAddressPrefix: 1344014,
+	subAddressPrefixTestnet: 1344014,
 	coinFee: new JSBigInt('100000000'),
 	feePerKB: new JSBigInt('100000000'), //for testnet its not used, as fee is dynamic.
 	dustThreshold: new JSBigInt('100000'),//used for choosing outputs/change - we decompose all the way down if the receiver wants now regardless of threshold

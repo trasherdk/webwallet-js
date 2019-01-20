@@ -1,7 +1,7 @@
 {
   "website":{
 	"title":"Offizielle Qwertycoin Web Wallet",
-	"description":"Offizielle Online Wallet für Qwertycoin currency, anonym, sicher und für optimale Sicherheit vollständig in deinem Browser verwaltet"
+	"description":"Offizielle Online Wallet für Qwertycoin, anonym, sicher und für optimale Sicherheit vollständig in deinem Browser verwaltet"
   },
   "messages": {
 	"menu": {
@@ -24,7 +24,7 @@
 	  "download":"Download",
 	  "newVersionModal":{
 		"title":"Eine neue Version ist verfügbar",
-		"content":"Möchtest du neu laden um die neue Version zu erhalten?",
+		"content":"Möchtest du neuladen um die neue Version zu erhalten?",
 		"confirmText":"Ja",
 		"cancelText":"Später"
 	  },
@@ -63,7 +63,7 @@
 	  "github": "GitHub"
 	},
 	"homepage": {
-	  "mainTitle": "Gesicherte Qwertycoin Wallet",
+	  "mainTitle": "Qwertycoin Webwallet",
 	  "tagLine": "Der einfachste Weg Qwertycoin jederzeit und überall zu nutzen",
 	  "actions": {
 		"loadWallet": "Lade meine Wallet",
@@ -86,13 +86,13 @@
 		},
 		"openSource": {
 		  "title": "Komplett open-source",
-		  "description": "Vergügbar auf Github"
+		  "description": "Verfügbar auf Github"
 		}
 	  }
 	},
 	"accountPage": {
 	  "title": "Account",
-	  "subtitle": "Überblick über deinen Account und deine Transactionshistorie",
+	  "subtitle": "Überblick über deinen Account und deine Transaktionshistorie",
 	  "synchronizingBlock": {
 		"text": "Synchronisiere "
 	  },
@@ -104,14 +104,14 @@
 		"title": "Transaktionshistorie",
 		"pendingTxStatus": "Ausstehend",
 		"emptyWallet": "Du hast zur Zeit kein Guthaben auf dieser Wallet",
-		"waitSync": "Warte bis die Wallet upgedated ist",
+		"waitSync": "Warte bis die Wallet aktualisiert ist",
 		"beReallyPatient": "Die erste Einrichtung kann etwas dauern...",
-		"getCoinAddress": "Hol die deine Adresse um QWC zu empfangen"
+		"getCoinAddress": "Hol dir deine Adresse um QWC zu empfangen"
 	  },
 	  "txDetails":{
 		"title":"Transaktionsdetails",
-		"txHash":"Tx hash",
-		"feesOnTx":"Gebühren der tx",
+		"txHash":"TX Hash",
+		"feesOnTx":"Gebühren der TX",
 		"blockHeight":"Blockhöhe",
 		"paymentId":"Payment ID",
         "txPrivKey":"Privater Schlüssel für die Transaktion"
@@ -124,7 +124,7 @@
 		"invalid":"Das Passwort ist ungültig"
 	  },
 	  "newPassword":{
-		"label":"Wähle ein neues Passwort um deine Daten zu schützen"
+		"label":"Wähle ein neues Passwort um deine Wallet zu schützen"
 	  },
 	  "newPasswordConfirm":{
 		"label":"Bestätige das neue Passwort"

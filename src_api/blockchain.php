@@ -295,11 +295,13 @@ if(getenv('generate') !== 'true'){
 			
 			echo 'scanning ' . $startHeight . ' to ' . $endHeight . "<br/>";
 			
-			$cacheContent = retrieveCache($realStartHeight, $endHeight, false);
+			echo $cacheContent = retrieveCache($realStartHeight, $endHeight, false);
+			echo "<br/>";
 			//		var_dump('==>',$lastBlockCacheContent,$cacheContent);
 			if($cacheContent === null){
 				if($realStartHeight > 1){
-					$lastBlockCacheContent = retrieveCache($realStartHeight-100, $realStartHeight, false);
+					echo $lastBlockCacheContent = retrieveCache($realStartHeight-100, $realStartHeight, false);
+					echo "<br/>";
 					$decodedContent = json_decode($lastBlockCacheContent, true);
 					if(count($decodedContent) > 0){
 						$lastTr = $decodedContent[count($decodedContent) - 1];

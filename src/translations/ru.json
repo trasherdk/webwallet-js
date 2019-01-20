@@ -313,7 +313,7 @@
 		"hashrate":"Хешрейт",
 		"maxHashrate":"Макс. Хешрейт",
 		"dedicatedHardware":"Майнинг помогает в децентрализации сети и позволяет вам заработать Qwertycoin.",
-		"miningHandledBy":"Майнинг проходит на пуле pool.karbowanec.com"
+		"miningHandledBy":"Майнинг проходит на пуле pool.qwertycoin.org"
 	  }
 	},
 	"settingsPage":{
