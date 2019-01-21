@@ -312,7 +312,7 @@
 		"hashrate":"Hashrate",
 		"maxHashrate":"Max Hashrate",
 		"dedicatedHardware":"Con software e hardware dedicato al mining potresti raggiungere un hashrate da due a tre volte più elevato.",
-		"miningHandledBy":"Questo mining è gestito dalla pool get.Qwertycoincoin.com"
+		"miningHandledBy":"Questo mining è gestito dalla pool https://qwertycoin.org"
 	  }
 	},
 	"settingsPage":{

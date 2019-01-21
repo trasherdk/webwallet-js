@@ -4,12 +4,6 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-ini_set('zlib.output_compression_level', 1);
-if (extension_loaded('zlib') && !ini_get('zlib.output_compression')){
-	header('Content-Encoding: gzip');
-	ob_start('ob_gzhandler');
-}
-
 include 'config.php';
 
 if(!empty($_GET["gen"]) && $_GET['gen'] == "1"){
@@ -17,8 +11,6 @@ if(!empty($_GET["gen"]) && $_GET['gen'] == "1"){
 } else {
   putenv("generate=false");
 }
-
-putenv("generate=true");
 
 function getTxWithHashes($txHashes){
 	global $rpcPort;
@@ -357,10 +349,15 @@ if(getenv('generate') !== 'true'){
 }
 
 //$finalTransactions = createOptimizedBock($startHeight, $endHeight);
-
+//ini_set('zlib.output_compression_level', 1);
+//if (extension_loaded('zlib') && !ini_get('zlib.output_compression')){
+//	header('Content-Encoding: gzip');
+//	ob_start('ob_gzhandler');
+//}
+//ob_start("ob_gzhandler");
 //$data = gzcompress($cacheContent,9);
 
-ob_end_clean();
+//ob_end_clean();
 //echo strlen($data);
 //echo '|';
 //echo strlen($cacheContent);
