@@ -166,7 +166,7 @@
 		}
 	  },
 	  "disclaimerBlock":{
-		"title":"A MasariWallet használatának kockázatai",
+		"title":"A QwertycoinWallet használatának kockázatai",
 		"content":"A QwertycoinWallet egy webes felület, mely lehetővé teszi a Qwertycoin használatát teljes csomópont futtatása nélkül.<br/>Kezeld úgy a QwertycoinWalletet, mintha az a valódi pénztárcád lenne."
 	  }
 	},
@@ -313,7 +313,7 @@
 		"hashrate":"Hashrate",
 		"maxHashrate":"Maximális hashrate",
 		"dedicatedHardware":"Bányászásra dedikált szoftver és hardver használatával nagyobb bevételre tehetsz szert és segíthetsz a hálózat decentralizálásában.",
-		"miningHandledBy":"Ezt a bányászást a get.masaricoin.com pool kezeli"
+		"miningHandledBy":"Ezt a bányászást a pool.qwertycoin.org pool kezeli"
 	  }
 	},
 	"settingsPage":{

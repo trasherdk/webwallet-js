@@ -1,6 +1,6 @@
 {
   "website":{
-	"title":"Client-side Qwertycoin Web Wallet",
+	"title":"Qwertycoin Web Wallet",
 	"description":"Official online wallet for Qwertycoin currency - fully handled in your browser for optimal security"
   },
   "messages": {
@@ -63,7 +63,7 @@
 	  "github": "GitHub"
 	},
 	"homepage": {
-	  "mainTitle": "Secure Qwertycoin Wallet",
+	  "mainTitle": "Qwertycoin Web Wallet",
 	  "tagLine": "The simplest way to use Qwertycoin – anywhere and any time",
 	  "actions": {
 		"loadWallet": "Load my wallet",
@@ -313,7 +313,7 @@
 		"hashrate":"Hashrate",
 		"maxHashrate":"Max Hashrate",
 		"dedicatedHardware":"With dedicating mining software and hardware, you could earn more and help decentralize the network.",
-		"miningHandledBy":"This mining is handled by the mining pool get.masaricoin.com"
+		"miningHandledBy":"This mining is handled by the mining pool pool.qwertycoin.org"
 	  }
 	},
 	"settingsPage":{

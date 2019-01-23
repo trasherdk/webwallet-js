@@ -1,7 +1,7 @@
 {
   "website":{
-	"title":"Offizielle Qwertycoin Web Wallet",
-	"description":"Offizielle Online Wallet für Qwertycoin currency, anonym, sicher und für optimale Sicherheit vollständig in deinem Browser verwaltet"
+	"title":"Qwertycoin Web Wallet",
+	"description":"Offizielle Online Wallet für Qwertycoin Kryptowährung! Anonym, sicher und für optimale Sicherheit vollständig in deinem Browser verwaltet"
   },
   "messages": {
 	"menu": {
@@ -12,19 +12,19 @@
 	  "export": "Export",
 	  "donate": "Spenden",
 	  "settings": "Einstellungen",
-	  "disconnect": "Verbindung trennen",
+	  "disconnect": "Ausloggen",
 	  "network": "Netzwerkstatus",
 	  "mining": "Minen"
 	},
 	"global": {
 	  "loading": "wird geladen",
-	  "disableSecurity":"Sicherheit verringern, ich verstehe das Risiko",
+	  "disableSecurity":"Verwendung eines schwachen Passworts bestätigen!",
 	  "passwordInvalidRequirements":"Das Passwort muss mindestens 8 Zeichen lang sein, einen Großbuchstaben, einen Kleinbuchstaben und eine Zahl oder Sonderzeichen enthalten",
 	  "passwordConfirmationNotMatching":"Das Passwort entspricht nicht dem vorher eingegebenen",
 	  "download":"Download",
 	  "newVersionModal":{
-		"title":"Eine neue Version ist verfügbar",
-		"content":"Möchtest du neu laden um die neue Version zu erhalten?",
+		"title":"Eine neue Version ist verfügbar!",
+		"content":"Möchtest du neuladen um die neue Version zu erhalten?",
 		"confirmText":"Ja",
 		"cancelText":"Später"
 	  },
@@ -63,7 +63,7 @@
 	  "github": "GitHub"
 	},
 	"homepage": {
-	  "mainTitle": "Gesicherte Qwertycoin Wallet",
+	  "mainTitle": "Qwertycoin Web Wallet",
 	  "tagLine": "Der einfachste Weg Qwertycoin jederzeit und überall zu nutzen",
 	  "actions": {
 		"loadWallet": "Lade meine Wallet",
@@ -193,7 +193,7 @@
 	},
 	"networkPage":{
 	  "title":"Netzwerkstatus",
-	  "subtitle":"Einblick ins Marsir Netzwerk",
+	  "subtitle":"Einblick ins Qwertycoin Netzwerk",
 	  "statsBlock":{
 		"hashrate":"Netzwerk Hashrate",
 		"height":"Blockchainhöhe",
@@ -313,7 +313,7 @@
 		"hashrate":"Hashrate",
 		"maxHashrate":"Max Hashrate",
 		"dedicatedHardware":"Mit spezieller Software könnetest du zwei- bis dreimal höhere Hashraten erreichen.<br/>Spezielle Software würde auch mithilfe einer Grafikkarte minen(wenn du einge Gaming GPU hast).",
-		"miningHandledBy":"Minen erfolgt über den Mining Pool get.masaricoin.com"
+		"miningHandledBy":"Minen erfolgt über den Mining Pool pool.qwertycoin.org"
 	  }
 	},
 	"settingsPage":{

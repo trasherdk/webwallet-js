@@ -491,9 +491,9 @@ body.transparent #copyright{
 	min-height:90vh;
 	position: relative;
 	text-align: center;
-	background-image: -webkit-linear-gradient(rgba(62, 75, 92, 0.70), rgba(62, 75, 92, 0.70)), url(../img/landing/75-usersthink-stock-image.jpg);
-	background-image: -o-linear-gradient(rgba(62, 75, 92, 0.70), rgba(62, 75, 92, 0.70)), url(../img/landing/75-usersthink-stock-image.jpg);
-	background-image: linear-gradient(rgba(62, 75, 92, 0.70), rgba(62, 75, 92, 0.70)), url(../img/landing/75-usersthink-stock-image.jpg);
+	background-image: -webkit-linear-gradient(rgba(62, 75, 92, 0.70), rgba(62, 75, 92, 0.70)), url(../img/landing/morning-2550628_1920.jpg);
+	background-image: -o-linear-gradient(rgba(62, 75, 92, 0.70), rgba(62, 75, 92, 0.70)), url(../img/landing/morning-2550628_1920.jpg);
+	background-image: linear-gradient(rgba(62, 75, 92, 0.70), rgba(62, 75, 92, 0.70)), url(../img/landing/morning-2550628_1920.jpg);
 	background-position: center center;
 	background-size: cover;
 	margin-bottom:160px;
