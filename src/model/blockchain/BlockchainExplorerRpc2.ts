@@ -341,7 +341,7 @@ export class BlockchainExplorerRpc2 implements BlockchainExplorer {
                 method: 'GET',
             }).done(function (transactions: any) {
                 if (transactions !== null) {
-                    console.log("tx pool:");
+                    console.log("tx mempool:");
                     console.log(transactions);
                     resolve(transactions);
                 }
