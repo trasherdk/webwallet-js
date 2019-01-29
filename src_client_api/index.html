@@ -29,10 +29,10 @@
 <script>
 	var clickButton = document.getElementById('payButton');
 
-	function MasariLoaded(){
+	function QwertycoinLoaded(){
 		clickButton.disabled = false;
 		clickButton.addEventListener("click", function(){
-			MasariApi.makeTransfer({
+			QwertycoinApi.makeTransfer({
 				amount:10,
 				address:'myqwertycoin.com',
 				description:'Description',
@@ -44,12 +44,12 @@
 		});
 
 		console.log('LOADED CALLBACK');
-		MasariApi.hasWallet().then(function(hasWAllet){
+		QwertycoinApi.hasWallet().then(function(hasWAllet){
 			console.log('HAS WALLET');
 			console.log(hasWAllet);
 		});
 	}
-	MasariApi.init().then(MasariLoaded);
+	QwertycoinApi.init().then(QwertycoinLoaded);
 
 </script>
 
