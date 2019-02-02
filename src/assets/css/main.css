@@ -78,7 +78,7 @@ body.native .hideOnNonNative{
 	height:34px;line-height:34px;
 	position: fixed;
 	top:0;
-	background: #30466C;
+	background: #050505;
 	color:white;
 	font-size:16px;
 	font-weight: bold;
@@ -136,7 +136,7 @@ body.menuHidden #menu {
 }
 
 #menu{
-	background: #30466C;
+	background: #050505;
 	color: white;
 	padding:10px 15px;
 }
@@ -612,10 +612,10 @@ body.native .indexTab .mainBlock > .actions{
 }
 .indexTab .block i{
 	font-size: 40px;
-	color:#00A0E3;
+	color:#f1c40f;
 }
 .indexTab .block h3{
-	color:#30466C;
+	color:#050505;
 	font-size: 24px;
 	margin: 0;
 	margin-bottom:5px;margin-top:8px;
@@ -625,7 +625,7 @@ body.native .indexTab .mainBlock > .actions{
 	text-decoration: none;
 }
 .indexTab .block h4{
-	color:#30466C;
+	color:#050505;
 	font-size: 14px;
 	margin: 0;
 	font-weight: normal;
