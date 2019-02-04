@@ -398,13 +398,13 @@ export class TransactionsExplorer {
                 neededFee = 100000000;
             }
 
-			console.log('using amount of ' + usingOuts_amount + ' for sending ' + totalAmountWithoutFee + ' with fees of ' + (neededFee / Math.pow(10, config.coinUnitPlaces)));
+			console.log('using amount of ' + usingOuts_amount + ' for sending ' + totalAmountWithoutFee + ' with fees of ' + (neededFee / Math.pow(10, config.coinUnitPlaces))+ ' QWC');
 			confirmCallback(totalAmountWithoutFee, neededFee).then(function () {
 				if (usingOuts_amount.compare(totalAmount) < 0) {
 					console.log("Not enough spendable outputs / balance too low (have "
 						+ cnUtil.formatMoneyFull(usingOuts_amount) + " but need "
 						+ cnUtil.formatMoneyFull(totalAmount)
-						+ " (estimated fee " + cnUtil.formatMoneyFull(neededFee) + " included)");
+						+ " (estimated fee " + cnUtil.formatMoneyFull(neededFee) + " QWC included)");
 					// return;
 					reject({error: 'balance_too_low'});
 					return;

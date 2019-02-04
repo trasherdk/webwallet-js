@@ -1893,7 +1893,7 @@ var cnUtil = (function(initConfig) {
 
 				while ((src.outputs.length < fake_outputs_count) && (j < mix_outs[i].outputs.length)) {
 					var out = mix_outs[i].outputs[j];
-					console.log('chekcing mixin',out, outputs[i]);
+					console.log('checking mixin',out, outputs[i]);
 					if (out.global_index === outputs[i].global_index) {
 						console.log('got mixin the same as output, skipping');
 						j++;

@@ -110,8 +110,8 @@
 	  },
 	  "txDetails":{
 		"title":"Transaction details",
-		"txHash":"Tx hash",
-		"feesOnTx":"Tx fees",
+		"txHash":"Transaction Hash",
+		"feesOnTx":"Transaction fee",
 		"blockHeight":"Block height",
 		"paymentId":"Payment ID",
 		"txPrivKey":"Transaction Private Key"
@@ -234,7 +234,7 @@
 	  },
 	  "thankYouDonationModal":{
 		"title":"Thank you for your donation!",
-		"content":"Your help is appreciated. <br/>This donation will help make Qwertycoin better",
+		"content":"Your help is appreciated. This donation will help make Qwertycoin better",
 		"confirmText":"OK"
 	  },
 	  "transferSentModal":{

@@ -21,7 +21,7 @@ global.config = {
 	coinFee: new JSBigInt('100000000'),
 	feePerKB: new JSBigInt('100000000'),
 	dustThreshold: new JSBigInt('100000'),//used for choosing outputs/change - we decompose all the way down if the receiver wants now regardless of threshold
-	defaultMixin: 2, // default value mixin
+	defaultMixin: 0, // default value mixin
 
 	idleTimeout: 30,
 	idleWarningDuration: 20,
