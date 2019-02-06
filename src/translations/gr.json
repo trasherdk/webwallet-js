@@ -113,6 +113,8 @@
 		"txHash":"Αναγνωριστικό συναλλαγής",
 		"feesOnTx":"Τέλη συναλλαγής",
 		"blockHeight":"Block height",
+		"unlockStatus":"Status",
+		"unlockConfirm":"Confirmations",
 		"paymentId":"Payment ID",
         "txPrivKey":"Ιδιωτικό κλειδί συναλλαγής"
 	  }

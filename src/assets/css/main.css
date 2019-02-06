@@ -78,7 +78,7 @@ body.native .hideOnNonNative{
 	height:34px;line-height:34px;
 	position: fixed;
 	top:0;
-	background: #050505;
+	background: #28276f;
 	color:white;
 	font-size:16px;
 	font-weight: bold;
@@ -136,7 +136,7 @@ body.menuHidden #menu {
 }
 
 #menu{
-	background: #050505;
+	background: #28276f;
 	color: white;
 	padding:10px 15px;
 }
@@ -292,7 +292,7 @@ body.transparent #copyright{
 	padding-right:5px;
 }
 .transactions .transaction .amount.more{color:#6bc534;}
-.transactions .transaction .amount.less{color:#5b5b5b;}
+.transactions .transaction .amount.less{color:#de2c2c;}
 .transactions .transaction .moreInfo {
 	font-size: 20px;
 	width: 8%;
@@ -488,12 +488,12 @@ body.transparent #copyright{
 	}
 }
 .indexTab .mainBlock{
-	min-height:90vh;
+	min-height:100vh;
 	position: relative;
 	text-align: center;
-	background-image: -webkit-linear-gradient(rgba(62, 75, 92, 0.70), rgba(62, 75, 92, 0.70)), url(../img/landing/morning-2550628_1920.jpg);
-	background-image: -o-linear-gradient(rgba(62, 75, 92, 0.70), rgba(62, 75, 92, 0.70)), url(../img/landing/morning-2550628_1920.jpg);
-	background-image: linear-gradient(rgba(62, 75, 92, 0.70), rgba(62, 75, 92, 0.70)), url(../img/landing/morning-2550628_1920.jpg);
+	background-image: -webkit-linear-gradient(rgba(62, 75, 92, 0.70), rgba(62, 75, 92, 0.70)), url(../img/landing/qclassic.jpg);
+	background-image: -o-linear-gradient(rgba(62, 75, 92, 0.70), rgba(62, 75, 92, 0.70)), url(../img/landing/qclassic.jpg);
+	background-image: linear-gradient(rgba(62, 75, 92, 0.70), rgba(62, 75, 92, 0.70)), url(../img/landing/qclassic.jpg);
 	background-position: center center;
 	background-size: cover;
 	margin-bottom:160px;
@@ -615,7 +615,7 @@ body.native .indexTab .mainBlock > .actions{
 	color:#f1c40f;
 }
 .indexTab .block h3{
-	color:#050505;
+	color:#28276f;
 	font-size: 24px;
 	margin: 0;
 	margin-bottom:5px;margin-top:8px;
@@ -625,7 +625,7 @@ body.native .indexTab .mainBlock > .actions{
 	text-decoration: none;
 }
 .indexTab .block h4{
-	color:#050505;
+	color:#28276f;
 	font-size: 14px;
 	margin: 0;
 	font-weight: normal;

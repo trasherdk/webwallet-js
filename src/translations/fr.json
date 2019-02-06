@@ -114,6 +114,8 @@
 		"feesOnTx":"Frais sur la tx",
 		"blockHeight":"Hauteur sur la blockchain",
 		"paymentId":"ID du paiement",
+		"unlockStatus":"Status",
+		"unlockConfirm":"Confirmations",
         "txPrivKey":"Clé privée de transaction"
 	  }
 	},

@@ -114,6 +114,8 @@
 		"feesOnTx":"Комісія",
 		"blockHeight":"Висота блоку",
 		"paymentId":"Ідентифікатор платежу",
+		"unlockStatus":"Status",
+		"unlockConfirm":"Confirmations",
         "txPrivKey":"Секретний ключ транзакції"
 	  }
 	},

@@ -113,6 +113,8 @@
 		"feesOnTx":"Commissione sulla Tx",
 		"blockHeight":"Altezza sulla blockchain",
 		"paymentId":"Payment ID",
+		"unlockStatus":"Status",
+		"unlockConfirm":"Confirmations",
 		"txPrivKey":"Chiave privata della transazione"
 	  }
 	},

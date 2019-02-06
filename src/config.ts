@@ -11,7 +11,7 @@ global.config = {
     coinUnitPlaces: 8,
     coinDisplayUnitPlaces: 2,
 	txMinConfirms: 10,         
-	txCoinbaseMinConfirms: 60,
+	txCoinbaseMinConfirms: 10,
 	addressPrefix: 0x14820c,
 	integratedAddressPrefix: 0x148201,
 	addressPrefixTestnet: 0x14820c,

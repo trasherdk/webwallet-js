@@ -114,6 +114,8 @@
 		"feesOnTx":"Tranzakció díjai",
 		"blockHeight":"Blokk",
 		"paymentId":"Fizetési azonosító",
+		"unlockStatus":"Status",
+		"unlockConfirm":"Confirmations",
         "txPrivKey":"Tranzakció magánkulcs"
 	  }
 	},

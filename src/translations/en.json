@@ -1,6 +1,6 @@
 {
   "website":{
-	"title":"Qwertycoin Web Wallet",
+	"title":"Qwertycoin Wallet | Simple, seamless, safe. Welcome to the future.",
 	"description":"Official online wallet for Qwertycoin currency - fully handled in your browser for optimal security"
   },
   "messages": {
@@ -63,7 +63,7 @@
 	  "github": "GitHub"
 	},
 	"homepage": {
-	  "mainTitle": "Qwertycoin Web Wallet",
+	  "mainTitle": "Qwertycoin Wallet",
 	  "tagLine": "The simplest way to use Qwertycoin – anywhere and any time",
 	  "actions": {
 		"loadWallet": "Load my wallet",
@@ -114,6 +114,8 @@
 		"feesOnTx":"Transaction fee",
 		"blockHeight":"Block height",
 		"paymentId":"Payment ID",
+		"unlockStatus":"Status",
+		"unlockConfirm":"Confirmations",
 		"txPrivKey":"Transaction Private Key"
 	  }
 	},

@@ -114,6 +114,8 @@
 		"feesOnTx":"Fees on the tx",
 		"blockHeight":"Block height",
 		"paymentId":"Payment ID",
+		"unlockStatus":"Status",
+		"unlockConfirm":"Confirmations",
         "txPrivKey":"Transaction Private Key"
 	  }
 	},

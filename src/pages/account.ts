@@ -62,13 +62,26 @@ class AccountView extends DestructableView{
 	moreInfoOnTx(transaction : Transaction){
 		let explorerUrlHash = config.testnet ? config.testnetExplorerUrlHash : config.mainnetExplorerUrlHash;
 		let explorerUrlBlock = config.testnet ? config.testnetExplorerUrlBlock : config.mainnetExplorerUrlBlock;
+		let transFee = 100000000; //TODO
+		
 		let feesHtml = '';
 		if(transaction.getAmount() < 0)
-			feesHtml = `<div>`+i18n.t('accountPage.txDetails.feesOnTx')+`: `+(transaction.fees / Math.pow(10, config.coinUnitPlaces))+`</a> QWC</div>`;
+			feesHtml = `<div>`+i18n.t('accountPage.txDetails.feesOnTx')+`: `+(transFee / Math.pow(10, config.coinUnitPlaces))+`</a> `+config.coinSymbol+`</div>`;
+		
 		let paymentId = '';
 		if(transaction.paymentId !== ''){
 			paymentId = `<div>`+i18n.t('accountPage.txDetails.paymentId')+`: `+transaction.paymentId+`</a></div>`;
 		}
+
+		let unlockStatus = '';let unlckStatus = '';let transHeight = transaction.blockHeight + config.txMinConfirms;
+		let actualHeight = this.currentScanBlock;
+
+		if(transHeight >= actualHeight) {
+			unlckStatus = (((transHeight-actualHeight)-11)*-1).toString()+'/'+config.txMinConfirms+' Confirmations';
+		} else {
+			unlckStatus = config.txMinConfirms+'/'+config.txMinConfirms+' Confirmations';
+		}
+		unlockStatus = `<div>`+i18n.t('accountPage.txDetails.unlockStatus')+`: `+unlckStatus+`</a></div>`;
 
 		let txPrivKeyMessage = '';
 		let txPrivKey = wallet.findTxPrivateKeyWithHash(transaction.hash);
@@ -82,6 +95,7 @@ class AccountView extends DestructableView{
 <div class="tl" >
 	<div>`+i18n.t('accountPage.txDetails.txHash')+`: <a href="`+explorerUrlHash.replace('{ID}', transaction.hash)+`" target="_blank">Check on Explorer</a></div>
 	`+paymentId+`
+	`+unlockStatus+`
 	`+feesHtml+`
 	`+txPrivKeyMessage+`
 	<div>`+i18n.t('accountPage.txDetails.blockHeight')+`: <a href="`+explorerUrlBlock.replace('{ID}', ''+transaction.blockHeight)+`" target="_blank">`+transaction.blockHeight+`</a></div>
