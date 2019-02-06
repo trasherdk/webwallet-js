@@ -65,6 +65,7 @@
 	"homepage": {
 	  "mainTitle": "Portefeuille sécurisé pour Qwertycoin",
 	  "tagLine": "Le moyen le plus simple d'utiliser Qwertycoin, n'importe où, n'importe quand",
+	  "tagLineTwo": "Le moyen le plus simple d'utiliser Qwertycoin",
 	  "actions": {
 		"loadWallet": "Charger mon portefeuille",
 		"importWallet": "Importer un portefeuille",

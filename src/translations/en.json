@@ -64,7 +64,8 @@
 	},
 	"homepage": {
 	  "mainTitle": "Qwertycoin Wallet",
-	  "tagLine": "The simplest way to use Qwertycoin – anywhere and any time",
+	  "tagLine": "anywhere. anytime. anyplace. any device.",
+	  "tagLineTwo": "The simplest way to use Qwertycoin",
 	  "actions": {
 		"loadWallet": "Load my wallet",
 		"importWallet": "Import a wallet",

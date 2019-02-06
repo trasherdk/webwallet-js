@@ -65,6 +65,7 @@
 	"homepage": {
 	  "mainTitle": "Безбедан Qwertycoin Новчаник",
 	  "tagLine": "Најједноставнији начин да користите Qwertycoin, било када и било где!",
+	  "tagLineTwo": "The simplest way to use Qwertycoin",
 	  "actions": {
 		"loadWallet": "Учитај новчаник",
 		"importWallet": "Увези новчаник",

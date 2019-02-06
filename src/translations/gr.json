@@ -65,6 +65,7 @@
 	"homepage": {
 	  "mainTitle": "Ασφαλισμένο Πορτοφόλι Qwertycoin",
 	  "tagLine": "Ο απλούστερος τρόπος χρήσης του Qwertycoin - οπουδήποτε, οποτεδήποτε",
+	  "tagLineTwo": "Ο απλούστερος τρόπος χρήσης του Qwertycoin",
 	  "actions": {
 		"loadWallet": "Φόρτωσε το πορτοφόλι μου",
 		"importWallet": "Εισαγωγή πορτοφολιού",

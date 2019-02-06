@@ -65,6 +65,7 @@
 	"homepage": {
 	  "mainTitle": "Biztonságos Qwertycoin tárca",
 	  "tagLine": "A Qwertycoin használatának legegyszerűbb módja - bárhol és bármikor",
+	  "tagLineTwo": "A legegyszerűbb módja a Qwertycoin használatának",
 	  "actions": {
 		"loadWallet": "Tárca betöltése",
 		"importWallet": "Tárcaimportálás",
