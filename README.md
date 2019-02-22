@@ -20,10 +20,16 @@ Translations:
 - English: too many people
 - French: gnock
 - Serbian cyrillic: girugameshh
-- German: F0sching
+- German: F0sching, Alex Nnian
 - Hungarian: Gelesztaa
 - Greek: GeraltOfTrivia
 - Russian, Ukrainian: Aiwe
+- Persian: M4hdi1995
+- Japanse: 
+- Korean: 
+- Chinese: 
+- Arabic: 
+- Hindi:
 
 # Contributing
 - You can help Masari by translation the wallet in your native language, it's really easy!  
