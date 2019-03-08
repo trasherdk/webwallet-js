@@ -5,72 +5,72 @@
   },
   "messages": {
 	"menu": {
-	  "home": "집",
+	  "home": "홈",
 	  "account": "계정",
-	  "send": "보내다",
-	  "receive": "받다",
-	  "export": "수출",
+	  "send": "보내기",
+	  "receive": "받기",
+	  "export": "내보내기",
 	  "donate": "기부",
 	  "settings": "설정",
 	  "disconnect": "연결 끊기",
-	  "network": "네트워크 통계",
-	  "mining": "채광"
+	  "network": "네트워크 ",
+	  "mining": "채굴"
 	},
 	"global": {
-	  "loading": "로드 중",
-	  "disableSecurity":"이 보안을 사용 중지하고 위험을 이해합니다.",
-	  "passwordInvalidRequirements":"The password needs at least 8 characters - 1 upper case letter, 1 lower case letter, one number, and one special character",
-	  "passwordConfirmationNotMatching":"The password does not match the first password you wrote",
+	  "loading": "로드중",
+	  "disableSecurity":"보안을 해제하며, 사용자는 그에 따른 위험을 인지합니다",
+	  "passwordInvalidRequirements":"비밀번호는 최소 8자리 이상이여야 하며, 1개 이상의 대문자, 소문자, 숫자 및 특수 문자로 구성해 주세요",
+	  "passwordConfirmationNotMatching":"비밀번호가  않습니다",
 	  "download":"다운로드",
 	  "newVersionModal":{
-		"title":"새 버전을 사용할 수 있습니다.",
-		"content":"새 버전을로드하기 위해 다시로드 하시겠습니까?",
-		"confirmText":"Yes",
-		"cancelText":"Back"
+		"title":"새 버전이 나왔습니다..",
+		"content":"새 버전으로 다시 로딩 하시겠습니까?",
+		"confirmText":"예",
+		"cancelText":"취소"
 	  },
 	  "openWalletModal":{
-		"title":"Wallet Password",
-		"confirmText":"Open",
-		"cancelText":"Cancel"
+		"title":"지갑 비밀번호",
+		"confirmText":"열기",
+		"cancelText":"취소"
 	  },
 	  "invalidPasswordModal":{
-		"title":"Oops...",
-		"content":"Your password seems invalid",
-		"confirmText":"OK"
+		"title":"비밀번호",
+		"content":"입력하신 비밀번호가 정확하지 ",
+		"confirmText":"확인"
 	  },
 	  "invalidMnemonicModal":{
-		"title":"Oops...",
-		"content":"The mnemonic phrase is invalid",
-		"confirmText":"OK"
+		"title":"연상기호",
+		"content":"연상 (Mneumonic Seed)의 입력이 잘못되었습니다",
+		"confirmText":"확인"
 	  },
 	  "passwordNotComplexEnoughModal":{
-		"title":"The password is not complex enough",
-		"confirmText":"OK"
+		"title":"비밀번호의 구성이 요구사항을 준수하지 못합니다",
+		"confirmText":"확인"
 	  },
 	  "permissionRequiredForCameraModal":{
-		"title":"Oops...",
-		"content":"The permission to access your camera is required to scan the QR code",
-		"confirmText":"OK"
+		"title":"카메라",
+		"content":"QR code 스캔을 위한 카메라의 접근 권한이 필요합니다",
+		"confirmText":"확인"
 	  }
 	},
 	"bottom": {
-	  "termsOfUse": "Terms of Use",
-	  "privacyPolicy": "Privacy Policy",
-	  "support": "Support",
-	  "donate": "Donate",
-	  "network": "Network Stats",
-	  "miningPool": "Mining Pool",
-	  "github": "GitHub"
+	  "termsOfUse": "이용약관",
+	  "privacyPolicy": "개인정보정책",
+	  "support": "도움받기",
+	  "donate": "기부",
+	  "network": "네트워크 현황",
+	  "miningPool": "채굴",
+	  "github": "Github"
 	},
 	"homepage": {
-	  "mainTitle": "Qwertycoin Wallet",
-	  "tagLine": "anywhere. anytime. anyplace. any device.",
-	  "tagLineTwo": "The simplest way to use Qwertycoin",
+	  "mainTitle": "쿼티코인 웹지갑",
+	  "tagLine": "어디든. 언제든. 어디서든. 모든 장치에서.",
+	  "tagLineTwo": "쿼티코인을 사용하기 가장 간단한 방법",
 	  "actions": {
-		"loadWallet": "Load my wallet",
-		"importWallet": "Import a wallet",
-		"create": "Create",
-		"createWallet": "Create a wallet"
+		"loadWallet": "지갑 불러오기",
+		"importWallet": "지갑 가져오기",
+		"create": "지갑 만들기",
+		"createWallet": "지갑 만들기"
 	  },
 	  "notes": {
 		"secure": {
@@ -92,80 +92,80 @@
 	  }
 	},
 	"accountPage": {
-	  "title": "Account",
-	  "subtitle": "Your account overview and transaction history",
+	  "title": "계정",
+	  "subtitle": "계정 정보 및 트랜젝션 기록",
 	  "synchronizingBlock": {
-		"text": "Synchronizing..."
+		"text": "동기화중..."
 	  },
 	  "balanceBlock": {
-		"title": "Your balance",
-		"unlocked": "Unlocked"
+		"title": "잔액",
+		"unlocked": "해제완료"
 	  },
 	  "historyBlock": {
-		"title": "Transaction history",
-		"pendingTxStatus": "Pending",
-		"emptyWallet": "You currently have no funds in this wallet.",
-		"waitSync": "Please wait until the wallet is updated",
-		"beReallyPatient": "The initial setup can take some time...",
-		"getCoinAddress": "Receive QWC"
+		"title": "트랜젝션 기록",
+		"pendingTxStatus": "처리중",
+		"emptyWallet": "현재 지갑에 잔액이 없습니다",
+		"waitSync": "지갑이 업데이트되고 있습니다. 잠시만 기다려주세요",
+		"beReallyPatient": "초기 셋업중입니다. 잠시만 기다려주세요",
+		"getCoinAddress": "쿼티코인 받기"
 	  },
 	  "txDetails":{
-		"title":"Transaction details",
-		"txHash":"Transaction Hash",
-		"feesOnTx":"Transaction fee",
-		"blockHeight":"Block height",
-		"paymentId":"Payment ID",
-		"unlockStatus":"Status",
-		"unlockConfirm":"Confirmations",
-		"txPrivKey":"Transaction Private Key"
+		"title":"트랜젝션 세부내용",
+		"txHash":"트랜젝션 해시",
+		"feesOnTx":"트랜젝션 비용",
+		"blockHeight":"블록넘버",
+		"paymentId":"페이먼트 아이디",
+		"unlockStatus":"현황",
+		"unlockConfirm":"확인",
+		"txPrivKey":"트랜젝션 비공개 키"
 	  }
 	},
 	"changeWalletPasswordPage":{
-	  "title":"Change your password",
+	  "title":"비밀번호 변경",
 	  "oldPassword":{
-		"label":"Old password",
-		"invalid":"The password is invalid"
+		"label":"현재 비밀번호",
+		"invalid":"비밀번호가 일치하지 않습니다"
 	  },
 	  "newPassword":{
-		"label":"Choose a new password to protect your wallet"
+		"label":"새로운 비밀번호를 입력하세요"
 	  },
 	  "newPasswordConfirm":{
-		"label":"Confirm the new password"
+		"label":"새 비밀번호로 변경합니다"
 	  },
-	  "confirm":"Change the password",
+	  "confirm":"변경완료",
 	  "modalSuccess":{
-		"title":"Password changed!",
-		"confirmText":"OK"
+		"title":"비밀번호가 변경되었습니다",
+		"confirmText":"확인"
 	  }
 	},
 	"createWalletPage":{
 	  "generatingStep":{
-		"title":"Your wallet is being generated...",
-		"subtitle":"It's almost done",
-		"waitingMessage":"Generating your wallet..."
+		"title":"지갑이 생성되고 있습니다",
+		"subtitle":"거의 완료되었습니다",
+		"waitingMessage":"잠시만 기다려주세요"
 	  },
 	  "finalizationStep":{
-		"title":"That was simple. Your account is ready!",
-		"subtitle":"Be ready to use Qwertycoin like you never have",
+		"title":"지갑 생성이 완료되었습니다",
+		"subtitle":"이전 방식과는 다르게 쿼티코인을 사용해보세요",
 		"passwordSelectionBlock":{
-		  "label":"Protect your wallet"
+		  "label":"비밀번호 설정"
 		},
 		"passwordConfirmBlock":{
-		  "label":"Confirm the password"
+		  "label":"비밀번호 확인"
 		},
-		"validPassword":"Use this password",
+		"validPassword":"이 비밀번호를 사용합니다",
 		"backupBlock":{
-		  "title":"Save your private credentials for recovery.",
-		  "option1":"Option 1: ",
-		  "option2":"Option 2: ",
-		  "titlePdf":"Download a PDF copy",
-		  "titleManualWrite":"Write down my keys",
-		  "privateKeys":"Private key",
-		  "mnemonicPhrase":"Mnemonic phrase",
-		  "separatorManualMethodsSolution":" or ",
-		  "confirmManuallyWritten":"I wrote my seed phrase down",
-		  "warningMessage":"**Do not lose it!** It cannot be recovered if you lose it.<br/>**Do not share it!** Your funds will be stolen if you use this file or seed on a malicious/phishing site.<br/>**Make a backup!** Secure it like the millions of dollars it may one day be worth.<br/>",
-		  "finishButton":"I understand. Continue."
+		  "title":"비공개 키와 연상기호를 저장하여, 지갑을 복구할 수 있습니다",
+		  "option1":"옵션 1: ",
+		  "option2":"옵션 2: ",
+		  "titlePdf":"PDF로 다운받아 저장하기",
+		  "titleManualWrite":"비공개 키 ",
+		  "privateKeys":"비공개 키",
+		  "mnemonicPhrase":"연상 단어",
+		  "separatorManualMethodsSolution":" 또는 ",
+		  "confirmManuallyWritten":"연상 단어를 적어두었습니다",
+		  "warningMessage":"**절대로 잃어버리면 안됩니다!** 잃어버릴 경우 찾을 수 없습니다<br/>**타인에게 공유하면 안됩니다!** 타인이 해당 정보를 이용하여 쿼티코인을 빼갈 수 있습니다. 비슷한 주소의 피싱 사이트를 조심하셔야 합니다.<br/>**백업을 만드세요!** 언젠가는 큰 금액이 될지도 모르니까요.<br/>",
+		  "finishButton":"위 내용을 이해하며, 진행합니다."
 		}
 	  },
 	  "disclaimerBlock":{
