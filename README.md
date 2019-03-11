@@ -30,7 +30,7 @@ Translations:
 - Russian, Ukrainian: Aiwe
 - Persian: M4hdi1995
 - Japanse: 
-- Korean: 
+- Korean: Xecute0101
 - Chinese: 
 - Arabic: 
 - Hindi:
