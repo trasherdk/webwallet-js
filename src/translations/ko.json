@@ -1,6 +1,6 @@
 {
   "website":{
-	"title":"Qwertycoin 지갑 | 간단하고 안전하며 안전합니다. 미래에 오신 것을 환영합니다.",
+	"title":"Qwertycoin 지갑 | 간단하고 안전합니다. 미래에 오신 것을 환영합니다.",
 	"description":"Qwertycoin 통화를위한 공식 온라인 지갑 - 최적의 보안을 위해 브라우저에서 완벽하게 처리됩니다. 본인만 사용하는 기기에서 접속해 주세요."
   },
   "messages": {
@@ -39,8 +39,8 @@
 		"confirmText":"확인"
 	  },
 	  "invalidMnemonicModal":{
-		"title":"연상기호",
-		"content":"연상 (Mneumonic Seed)의 입력이 잘못되었습니다.",
+		"title":"연상 단어",
+		"content":"연상 단어(Mneumonic Seed)의 입력이 잘못되었습니다.",
 		"confirmText":"확인"
 	  },
 	  "passwordNotComplexEnoughModal":{
@@ -67,7 +67,7 @@
 	  "tagLine": "어디든. 언제든. 어디서든. 모든 장치에서.",
 	  "tagLineTwo": "쿼티코인을 사용하기 가장 간단한 방법",
 	  "actions": {
-		"loadWallet": "지갑 불러오기",
+		"loadWallet": "지갑 오기",
 		"importWallet": "지갑 가져오기",
 		"create": "지갑 만들기",
 		"createWallet": "지갑 만들기"
@@ -155,7 +155,7 @@
 		},
 		"validPassword":"이 비밀번호를 사용합니다.",
 		"backupBlock":{
-		  "title":"비공개 키와 연상기호를 저장하여, 지갑을 복구할 수 있습니다.",
+		  "title":"비공개 키와 연상 단어를 저장하여, 지갑을 복구할 수 있습니다.",
 		  "option1":"옵션 1: ",
 		  "option2":"옵션 2: ",
 		  "titlePdf":"PDF로 다운받아 저장하기",
@@ -165,12 +165,12 @@
 		  "separatorManualMethodsSolution":" 또는 ",
 		  "confirmManuallyWritten":"연상 단어를 적어두었습니다.",
 		  "warningMessage":"**절대로 잃어버리면 안됩니다!** 잃어버릴 경우 찾을 수 없습니다.<br/>**타인에게 공유하면 안됩니다!** 타인이 해당 정보를 이용하여 쿼티코인을 빼갈 수 있습니다. 비슷한 주소의 피싱 사이트를 조심하셔야 합니다.<br/>**백업을 만드세요!** 언젠가는 큰 금액이 될지도 모르니까요.<br/>",
-		  "finishButton":"위 내용을 이해하며, 진행하며, 타인이 사용이 가능한 컴퓨터에서 접속할 경우, 해킹의 위험에 노출되며, 그에 따른 위험을 감수합니다."
+		  "finishButton":"위 내용을 이해하며, 타인이 사용이 가능한 컴퓨터에서 접속할 경우, 해킹의 위험에 노출되며, 그에 따른 위험을 감수합니다."
 		}
 	  },
 	  "disclaimerBlock":{
 		"title":"쿼티코인 웹지갑 서비스 사용 공지",
-		"content":"쿼티코인 웹지갑 서비스는 쿼티코인 노드없이도 사용할 수 있는 지갑입니다. <br/>웹지갑과 관련되어 제공되는 정보(비밀번호, 비공개 키, 연상문자) 및 환경(컴퓨터 및 모바일 기기의 보안)을 일반 지갑에서와 같이 안전하게 보관하시길 권장합니다"
+		"content":"쿼티코인 웹지갑 서비스는 쿼티코인 노드없이도 사용할 수 있는 지갑입니다. <br/>웹지갑과 관련되어 제공되는 정보(비밀번호, 비공개 키, 연상단어) 및 환경(컴퓨터 및 모바일 기기의 보안)을 일반 지갑에서와 같이 안전하게 보관하시길 권장합니다"
 	  }
 	},
 	"donatePage":{
@@ -397,12 +397,12 @@
 	  },
 	  "warningBlock":{
 		"title":"경고",
-		"content":"비공개 키 또는 연상문자를 기록 및 저장할 경우, 보안을 위해 기기내에 글자 형식 파일로 보관하지 마세요.<br/>이 파일은 지갑의 모든 키가 암호화되어 있으며 contains a backup of all your transactions to spare you a future synchronisation."
+		"content":"비공개 키 또는 연상 단어를 기록 및 저장할 경우, 보안을 위해 기기내에 글자 형식 파일로 보관하지 마세요.<br/>이 파일은 지갑의 모든 키가 암호화되어 있으며 contains a backup of all your transactions to spare you a future synchronisation."
 	  },
 	  "exportBlock":{
 		"title":"지갑 정보 내보내기",
 		"privateKeysButton":"비공개 키 보기",
-		"mnemonicKeysButton":"연상단어 보기",
+		"mnemonicKeysButton":"연상 단어 보기",
 		"fileButton":"파일로 내보내기"
 	  },
 	  "walletKeysModal":{
@@ -411,22 +411,22 @@
 		"content":"비공캐 키를 잘 보관하세요. <b>비공개 키로 지갑에 접근할 수 있습니다.</b> !<br/>스펜드 키: {privSpendKey}<br/>비공개 뷰 키: {privViewKey}"
 	  },
 	  "mnemonicKeyModal":{
-		"title":"연상단어",
+		"title":"연상 단어",
 		"confirmText":"확인",
-		"content":"연상단어를 잘 보관하세요. <b>연상단어로 지갑에 접근할 수 있습니다.</b> ! 연상단어:<br/>{mnemonic}"
+		"content":"연상 단어를 잘 보관하세요. <b>연상 단어로 지갑에 접근할 수 있습니다.</b> ! 연상 단어:<br/>{mnemonic}"
 	  },
 	  "mnemonicLangSelectionModal":{
-		"title":"연상단어의 언어를 선택해 주세요.",
+		"title":"연상 단어의 언어를 선택해 주세요.",
 		"confirmText":"내보내기"
 	  }
 	},
 	"importPage":{
 	  "title":"지갑 만들기",
-	  "subtitle":"키, 파일 또는 연상문자를 사용하여 불러오기",
+	  "subtitle":"키, 파일 또는 연상 단어를 사용하여 불러오기",
 	  "chooseMethod":"지갑을 불러올 방법을 선택해 주세요:",
 	  "fromKeys":"키를 사용하여 불러오기",
 	  "fromFile":"파일을 사용하여 불러오기",
-	  "fromMnemonic":"연상단어 사용하여 불러오기",
+	  "fromMnemonic":"연상 단어 사용하여 불러오기",
 	  "fromQr":"QR 코드 사용하여 불러오기"
 	},
 	"termsOfUsePage":{
