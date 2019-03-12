@@ -64,7 +64,7 @@
 	},
 	"homepage": {
 	  "mainTitle": "쿼티코인 웹지갑",
-	  "tagLine": "어디든. 언제든. 어디서든. 모든 장치에서.",
+	  "tagLine": "어디서든. 언제든. 모든 장치에서.",
 	  "tagLineTwo": "쿼티코인을 사용하기 가장 간단한 방법",
 	  "actions": {
 		"loadWallet": "지갑 불러오기",
