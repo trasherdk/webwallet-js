@@ -1,6 +1,6 @@
 ![image](https://cdn.qwertycoin.org/images/press/other/qwc-github-3.png)
 #### Master Build Status
-[![Build Status](https://travis-ci.org/qwertycoin-org/webwallet-js.svg?branch=master)](https://travis-ci.org/qwertycoin-org/webwallet-js) [![Build status](https://ci.appveyor.com/api/projects/status/github/qwertycoin-org/webwallet-js?branch=master&svg=true)](https://ci.appveyor.com/project/qwertycoin-org/webwallet-js)
+[![Build Status](https://travis-ci.org/qwertycoin-org/webwallet-js.svg?branch=master)](https://travis-ci.org/qwertycoin-org/webwallet-js) [![Build status](https://ci.appveyor.com/api/projects/status/github/qwertycoin/webwallet-js?branch=master&svg=true)](https://ci.appveyor.com/project/qwertycoin/webwallet-js)
 
 # Qwertycoin fork of Karbo fork of Masari Web Wallet - Fully client-side
 This web wallet is doing everything client-side to give the best privacy to users.
