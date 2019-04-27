@@ -198,6 +198,7 @@
 	  "title":"Статистика сети",
 	  "subtitle":"Обзор сети Qwertycoin",
 	  "statsBlock":{
+	  	"connectNode": "Подключенный Мастернод",
 		"hashrate":"Хешрейт",
 		"height":"Высота блокчейна",
 		"difficulty":"Сложность",

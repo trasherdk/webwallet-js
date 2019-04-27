@@ -198,6 +198,7 @@
 	  "title":"Στατιστικά Δικτύου΄",
 	  "subtitle":"Επισκόπηση τπυ δικτύου Qwertycoin",
 	  "statsBlock":{
+	  	"connectNode": "Συνδεδεμένο Masternode",
 		"hashrate":"Network hashrate",
 		"height":"Blockchain height",
 		"difficulty":"Network difficulty",

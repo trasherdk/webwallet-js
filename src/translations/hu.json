@@ -198,6 +198,7 @@
 	  "title":"Hálózati statisztika",
 	  "subtitle":"Betekintés a Qwertycoin hálózatába",
 	  "statsBlock":{
+	  	"connectNode": "Csatlakoztatott Masternode",
 		"hashrate":"Hálózati hashrate",
 		"height":"Blokklánc hossza",
 		"difficulty":"Hálózati nehézség",

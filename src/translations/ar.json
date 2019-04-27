@@ -198,6 +198,7 @@
 	  "title":"Network stats",
 	  "subtitle":"Insights on the Qwertycoin network",
 	  "statsBlock":{
+	  	"connectNode": "متصل ماسترنود",
 		"hashrate":"Network hashrate",
 		"height":"Blockchain height",
 		"difficulty":"Network difficulty",

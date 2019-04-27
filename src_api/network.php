@@ -39,6 +39,7 @@ else{
 			'timestamp'=>$blockHeader['timestamp'],
 			'difficulty'=>$blockHeader['difficulty'],
 			'hashrate'=>$blockHeader['difficulty']*60*2,
+			'daemon'=>$daemonAddress,
 	));
 }
 

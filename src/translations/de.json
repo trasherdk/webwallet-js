@@ -198,6 +198,7 @@
 	  "title":"Netzwerkstatus",
 	  "subtitle":"Einblick ins Qwertycoin Netzwerk",
 	  "statsBlock":{
+	  	"connectNode": "Verbundene Masternode",
 		"hashrate":"Netzwerk Hashrate",
 		"height":"Blockchainhöhe",
 		"difficulty":"Netzwerkschwierigkeit",

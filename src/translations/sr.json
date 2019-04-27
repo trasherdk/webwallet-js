@@ -199,6 +199,7 @@
 	  "title":"Статистика мреже",
 	  "subtitle":"Увид у Qwertycoin мрежу",
 	  "statsBlock":{
+	  	"connectNode": "Цоннецтед Мастерноде",
 		"hashrate":"Хешрејт мреже",
 		"height":"Блокчејн висина",
 		"difficulty":"Тешкоћа мреже",

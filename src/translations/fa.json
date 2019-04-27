@@ -195,6 +195,7 @@
       "title": "وضعیت شبکه",
       "subtitle": "داخل شبکه ی کربو",
       "statsBlock": {
+        "connectNode": "Masternode ارتباطی",
         "hashrate": "هش ریت شبکه",
         "height": "ارتفاع زنجیره بلوکی",
         "difficulty": "سختی شبکه",

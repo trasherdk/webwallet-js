@@ -198,6 +198,7 @@
 	  "title":"Statistiques du réseau",
 	  "subtitle":"Détails sur le réseaux Qwertycoin",
 	  "statsBlock":{
+	  	"connectNode": "Masternode connecté",
 		"hashrate":"Hashrate du réseau",
 		"height":"Hauteur de la Blockchain",
 		"difficulty":"Difficulty du réseau",

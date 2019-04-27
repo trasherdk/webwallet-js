@@ -1,9 +1,4 @@
 <?php
-
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-
 include 'config.php';
 
 if(!empty($_GET["gen"]) && $_GET['gen'] == "1"){
@@ -293,7 +288,7 @@ if(getenv('generate') !== 'true'){
 				$endHeight = $blockchainHeight;
 			}
 			
-			echo 'scanning ' . $startHeight . ' to ' . $endHeight . "<br/>";
+			//echo 'scanning ' . $startHeight . ' to ' . $endHeight . "<br/>";
 			
 			$cacheContent = retrieveCache($realStartHeight, $endHeight, false);
 			//		var_dump('==>',$lastBlockCacheContent,$cacheContent);
