@@ -1,6 +1,6 @@
 {
   "name": "qwertycoinwebwallet",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Fully client side web wallet for Qwertycoin",
   "main": "index.js",
   "dependencies": {
@@ -15,7 +15,7 @@
   "author": "Gnock",
   "license": "BSD-3",
   "bugs": {
-    "url": "https://github.com/gnock/masari-webwallet/issues"
+    "url": "https://github.com/qwertycoin-org/webwallet-js/issues"
   },
   "homepage": "https://github.com/qwertycoin-org/webwallet-js#readme"
 }
