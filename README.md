@@ -22,7 +22,30 @@ Encryption is done with a certified library, [Tweetnacl.Js.](https://github.com/
 - View only wallet
 - Basic network stats
 
-## Donate
+# How to compile & Deploy
+The project is using Typescript as main language and not other dependencies on external libraries (everything is already included).
+
+## Compilation
+The first step will be to compile the typescript code into javascript code so browsers will be able to understand it. 
+You also need to build some files that are dynamically generated like the manifest ...
+This task is doable with :
+```
+npm install
+nodejs ./node_modules/typescript/bin/tsc --project tsconfig.json
+nodejs build.js
+```
+The first task install dependencies (typescript) and the text one compile the typescript code.
+We are using a custom tsconfig file which is optimized for production.
+
+## Deploy
+All the content of the src directory needs to be exposed with a web-server.
+
+## Change configuration
+You will have to edit the file src/config.ts in order to change the API endpoint. 
+
+That's all
+
+### Donate
 
 ```
 QWC: QWC1K6XEhCC1WsZzT9RRVpc1MLXXdHVKt2BUGSrsmkkXAvqh52sVnNc1pYmoF2TEXsAvZnyPaZu8MW3S8EWHNfAh7X2xa63P7Y
@@ -43,7 +66,7 @@ XMR: 47gmN4GMQ17Veur5YEpru7eCQc5A65DaWUThZa9z9bP6jNMYXPKAyjDcAW4RzNYbRChEwnKu1H3
 ETN: etnkJXJFqiH9FCt6Gq2HWHPeY92YFsmvKX7qaysvnV11M796Xmovo2nSu6EUCMnniqRqAhKX9AQp31GbG3M2DiVM3qRDSQ5Vwq
 ```
 
-#### Contributors and thanks
+### Contributors and thanks
 
 Developers:
 - gnock (main)
