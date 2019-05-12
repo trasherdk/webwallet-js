@@ -86,6 +86,6 @@ Translations:
 - Persian: M4hdi1995
 - Japanese: Nnian, Qwertycoin.org
 - Korean: Xecute0101, Qwertycoin.org
-- Chinese: Nnian, Qwertycoin.org
+- Chinese: mainframer, Alex, Qwertycoin.org
 - Arabic: dennis, Qwertycoin.org
 - Hindi: Nnian, Qwertycoin.org
