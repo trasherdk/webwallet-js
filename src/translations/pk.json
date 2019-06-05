@@ -1,56 +1,56 @@
 {
   "website":{
-	"title":"Qwertycoin Wallet | シンプル、シームレス、安全 未来へようこそ。",
+	"title":"Qwertycoin Wallet | Simple, seamless, safe. Welcome to the future.",
 	"description":"Official online wallet for Qwertycoin currency - fully handled in your browser for optimal security"
   },
   "messages": {
 	"menu": {
-	  "home": "ホーム",
-	  "account": "アカウント",
-	  "send": "送る",
-	  "receive": "受け取る",
-	  "export": "輸出する",
-	  "donate": "寄付する",
-	  "settings": "設定",
-	  "disconnect": "切断する",
-	  "network": "ネットワーク統計",
-	  "mining": "採鉱"
+	  "home": "Home",
+	  "account": "Account",
+	  "send": "Send",
+	  "receive": "Receive",
+	  "export": "Export",
+	  "donate": "Donate",
+	  "settings": "Settings",
+	  "disconnect": "Disconnect",
+	  "network": "Network Stats",
+	  "mining": "Mining"
 	},
 	"global": {
-	  "loading": "ロード中",
-	  "disableSecurity":"このセキュリティを無効にしてください、私はリスクを理解しています",
+	  "loading": "Loading",
+	  "disableSecurity":"Disable this security, I understand the risk",
 	  "passwordInvalidRequirements":"The password needs at least 8 characters - 1 upper case letter, 1 lower case letter, one number, and one special character",
 	  "passwordConfirmationNotMatching":"The password does not match the first password you wrote",
-	  "download":"ダウンロード",
+	  "download":"Download",
 	  "newVersionModal":{
-		"title":"新しいバージョンが利用可能です",
-		"content":"新しいバージョンをロードするためにリロードしますか？",
-		"confirmText":"はい",
-		"cancelText":"バック"
+		"title":"A new version is available",
+		"content":"Do you want to reload to load the new version?",
+		"confirmText":"Yes",
+		"cancelText":"Back"
 	  },
 	  "openWalletModal":{
-		"title":"ウォレットパスワード",
-		"confirmText":"開いた",
-		"cancelText":"キャンセル"
+		"title":"Wallet Password",
+		"confirmText":"Open",
+		"cancelText":"Cancel"
 	  },
 	  "invalidPasswordModal":{
-		"title":"おっとっと...",
+		"title":"Oops...",
 		"content":"Your password seems invalid",
-		"confirmText":"はい"
+		"confirmText":"OK"
 	  },
 	  "invalidMnemonicModal":{
-		"title":"おっとっと...",
+		"title":"Oops...",
 		"content":"The mnemonic phrase is invalid",
-		"confirmText":"はい"
+		"confirmText":"OK"
 	  },
 	  "passwordNotComplexEnoughModal":{
 		"title":"The password is not complex enough",
-		"confirmText":"はい"
+		"confirmText":"OK"
 	  },
 	  "permissionRequiredForCameraModal":{
-		"title":"おっとっと...",
+		"title":"Oops...",
 		"content":"The permission to access your camera is required to scan the QR code",
-		"confirmText":"はい"
+		"confirmText":"OK"
 	  }
 	},
 	"bottom": {
@@ -135,7 +135,7 @@
 	  "confirm":"Change the password",
 	  "modalSuccess":{
 		"title":"Password changed!",
-		"confirmText":"はい"
+		"confirmText":"OK"
 	  }
 	},
 	"createWalletPage":{
@@ -198,7 +198,7 @@
 	  "title":"Network stats",
 	  "subtitle":"Insights on the Qwertycoin network",
 	  "statsBlock":{
-	  	"connectNode": "接続マスターノード",
+	  	"connectNode": "Connected Masternode",
 		"hashrate":"Network hashrate",
 		"height":"Blockchain height",
 		"difficulty":"Network difficulty",
@@ -232,28 +232,28 @@
 		"explication":"Present the QR code"
 	  },
 	  "notEnoughMoneyModal":{
-		"title":"おっとっと...",
+		"title":"Oops...",
 		"content":"You don't have enough funds in your wallet to execute this transfer",
-		"confirmText":"はい"
+		"confirmText":"OK"
 	  },
 	  "thankYouDonationModal":{
 		"title":"Thank you for your donation!",
 		"content":"Your help is appreciated. This donation will help make Qwertycoin better",
-		"confirmText":"はい"
+		"confirmText":"OK"
 	  },
 	  "transferSentModal":{
 		"title":"Transfer sent successfully!",
-		"confirmText":"はい"
+		"confirmText":"OK"
 	  },
 	  "transferExceptionModal":{
-		"title":"おっとっと...",
+		"title":"Oops...",
 		"content":"An error occurred. Please report this error: {details}",
-		"confirmText":"はい"
+		"confirmText":"OK"
 	  },
 	  "invalidAmountModal":{
-		"title":"おっとっと...",
+		"title":"Oops...",
 		"content":"Invalid amount",
-		"confirmText":"はい"
+		"confirmText":"OK"
 	  },
 	  "creatingTransferModal":{
 		"title":"Creating transfer ...",
@@ -381,7 +381,7 @@
 	  "qrCodeBlock":{
 		"title":"QR code",
 		"startScanButton":"Start the scan",
-		"importButton":"インポート"
+		"importButton":"Import"
 	  },
 	  "qrScanningBlock":{
 		"title":"Present the QR code"
@@ -407,81 +407,81 @@
 		"fileButton":"Export to a file"
 	  },
 	  "walletKeysModal":{
-		"title":"秘密鍵",
-		"confirmText":"はい",
+		"title":"Private keys",
+		"confirmText":"OK",
 		"content":"Please carefully store these keys. <b>Possessing them means possessing the funds associated</b> !<br/>Spend key: {privSpendKey}<br/>Private view key: {privViewKey}"
 	  },
 	  "mnemonicKeyModal":{
-		"title":"ニーモニック句",
-		"confirmText":"はい",
+		"title":"Mnemonic phrase",
+		"confirmText":"OK",
 		"content":"Please store carefully this mnemonic phrase. <b>Possessing it means possessing the funds associated</b> ! The phrase is:<br/>{mnemonic}"
 	  },
 	  "mnemonicLangSelectionModal":{
-		"title":"どの言語であなたのニーモニックフレーズが欲しいですか？",
-		"confirmText":"輸出する"
+		"title":"In which language do you want your mnemonic phrase?",
+		"confirmText":"Export"
 	  }
 	},
 	"importPage":{
-	  "title":"財布を作成する",
-	  "subtitle":"以前に作成されたキー、ファイル、またはニーモニック句から",
-	  "chooseMethod":"インポート方法を選択してください。",
-	  "fromKeys":"キーから",
-	  "fromFile":"ファイルから",
-	  "fromMnemonic":"ニーモニック句から",
-	  "fromQr":"QRコードから"
+	  "title":"Create a wallet",
+	  "subtitle":"From previously created keys, file, or mnemonic phrase",
+	  "chooseMethod":"Choose your import method:",
+	  "fromKeys":"From keys",
+	  "fromFile":"From a file",
+	  "fromMnemonic":"From a mnemonic phrase",
+	  "fromQr":"From a QR code"
 	},
 	"termsOfUsePage":{
-	  "title":"利用規約",
-	  "subtitle":"よく読んでください。"
+	  "title":"Terms of use",
+	  "subtitle":"Please read them carefully."
 	},
 	"privacyPolicyPage":{
-	  "title":"個人情報保護方針",
-	  "subtitle":"よく読んでください。"
+	  "title":"Privacy Policy",
+	  "subtitle":"Please read them carefully."
 	},
 	"importFromFilePage":{
-	  "title":"バックアップファイルからのWalletのインポート",
-	  "subtitle":"バックアップファイルを使用してウォレットを作成します",
+	  "title":"Importing wallet from a backup file",
+	  "subtitle":"Use your backup file to create a wallet",
 	  "walletBlock":{
-		"title":"ウォレットファイル",
-		"label":"ファイルを選択",
-		"importButton":"インポート"
+		"title":"Wallet file",
+		"label":"Select the file",
+		"importButton":"Import"
 	  }
 	},
 	"importFromMnemonicPage":{
-	  "title":"ニーモニックフレーズからのWalletのインポート",
-	  "subtitle":"あなたのフレーズを使って財布を作りましょう",
+	  "title":"Importing wallet from a mnemonic phrase",
+	  "subtitle":"Use your phrase to create a wallet",
 	  "mnemonicBlock":{
-		"title":"ニーモニック句",
+		"title":"Mnemonic phrase",
 		"mnemonic":{
-		  "label":"記憶語句：25ワード",
-		  "invalid":"ニーモニック句が無効です",
-		  "language":"言語"
+		  "label":"Mnemonic phrase: 25 words",
+		  "invalid":"The mnemonic phrase is invalid",
+		  "language":"Language"
 		},
-		"importButton":"インポート"
+		"importButton":"Import"
 	  }
 	},
 	"importFromKeysPage":{
-	  "title":"鍵から財布をインポートする",
-	  "subtitle":"鍵を使って財布を作る",
+	  "title":"Importing wallet from keys",
+	  "subtitle":"Use your keys to create a wallet",
 	  "parametersBlock":{
 		"viewOnlyWallet":{
-		  "label":"ビュー専用財布がほしいですか。"
+		  "label":"Do you want a view only wallet?"
 		}
 	  },
 	  "keysBlock":{
-		"titleNotViewOnly":"ウォレットキー",
-		"titleViewOnly":"財布のみ表示",
+		"titleNotViewOnly":"Wallet keys",
+		"titleViewOnly":"View only wallet",
 		"privateSpend":{
-		  "label":"プライベート費用キー"
+		  "label":"Private spend key"
 		},
 		"privateView":{
-		  "label":"プライベートビューキー",
-		  "optional":"（オプション"
+		  "label":"Private view key",
+		  "optional":"(optional)"
 		},
 		"publicKey":{
-		  "label":"公開鍵"
+		  "label":"Public key"
 		},
-		"importButton":"インポート"
+		"importButton":"Import"
 	  }
 	}
   },
