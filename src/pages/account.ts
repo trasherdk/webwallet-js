@@ -20,6 +20,8 @@ import {DestructableView} from "../lib/numbersLab/DestructableView";
 import {Constants} from "../model/Constants";
 import {AppState} from "../model/AppState";
 import {Transaction, TransactionIn} from "../model/Transaction";
+import {Storage} from "../model/Storage";
+import {Currency} from "../model/Currency";
 
 let wallet : Wallet = DependencyInjectorInstance().getInstance(Wallet.name,'default', false);
 let blockchainExplorer = DependencyInjectorInstance().getInstance(Constants.BLOCKCHAIN_EXPLORER);
@@ -33,6 +35,8 @@ class AccountView extends DestructableView{
 	@VueVar(0) currentScanBlock !: number;
 	@VueVar(0) blockchainHeight !: number;
 	@VueVar(Math.pow(10, config.coinUnitPlaces)) currencyDivider !: number;
+
+	@VueVar('btc') countrycurrency !: string;
 
 	intervalRefresh : number = 0;
 
@@ -111,10 +115,13 @@ class AccountView extends DestructableView{
 		if(wallet.getAll().length+wallet.txsMem.length !== this.transactions.length) {
 			this.transactions = wallet.txsMem.concat(wallet.getTransactionsCopy().reverse());
 		}
+		Currency.getCurrency().then((currency : string) => {
+			this.countrycurrency = currency;
+		});
 		let self = this;
 		let randInt = Math.floor(Math.random() * Math.floor(config.apiUrl.length));
 		$.ajax({
-			url:config.apiUrl[randInt]+'price.php?currency=btc'
+			url:config.apiUrl[randInt]+'price.php?currency='+self.countrycurrency
 		}).done(function(data : any){
 			self.walletAmountCurrency = wallet.amount * data.value;
 		});

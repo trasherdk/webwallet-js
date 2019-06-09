@@ -338,6 +338,9 @@
 		"language":{
 		  "label":"Language"
 		},
+		"currency":{
+			"label":"राष्ट्रीय मुद्रा"
+		},
 		"readMinerTx":{
 		  "label":"Read miner transactions (only for solo mining)"
 		}

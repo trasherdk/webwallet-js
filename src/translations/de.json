@@ -178,7 +178,7 @@
 	  "subtitle":"Hilf uns die Enwicklung zu finanzieren und die Rechnungen zu bezahlen",
 	  "webwalletBlock":{
 		"title":"Webwallet",
-		"content":"Diese Webwallet ist von Gnock in seiner Freizeit entwickelt.<br/>Bitte denk über eine Spende nach wenn dir die App gefällt und du bei der Bezahlung der Server und der Enwicklung helfen willst.: <br/><br/>"
+		"content":"Bitte denk über eine Spende nach wenn dir die App gefällt und du bei der Bezahlung der Server und der Enwicklung helfen willst.: <br/><br/>"
 	  },
 	  "devFundBlock":{
 		"title":"Qwertycoin Entwicklerfonds",
@@ -337,6 +337,9 @@
 		},
 		"language":{
 		  "label":"Language"
+		},
+		"currency":{
+			"label":"Landeswährung"
 		},
 		"readMinerTx":{
 		  "label":"Miner Transaktionen lesen (nur für Leute die solo minen)"

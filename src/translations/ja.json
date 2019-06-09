@@ -63,14 +63,14 @@
 	  "github": "GitHub"
 	},
 	"homepage": {
-	  "mainTitle": "Qwertycoin Wallet",
-	  "tagLine": "anywhere. anytime. anyplace. any device.",
-	  "tagLineTwo": "The simplest way to use Qwertycoin",
+	  "mainTitle": "Qwertycoin 財布",
+	  "tagLine": "どこでも。いつでも。どこでも。 任意のデバイス",
+	  "tagLineTwo": "最も簡単な使い方 Qwertycoin",
 	  "actions": {
-		"loadWallet": "Load my wallet",
-		"importWallet": "Import a wallet",
-		"create": "Create",
-		"createWallet": "Create a wallet"
+		"loadWallet": "私の財布をロード",
+		"importWallet": "財布をインポートする",
+		"create": "作ります",
+		"createWallet": "財布を作成する"
 	  },
 	  "notes": {
 		"secure": {
@@ -92,68 +92,68 @@
 	  }
 	},
 	"accountPage": {
-	  "title": "Account",
-	  "subtitle": "Your account overview and transaction history",
+	  "title": "アカウント",
+	  "subtitle": "アカウントの概要と取引履歴",
 	  "synchronizingBlock": {
-		"text": "Synchronizing..."
+		"text": "同期..."
 	  },
 	  "balanceBlock": {
-		"title": "Your balance",
-		"unlocked": "Unlocked"
+		"title": "あなたのバランス",
+		"unlocked": "ロック解除"
 	  },
 	  "historyBlock": {
-		"title": "Transaction history",
-		"pendingTxStatus": "Pending",
-		"emptyWallet": "You currently have no funds in this wallet.",
-		"waitSync": "Please wait until the wallet is updated",
-		"beReallyPatient": "The initial setup can take some time...",
-		"getCoinAddress": "Receive QWC"
+		"title": "取引履歴",
+		"pendingTxStatus": "未定",
+		"emptyWallet": "あなたは現在この財布に資金を持っていません。",
+		"waitSync": "財布が更新されるまでお待ちください",
+		"beReallyPatient": "初期設定にはしばらく時間がかかります...",
+		"getCoinAddress": "QWCを受け取る"
 	  },
 	  "txDetails":{
-		"title":"Transaction details",
-		"txHash":"Transaction Hash",
-		"feesOnTx":"Transaction fee",
-		"blockHeight":"Block height",
-		"paymentId":"Payment ID",
-		"unlockStatus":"Status",
-		"unlockConfirm":"Confirmations",
-		"txPrivKey":"Transaction Private Key"
+		"title":"取引の詳細",
+		"txHash":"トランザクションハッシュ",
+		"feesOnTx":"取引料金",
+		"blockHeight":"ブロックの高さ",
+		"paymentId":"支払いID",
+		"unlockStatus":"ステータス",
+		"unlockConfirm":"確認",
+		"txPrivKey":"トランザクション秘密鍵"
 	  }
 	},
 	"changeWalletPasswordPage":{
-	  "title":"Change your password",
+	  "title":"パスワードを変更してください",
 	  "oldPassword":{
-		"label":"Old password",
-		"invalid":"The password is invalid"
+		"label":"以前のパスワード",
+		"invalid":"パスワードが無効です"
 	  },
 	  "newPassword":{
-		"label":"Choose a new password to protect your wallet"
+		"label":"あなたの財布を保護するために新しいパスワードを選択してください"
 	  },
 	  "newPasswordConfirm":{
-		"label":"Confirm the new password"
+		"label":"新しいパスワードを確認してください"
 	  },
-	  "confirm":"Change the password",
+	  "confirm":"パスワードを変更する",
 	  "modalSuccess":{
-		"title":"Password changed!",
+		"title":"パスワード変更済み！",
 		"confirmText":"はい"
 	  }
 	},
 	"createWalletPage":{
 	  "generatingStep":{
-		"title":"Your wallet is being generated...",
-		"subtitle":"It's almost done",
-		"waitingMessage":"Generating your wallet..."
+		"title":"あなたの財布は生成されています...",
+		"subtitle":"ほとんど終わった",
+		"waitingMessage":"財布を生成する..."
 	  },
 	  "finalizationStep":{
-		"title":"That was simple. Your account is ready!",
-		"subtitle":"Be ready to use Qwertycoin like you never have",
+		"title":"それは簡単でした。 あなたのアカウントは準備ができています！",
+		"subtitle":"あなたが持っていないようにQwertycoinを使用する準備ができている",
 		"passwordSelectionBlock":{
-		  "label":"Protect your wallet"
+		  "label":"あなたの財布を守る"
 		},
 		"passwordConfirmBlock":{
-		  "label":"Confirm the password"
+		  "label":"パスワードを確認してください"
 		},
-		"validPassword":"Use this password",
+		"validPassword":"このパスワードを使う",
 		"backupBlock":{
 		  "title":"Save your private credentials for recovery.",
 		  "option1":"Option 1: ",
@@ -174,7 +174,7 @@
 	  }
 	},
 	"donatePage":{
-	  "title":"Donate",
+	  "title":"寄付する",
 	  "subtitle":"Help to fund the development and pay the bills",
 	  "webwalletBlock":{
 		"title":"Webwallet",
@@ -186,7 +186,7 @@
 	  }
 	},
 	"supportPage":{
-	  "title":"Support",
+	  "title":"サポート",
 	  "subtitle":"We are here to help!",
 	  "getInTouchBlock":{
 		"title":"Let's Get In Touch!",
@@ -195,7 +195,7 @@
 	  }
 	},
 	"networkPage":{
-	  "title":"Network stats",
+	  "title":"ネットワーク統計",
 	  "subtitle":"Insights on the Qwertycoin network",
 	  "statsBlock":{
 	  	"connectNode": "接続マスターノード",
@@ -207,7 +207,7 @@
 	  }
 	},
 	"sendPage":{
-	  "title":"Send QWC",
+	  "title":"QWCを送る",
 	  "sendBlock":{
 		"address":{
 		  "label":"Destination address",
@@ -337,6 +337,9 @@
 		},
 		"language":{
 		  "label":"Language"
+		},
+		"currency":{
+			"label":"国の通貨"
 		},
 		"readMinerTx":{
 		  "label":"Read miner transactions (only for solo mining)"

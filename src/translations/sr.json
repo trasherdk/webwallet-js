@@ -339,6 +339,9 @@
 		"language":{
 		  "label":"Language"
 		},
+		"currency":{
+			"label":"nacionalna валута"
+		},
 		"readMinerTx":{
 		  "label":"Трансакције рудара(само за соло рударење)"
 		}

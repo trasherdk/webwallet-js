@@ -338,6 +338,9 @@
 		"language":{
 		  "label":"Language"
 		},
+		"currency":{
+			"label":"nemzeti valuta"
+		},
 		"readMinerTx":{
 		  "label":"Bányászási tranzakciók beolvasása (csak egyedülálló bányászás esetén)"
 		}

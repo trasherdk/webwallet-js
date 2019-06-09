@@ -324,6 +324,9 @@
         "language": {
           "label": "Language"
         },
+        "currency":{
+          "label":"پول ملی"
+        },
         "readMinerTx": {
           "label": "تراکنش های ماینینگ فقط بصورت تکی"
         }

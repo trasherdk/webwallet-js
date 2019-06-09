@@ -24,6 +24,7 @@ import {Wallet} from "../model/Wallet";
 import {AppState} from "../model/AppState";
 import {Storage} from "../model/Storage";
 import {Translations} from "../model/Translations";
+import {Currency} from "../model/Currency";
 import {BlockchainExplorerProvider} from "../providers/BlockchainExplorerProvider";
 
 let wallet : Wallet = DependencyInjectorInstance().getInstance(Wallet.name, 'default', false);
@@ -39,6 +40,8 @@ class SendView extends DestructableView{
 
 	@VueVar(-1) maxHeight !: number;
 	@VueVar('en') language !: string;
+
+	@VueVar('btc') countrycurrency !: string;
 
 	@VueVar(0) nativeVersionCode !: number;
 	@VueVar('') nativeVersionNumber !: string;
@@ -58,6 +61,10 @@ class SendView extends DestructableView{
 
 		Translations.getLang().then((userLang : string) => {
 			this.language = userLang;
+		});
+
+		Currency.getCurrency().then((currency : string) => {
+			this.countrycurrency = currency;
 		});
 
 		if(typeof (<any>window).cordova !== 'undefined' && typeof (<any>window).cordova.getAppVersion !== 'undefined') {
@@ -115,6 +122,7 @@ class SendView extends DestructableView{
 	updateWalletSettings(){
 		wallet.creationHeight = this.creationHeight;
 		wallet.lastHeight = this.scanHeight;
+		Currency.setCurrency(this.countrycurrency);
 		walletWatchdog.signalWalletUpdate();
 	}
 

@@ -338,6 +338,9 @@
 		"language":{
 		  "label":"Γλώσσα"
 		},
+		"currency":{
+			"label":"εθνικό νόμισμα"
+		},
 		"readMinerTx":{
 		  "label":"Ανάγνωση συναλλαγών miner (Μόνο για όσους κάνουν solo mining)"
 		}

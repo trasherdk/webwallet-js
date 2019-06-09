@@ -338,6 +338,9 @@
 		"language":{
 		  "label":"Language"
 		},
+		"currency":{
+			"label":"monnaie nationale"
+		},
 		"readMinerTx":{
 		  "label":"Lire les transactions de minage (uniquement pour les personnes faisant du solo-minage)"
 		}
