@@ -25,7 +25,8 @@
 			<div class="body" >
 				<div class="header-title" >{{ $t("accountPage.balanceBlock.title") }}</div>
 				<div class="content" >
-					<span class="walletAmount" >{{ $n(walletAmount / currencyDivider) }}</span> QWC
+					<span class="walletAmount" >{{ $n(walletAmount / currencyDivider) }}</span> QWC<br/>
+					<span>{{ $n(walletAmountCurrency / currencyDivider) }} BTC</span>
 					<tempate class="amount unlocked" v-if="unlockedWalletAmount !== walletAmount" >
 						<br/>{{ $t("accountPage.balanceBlock.unlocked") }}: <span class="walletAmount" >{{ $n(unlockedWalletAmount / currencyDivider) }}</span> QWC
 					</tempate>

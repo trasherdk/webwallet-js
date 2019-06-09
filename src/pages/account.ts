@@ -27,6 +27,7 @@ let blockchainExplorer = DependencyInjectorInstance().getInstance(Constants.BLOC
 class AccountView extends DestructableView{
 	@VueVar([]) transactions !: Transaction[];
 	@VueVar(0) walletAmount !: number;
+	@VueVar(0) walletAmountCurrency !: number;
 	@VueVar(0) unlockedWalletAmount !: number;
 
 	@VueVar(0) currentScanBlock !: number;
@@ -110,6 +111,13 @@ class AccountView extends DestructableView{
 		if(wallet.getAll().length+wallet.txsMem.length !== this.transactions.length) {
 			this.transactions = wallet.txsMem.concat(wallet.getTransactionsCopy().reverse());
 		}
+		let self = this;
+		let randInt = Math.floor(Math.random() * Math.floor(config.apiUrl.length));
+		$.ajax({
+			url:config.apiUrl[randInt]+'price.php?currency=btc'
+		}).done(function(data : any){
+			self.walletAmountCurrency = wallet.amount * data.value;
+		});
 	}
 }
 
