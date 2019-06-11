@@ -82,11 +82,22 @@ Translations:
 - German: F0sching, Alex Nnian
 - Hungarian: Gelesztaa
 - Greek: GeraltOfTrivia
-- Russian, Ukrainian: Aiwe
+- Russian: Aiwe
+- Ukrainian: Aiwe
 - Persian: M4hdi1995
-- Japanese: Nnian, Qwertycoin.org
+- Japanese: Alex Nnian Qwertycoin.org
 - Korean: Xecute0101, Qwertycoin.org
-- Chinese: mainframer, Alex, Qwertycoin.org
-- Arabic: dennis, Qwertycoin.org
-- Hindi: Nnian, Qwertycoin.org
-- Vietnam: ??????????
+- Chinese: mainframer, Alex Nnian Qwertycoin.org
+- Italian: unknown :(
+
+Uncomplete Translations:
+- [Arabic](https://github.com/qwertycoin-org/webwallet-js/blob/master/src/translations/ar.json)
+- [Hebrew](https://github.com/qwertycoin-org/webwallet-js/blob/master/src/translations/he.json)
+- [Hindi](https://github.com/qwertycoin-org/webwallet-js/blob/master/src/translations/hi.json)
+- [Polish](https://github.com/qwertycoin-org/webwallet-js/blob/master/src/translations/pl.json)
+- [Portuguese](https://github.com/qwertycoin-org/webwallet-js/blob/master/src/translations/pk.json)
+- [Romania](https://github.com/qwertycoin-org/webwallet-js/blob/master/src/translations/ro.json)
+- [Spanish](https://github.com/qwertycoin-org/webwallet-js/blob/master/src/translations/es.json)
+- [Turkish](https://github.com/qwertycoin-org/webwallet-js/blob/master/src/translations/tr.json)
+- [Urdu](https://github.com/qwertycoin-org/webwallet-js/blob/master/src/translations/pk.json)
+- [Vietnam](https://github.com/qwertycoin-org/webwallet-js/blob/master/src/translations/vn.json)

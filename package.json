@@ -1,6 +1,6 @@
 {
   "name": "qwertycoinwebwallet",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Fully client side web wallet for Qwertycoin",
   "main": "index.js",
   "dependencies": {
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/qwertycoin-org/webwallet-js.git"
   },
-  "author": "Gnock",
+  "author": "Gnock,Aivve,Alex",
   "license": "BSD-3",
   "bugs": {
     "url": "https://github.com/qwertycoin-org/webwallet-js/issues"
