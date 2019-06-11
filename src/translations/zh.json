@@ -71,24 +71,6 @@
 		"importWallet": "导入钱包",
 		"create": "创建",
 		"createWallet": "创建一个钱包"
-	  },
-	  "notes": {
-		"secure": {
-		  "title": "安全",
-		  "description": "无服务器，完全加密!"
-		},
-		"fast": {
-		  "title": "快速",
-		  "description": "在任何时间，发送到任何地方!"
-		},
-		"technology": {
-		  "title": "本地",
-		  "description": "您设备上的秘钥"
-		},
-		"openSource": {
-		  "title": "开源",
-		  "description": "通过Github验证!"
-		}
 	  }
 	},
 	"accountPage": {
@@ -100,6 +82,23 @@
 	  "balanceBlock": {
 		"title": "您的余额",
 		"unlocked": "解锁"
+	  },
+	  "currencyBlock" : {
+		"btc": "BTC",
+		"eth": "ETH",
+		"ltc": "LTC",
+		"usd": "USD",
+		"eur": "EUR",
+		"aud": "AUD",
+		"cad": "CAD",
+		"chf": "CHF",
+		"cny": "CNY",
+		"gbp": "GBP",
+		"jpy": "JPY",
+		"kwd": "KWD",
+		"krw": "KRW",
+		"rub": "RUB",
+		"vnd": "VND"
 	  },
 	  "historyBlock": {
 		"title": "交易记录",

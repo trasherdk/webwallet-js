@@ -71,24 +71,6 @@
 		"importWallet": "Імпортувати гаманець",
 		"create": "Створити",
 		"createWallet": "Створити гаманець"
-	  },
-	  "notes": {
-		"secure": {
-		  "title": "Безпечний",
-		  "description": "Без серверів, повністю зашифрований!"
-		},
-		"fast": {
-		  "title": "Швидкий",
-		  "description": "Доступний коли треба!"
-		},
-		"technology": {
-		  "title": "Локальний",
-		  "description": "Ключі в браузері"
-		},
-		"openSource": {
-		  "title": "Open-source",
-		  "description": "Не довіряй - перевіряй!"
-		}
 	  }
 	},
 	"accountPage": {
@@ -100,6 +82,23 @@
 	  "balanceBlock": {
 		"title": "Ваш баланс",
 		"unlocked": "Доступно"
+	  },
+	  "currencyBlock" : {
+		"btc": "BTC",
+		"eth": "ETH",
+		"ltc": "LTC",
+		"usd": "USD",
+		"eur": "EUR",
+		"aud": "AUD",
+		"cad": "CAD",
+		"chf": "CHF",
+		"cny": "CNY",
+		"gbp": "GBP",
+		"jpy": "JPY",
+		"kwd": "KWD",
+		"krw": "KRW",
+		"rub": "RUB",
+		"vnd": "VND"
 	  },
 	  "historyBlock": {
 		"title": "Історія транзакцій",

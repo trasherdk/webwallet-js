@@ -71,24 +71,6 @@
 		"importWallet": "Εισαγωγή πορτοφολιού",
 		"create": "Δημιουργία",
 		"createWallet": "Δημιουργία πορτοφολιού"
-	  },
-	  "notes": {
-		"secure": {
-		  "title": "Ασφαλές",
-		  "description": "Χωρίς διακομιστές, πλήρως κρυπτογραφημένο!"
-		},
-		"fast": {
-		  "title": "Γρήγορο",
-		  "description": "Στείλε οπουδήποτε, οποτεδήποτε!"
-		},
-		"technology": {
-		  "title": "Μοναδική Τεχνολογία",
-		  "description": "Συνδεδεμένο κατευθείαν στο Qwertycoin blockchain!"
-		},
-		"openSource": {
-		  "title": "100% ανοιχτού κώδικα",
-		  "description": "Διαθέσιμο στο Github!"
-		}
 	  }
 	},
 	"accountPage": {
@@ -100,6 +82,23 @@
 	  "balanceBlock": {
 		"title": "Το υπόλοιπό σας",
 		"unlocked": "Ξεκλείδωτο"
+	  },
+	  "currencyBlock" : {
+		"btc": "BTC",
+		"eth": "ETH",
+		"ltc": "LTC",
+		"usd": "USD",
+		"eur": "EUR",
+		"aud": "AUD",
+		"cad": "CAD",
+		"chf": "CHF",
+		"cny": "CNY",
+		"gbp": "GBP",
+		"jpy": "JPY",
+		"kwd": "KWD",
+		"krw": "KRW",
+		"rub": "RUB",
+		"vnd": "VND"
 	  },
 	  "historyBlock": {
 		"title": "Ιστορικό συναλλαγών",

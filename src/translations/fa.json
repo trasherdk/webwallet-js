@@ -70,24 +70,6 @@
         "importWallet": "درون ریزی کیف پول",
         "create": "انجام بده",
         "createWallet": "ایجاد کیف پول"
-      },
-      "notes": {
-        "secure": {
-          "title": "امنیت بالا",
-          "description": "بدون سرور برای نگهداری کیف پول ها و کاملا رمزگذاری شده"
-        },
-        "fast": {
-          "title": "سرعت بالا",
-          "description": "سریع شروع به کار کنید ، تنها به یک مرورگر اینترنت نیاز دارید"
-        },
-        "technology": {
-          "title": "تکنولوژی بروز",
-          "description": "اتصال مستقیم به زنجیره بلوکی کربو"
-        },
-        "openSource": {
-          "title": "کد منبع باز",
-          "description": "کد منبع داخل گیت هاب موجود است"
-        }
       }
     },
     "accountPage": {
@@ -99,6 +81,23 @@
       "balanceBlock": {
         "title": "کل حساب",
         "unlocked": "در دسترس"
+      },
+      "currencyBlock" : {
+      "btc": "BTC",
+      "eth": "ETH",
+      "ltc": "LTC",
+      "usd": "USD",
+      "eur": "EUR",
+      "aud": "AUD",
+      "cad": "CAD",
+      "chf": "CHF",
+      "cny": "CNY",
+      "gbp": "GBP",
+      "jpy": "JPY",
+      "kwd": "KWD",
+      "krw": "KRW",
+      "rub": "RUB",
+      "vnd": "VND"
       },
       "historyBlock": {
         "title": "تاریخچه تراکنش ها",

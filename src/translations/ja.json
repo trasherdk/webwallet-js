@@ -71,24 +71,6 @@
 		"importWallet": "財布をインポートする",
 		"create": "作ります",
 		"createWallet": "財布を作成する"
-	  },
-	  "notes": {
-		"secure": {
-		  "title": "Secure",
-		  "description": "No servers, fully encrypted!"
-		},
-		"fast": {
-		  "title": "Fast",
-		  "description": "Send Everywhere, Anytime!"
-		},
-		"technology": {
-		  "title": "Local",
-		  "description": "Keys on your device"
-		},
-		"openSource": {
-		  "title": "Open-source",
-		  "description": "Verify on Github!"
-		}
 	  }
 	},
 	"accountPage": {
@@ -100,6 +82,23 @@
 	  "balanceBlock": {
 		"title": "あなたのバランス",
 		"unlocked": "ロック解除"
+	  },
+	  "currencyBlock" : {
+		"btc": "BTC",
+		"eth": "ETH",
+		"ltc": "LTC",
+		"usd": "USD",
+		"eur": "EUR",
+		"aud": "AUD",
+		"cad": "CAD",
+		"chf": "CHF",
+		"cny": "CNY",
+		"gbp": "GBP",
+		"jpy": "JPY",
+		"kwd": "KWD",
+		"krw": "KRW",
+		"rub": "RUB",
+		"vnd": "VND"
 	  },
 	  "historyBlock": {
 		"title": "取引履歴",

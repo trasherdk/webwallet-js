@@ -70,24 +70,6 @@
 		"importWallet": "Importa un portafoglio",
 		"create": "Crea",
 		"createWallet": "Crea un portafoglio"
-	  },
-	  "notes": {
-		"secure": {
-		  "title": "Sicuro",
-		  "description": "Nessun server, completamente crittografato!"
-		},
-		"fast": {
-		  "title": "Veloce",
-		  "description": "Invia ovunque e in qualsiasi momento!"
-		},
-		"technology": {
-		  "title": "Tecnologia unica",
-		  "description": "Collegato direttamente alla blockchain di Qwertycoin!"
-		},
-		"openSource": {
-		  "title": "Completamente open-source",
-		  "description": "Disponibile su Github!"
-		}
 	  }
 	},
 	"accountPage": {
@@ -99,6 +81,23 @@
 	  "balanceBlock": {
 		"title": "Il tuo bilancio",
 		"unlocked": "Sbloccato"
+	  },
+	  "currencyBlock" : {
+		"btc": "BTC",
+		"eth": "ETH",
+		"ltc": "LTC",
+		"usd": "USD",
+		"eur": "EUR",
+		"aud": "AUD",
+		"cad": "CAD",
+		"chf": "CHF",
+		"cny": "CNY",
+		"gbp": "GBP",
+		"jpy": "JPY",
+		"kwd": "KWD",
+		"krw": "KRW",
+		"rub": "RUB",
+		"vnd": "VND"
 	  },
 	  "historyBlock": {
 		"title": "Cronologia delle transazioni",

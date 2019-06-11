@@ -71,24 +71,6 @@
 		"importWallet": "Tárcaimportálás",
 		"create": "Létrehozás",
 		"createWallet": "Tárca létrehozása"
-	  },
-	  "notes": {
-		"secure": {
-		  "title": "Biztonságos",
-		  "description": "Nincsenek szerverek, teljesen titkosított!"
-		},
-		"fast": {
-		  "title": "Gyors",
-		  "description": "Küldj bárhonnan, bármikor!"
-		},
-		"technology": {
-		  "title": "Egyedi technológia",
-		  "description": "Közvetlen kapcsolat a Qwertycoin blokklánccal!"
-		},
-		"openSource": {
-		  "title": "Teljesen nyílt forrású",
-		  "description": "Elérhető a Githubon!"
-		}
 	  }
 	},
 	"accountPage": {
@@ -100,6 +82,23 @@
 	  "balanceBlock": {
 		"title": "Egyenleg",
 		"unlocked": "Feloldva"
+	  },
+	  "currencyBlock" : {
+		"btc": "BTC",
+		"eth": "ETH",
+		"ltc": "LTC",
+		"usd": "USD",
+		"eur": "EUR",
+		"aud": "AUD",
+		"cad": "CAD",
+		"chf": "CHF",
+		"cny": "CNY",
+		"gbp": "GBP",
+		"jpy": "JPY",
+		"kwd": "KWD",
+		"krw": "KRW",
+		"rub": "RUB",
+		"vnd": "VND"
 	  },
 	  "historyBlock": {
 		"title": "Tranzakciós előzmények",

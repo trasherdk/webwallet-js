@@ -71,24 +71,6 @@
 		"importWallet": "지갑 가져오기",
 		"create": "지갑 만들기",
 		"createWallet": "지갑 만들기"
-	  },
-	  "notes": {
-		"secure": {
-		  "title": "보안",
-		  "description": "암호화된 서비스!"
-		},
-		"fast": {
-		  "title": "속도",
-		  "description": "어디든 언제든 어디서든 빠르게!"
-		},
-		"technology": {
-		  "title": "로컬",
-		  "description": "지갑을 내 장치에 저장!"
-		},
-		"openSource": {
-		  "title": "오픈소스",
-		  "description": "Github에서 확인하세요!"
-		}
 	  }
 	},
 	"accountPage": {
@@ -100,6 +82,23 @@
 	  "balanceBlock": {
 		"title": "잔액",
 		"unlocked": "해제완료"
+	  },
+	  "currencyBlock" : {
+		"btc": "BTC",
+		"eth": "ETH",
+		"ltc": "LTC",
+		"usd": "USD",
+		"eur": "EUR",
+		"aud": "AUD",
+		"cad": "CAD",
+		"chf": "CHF",
+		"cny": "CNY",
+		"gbp": "GBP",
+		"jpy": "JPY",
+		"kwd": "KWD",
+		"krw": "KRW",
+		"rub": "RUB",
+		"vnd": "VND"
 	  },
 	  "historyBlock": {
 		"title": "트랜젝션 기록",
