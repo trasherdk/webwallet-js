@@ -68,14 +68,14 @@ ETN: etnkJXJFqiH9FCt6Gq2HWHPeY92YFsmvKX7qaysvnV11M796Xmovo2nSu6EUCMnniqRqAhKX9AQ
 
 ### Contributors and thanks
 
-Developers:
+#### Developers:
 - gnock (main)
 - cryptochangements
 - davehlong (initial adaptation of PHP Api for Bytecoin based coins)
 - aiwe (adapted for Bytecoin/CryptoNote from Monero codebase)
 - nnian, ExploShot (adapted for Qwertycoin codebase)
 
-Translations:
+#### Translations:
 - English: too many people
 - French: gnock
 - Serbian cyrillic: girugameshh
@@ -90,7 +90,7 @@ Translations:
 - Chinese: mainframer, Alex Nnian Qwertycoin.org
 - Italian: unknown :(
 
-Uncomplete Translations:
+#### Uncomplete Translations:
 - [Arabic](https://github.com/qwertycoin-org/webwallet-js/blob/master/src/translations/ar.json)
 - [Hebrew](https://github.com/qwertycoin-org/webwallet-js/blob/master/src/translations/he.json)
 - [Hindi](https://github.com/qwertycoin-org/webwallet-js/blob/master/src/translations/hi.json)
