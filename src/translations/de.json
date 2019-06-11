@@ -64,8 +64,8 @@
 	},
 	"homepage": {
 	  "mainTitle": "Qwertycoin Web Wallet",
-	  "tagLine": "Irgendwo. Jederzeit. überall. auf jedem Gerät.",
-	  "tagLineTwo": "Der einfachste Weg, Qwertycoin zu verwenden",
+	  "tagLine": "Überall zu jeder Zeit - QWC auf jedem Gerät.",
+	  "tagLineTwo": "Der schnellste Weg, Qwertycoin zu versenden.",
 	  "actions": {
 		"loadWallet": "Lade meine Wallet",
 		"importWallet": "Importiere eine Wallet",

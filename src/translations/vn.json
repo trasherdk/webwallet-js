@@ -1,76 +1,76 @@
 {
   "website":{
-	"title":"Qwertycoin Wallet | Simple, seamless, safe. Welcome to the future.",
-	"description":"Official online wallet for Qwertycoin currency - fully handled in your browser for optimal security"
+	"title":"Ví Qwertycoin | Đơn giản, liền mạch, an toàn. Chào mừng đến với tương lai.",
+	"description":"Ví trực tuyến chính thức cho tiền Qwertycoin - được xử lý hoàn toàn trong trình duyệt của bạn để bảo mật tối ưu"
   },
   "messages": {
 	"menu": {
-	  "home": "Home",
-	  "account": "Account",
-	  "send": "Send",
-	  "receive": "Receive",
-	  "export": "Export",
-	  "donate": "Donate",
-	  "settings": "Settings",
-	  "disconnect": "Disconnect",
-	  "network": "Network Stats",
-	  "mining": "Mining"
+	  "home": "Nhà",
+	  "account": "Tài khoản",
+	  "send": "Gửi",
+	  "receive": "Nhận được",
+	  "export": "Xuất khẩu",
+	  "donate": "Quyên góp",
+	  "settings": "Cài đặt",
+	  "disconnect": "Ngắt kết nối",
+	  "network": "Thống kê mạng",
+	  "mining": "Khai thác mỏ"
 	},
 	"global": {
-	  "loading": "Loading",
-	  "disableSecurity":"Disable this security, I understand the risk",
+	  "loading": "Tải",
+	  "disableSecurity":"Vô hiệu hóa bảo mật này, tôi hiểu rủi ro",
 	  "passwordInvalidRequirements":"The password needs at least 8 characters - 1 upper case letter, 1 lower case letter, one number, and one special character",
 	  "passwordConfirmationNotMatching":"The password does not match the first password you wrote",
-	  "download":"Download",
+	  "download":"Tải về",
 	  "newVersionModal":{
-		"title":"A new version is available",
-		"content":"Do you want to reload to load the new version?",
-		"confirmText":"Yes",
-		"cancelText":"Back"
+		"title":"Một phiên bản mới có sẵn",
+		"content":"Bạn có muốn tải lại để tải phiên bản mới?",
+		"confirmText":"Vâng",
+		"cancelText":"Trở lại"
 	  },
 	  "openWalletModal":{
-		"title":"Wallet Password",
-		"confirmText":"Open",
-		"cancelText":"Cancel"
+		"title":"Mật khẩu ví",
+		"confirmText":"Mở",
+		"cancelText":"Hủy bỏ"
 	  },
 	  "invalidPasswordModal":{
-		"title":"Oops...",
-		"content":"Your password seems invalid",
-		"confirmText":"OK"
+		"title":"Rất tiếc ...",
+		"content":"Mật khẩu của bạn có vẻ không hợp lệ",
+		"confirmText":"được"
 	  },
 	  "invalidMnemonicModal":{
-		"title":"Oops...",
+		"title":"Rất tiếc ...",
 		"content":"The mnemonic phrase is invalid",
-		"confirmText":"OK"
+		"confirmText":"được"
 	  },
 	  "passwordNotComplexEnoughModal":{
 		"title":"The password is not complex enough",
-		"confirmText":"OK"
+		"confirmText":"được"
 	  },
 	  "permissionRequiredForCameraModal":{
-		"title":"Oops...",
+		"title":"Rất tiếc ...",
 		"content":"The permission to access your camera is required to scan the QR code",
-		"confirmText":"OK"
+		"confirmText":"được"
 	  }
 	},
 	"bottom": {
-	  "termsOfUse": "Terms of Use",
-	  "privacyPolicy": "Privacy Policy",
-	  "support": "Support",
-	  "donate": "Donate",
-	  "network": "Network Stats",
-	  "miningPool": "Mining Pool",
+	  "termsOfUse": "Điều khoản sử dụng",
+	  "privacyPolicy": "Chính sách bảo mật",
+	  "support": "Ủng hộ",
+	  "donate": "Quyên góp",
+	  "network": "Thống kê mạng",
+	  "miningPool": "Hồ bơi khai thác",
 	  "github": "GitHub"
 	},
 	"homepage": {
-	  "mainTitle": "Qwertycoin Wallet",
-	  "tagLine": "anywhere. anytime. anyplace. any device.",
-	  "tagLineTwo": "The simplest way to use Qwertycoin",
+	  "mainTitle": "Qwertycoin Ví",
+	  "tagLine": "bất cứ nơi nào Bất cứ lúc nào. bất cứ nơi nào. bất kỳ thiết bị.",
+	  "tagLineTwo": "Cách đơn giản nhất để sử dụng Qwertycoin",
 	  "actions": {
-		"loadWallet": "Load my wallet",
-		"importWallet": "Import a wallet",
-		"create": "Create",
-		"createWallet": "Create a wallet"
+		"loadWallet": "Nạp ví của tôi",
+		"importWallet": "Nhập ví",
+		"create": "Tạo nên",
+		"createWallet": "Tạo nên..."
 	  }
 	},
 	"accountPage": {
@@ -134,7 +134,7 @@
 	  "confirm":"Change the password",
 	  "modalSuccess":{
 		"title":"Password changed!",
-		"confirmText":"OK"
+		"confirmText":"được"
 	  }
 	},
 	"createWalletPage":{
@@ -225,34 +225,34 @@
 		  "invalid":"The payment ID is invalid. The length must be 16 or 64 characters"
 		},
 		"sendButton":"Send",
-		"cancelButton":"Cancel"
+		"cancelButton":"Hủy bỏ"
 	  },
 	  "qrCodeScanning":{
 		"explication":"Present the QR code"
 	  },
 	  "notEnoughMoneyModal":{
-		"title":"Oops...",
+		"title":"Rất tiếc ...",
 		"content":"You don't have enough funds in your wallet to execute this transfer",
-		"confirmText":"OK"
+		"confirmText":"được"
 	  },
 	  "thankYouDonationModal":{
 		"title":"Thank you for your donation!",
 		"content":"Your help is appreciated. This donation will help make Qwertycoin better",
-		"confirmText":"OK"
+		"confirmText":"được"
 	  },
 	  "transferSentModal":{
 		"title":"Transfer sent successfully!",
-		"confirmText":"OK"
+		"confirmText":"được"
 	  },
 	  "transferExceptionModal":{
-		"title":"Oops...",
+		"title":"Rất tiếc ...",
 		"content":"An error occurred. Please report this error: {details}",
-		"confirmText":"OK"
+		"confirmText":"được"
 	  },
 	  "invalidAmountModal":{
-		"title":"Oops...",
+		"title":"Rất tiếc ...",
 		"content":"Invalid amount",
-		"confirmText":"OK"
+		"confirmText":"được"
 	  },
 	  "creatingTransferModal":{
 		"title":"Creating transfer ...",
@@ -266,7 +266,7 @@
 		"title":"Confirm transfer?",
 		"content":"Amount: {amount}<br/>Fees: {fees}<br/>Total: {total}",
 		"confirmText":"Confirm",
-		"cancelText":"Cancel"
+		"cancelText":"Hủy bỏ"
 	  },
 	  "waitingNfcModal":{
 		"title":"Waiting NFC",
@@ -359,7 +359,7 @@
 		"title":"Delete My Wallet (local copy)",
 		"content":"Are you sure you REALLY want to delete your wallet ?",
 		"confirmText":"Yes I'm sure",
-		"cancelText":"Cancel"
+		"cancelText":"Hủy bỏ"
 	  }
 	},
 	"importBasePage":{
@@ -410,12 +410,12 @@
 	  },
 	  "walletKeysModal":{
 		"title":"Private keys",
-		"confirmText":"OK",
+		"confirmText":"được",
 		"content":"Please carefully store these keys. <b>Possessing them means possessing the funds associated</b> !<br/>Spend key: {privSpendKey}<br/>Private view key: {privViewKey}"
 	  },
 	  "mnemonicKeyModal":{
 		"title":"Mnemonic phrase",
-		"confirmText":"OK",
+		"confirmText":"được",
 		"content":"Please store carefully this mnemonic phrase. <b>Possessing it means possessing the funds associated</b> ! The phrase is:<br/>{mnemonic}"
 	  },
 	  "mnemonicLangSelectionModal":{
