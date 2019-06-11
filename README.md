@@ -89,3 +89,4 @@ Translations:
 - Chinese: mainframer, Alex, Qwertycoin.org
 - Arabic: dennis, Qwertycoin.org
 - Hindi: Nnian, Qwertycoin.org
+- Vietnam: ??????????
