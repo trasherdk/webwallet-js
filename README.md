@@ -76,19 +76,20 @@ ETN: etnkJXJFqiH9FCt6Gq2HWHPeY92YFsmvKX7qaysvnV11M796Xmovo2nSu6EUCMnniqRqAhKX9AQ
 - nnian, ExploShot (adapted for Qwertycoin codebase)
 
 #### Translations:
+- Chinese: mainframer, [Alex Nnian - Qwertycoin](https://github.com/qwertycoin-org)
 - English: too many people
 - French: gnock
-- Serbian cyrillic: girugameshh
-- German: F0sching, Alex Nnian
-- Hungarian: Gelesztaa
+- German: F0sching, [Alex Nnian - Qwertycoin](https://github.com/qwertycoin-org)
 - Greek: GeraltOfTrivia
-- Russian: Aiwe
-- Ukrainian: Aiwe
-- Persian: M4hdi1995
-- Japanese: Alex Nnian Qwertycoin.org
-- Korean: Xecute0101, Qwertycoin.org
-- Chinese: mainframer, Alex Nnian Qwertycoin.org
+- Hungarian: Gelesztaa
 - Italian: unknown :(
+- Japanese: [Alex Nnian - Qwertycoin](https://github.com/qwertycoin-org)
+- Korean: [Xecute0101 - Qwertycoin](https://github.com/qwertycoin-org)
+- Persian: M4hdi1995
+- Russian: [Aiwe](https://github.com/aivve)
+- Serbian cyrillic: girugameshh
+- Spanish: [Guerreru](https://github.com/Guerreru)
+- Ukrainian: [Aiwe](https://github.com/aivve)
 
 #### Incomplete Translations:
 - [Arabic](https://github.com/qwertycoin-org/webwallet-js/blob/master/src/translations/ar.json)
@@ -97,7 +98,6 @@ ETN: etnkJXJFqiH9FCt6Gq2HWHPeY92YFsmvKX7qaysvnV11M796Xmovo2nSu6EUCMnniqRqAhKX9AQ
 - [Polish](https://github.com/qwertycoin-org/webwallet-js/blob/master/src/translations/pl.json)
 - [Portuguese](https://github.com/qwertycoin-org/webwallet-js/blob/master/src/translations/pk.json)
 - [Romania](https://github.com/qwertycoin-org/webwallet-js/blob/master/src/translations/ro.json)
-- [Spanish](https://github.com/qwertycoin-org/webwallet-js/blob/master/src/translations/es.json)
 - [Turkish](https://github.com/qwertycoin-org/webwallet-js/blob/master/src/translations/tr.json)
 - [Urdu](https://github.com/qwertycoin-org/webwallet-js/blob/master/src/translations/pk.json)
 - [Vietnam](https://github.com/qwertycoin-org/webwallet-js/blob/master/src/translations/vn.json)
