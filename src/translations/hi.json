@@ -1,20 +1,20 @@
 {
   "website":{
-	"title":"Qwertycoin Wallet | Simple, seamless, safe. Welcome to the future.",
-	"description":"Official online wallet for Qwertycoin currency - fully handled in your browser for optimal security"
+	"title":"Qwertycoin वॉलेट | सरल, सहज, सुरक्षित। आने वाला कल आपका स्वागत करता है।",
+	"description":"Qwertycoin मुद्रा के लिए आधिकारिक ऑनलाइन वॉलेट - इष्टतम सुरक्षा के लिए पूरी तरह से आपके ब्राउज़र में संभाला जाता है"
   },
   "messages": {
 	"menu": {
-	  "home": "Home",
-	  "account": "Account",
-	  "send": "Send",
-	  "receive": "Receive",
-	  "export": "Export",
-	  "donate": "Donate",
-	  "settings": "Settings",
-	  "disconnect": "Disconnect",
-	  "network": "Network Stats",
-	  "mining": "Mining"
+	  "home": "होम",
+	  "account": "लेखा",
+	  "send": "भेजना",
+	  "receive": "प्राप्त करना",
+	  "export": "निर्यात",
+	  "donate": "दान करना",
+	  "settings": "सेटिंग्स",
+	  "disconnect": "डिस्कनेक्ट",
+	  "network": "नेटवर्क आँकड़े",
+	  "mining": "खनिज"
 	},
 	"global": {
 	  "loading": "Loading",
