@@ -1,20 +1,20 @@
 {
   "website":{
-	"title":"Qwertycoin Wallet | Simple, seamless, safe. Welcome to the future.",
-	"description":"Official online wallet for Qwertycoin currency - fully handled in your browser for optimal security"
+	"title":"Portofel Qwertycoin | Simplu, fără probleme, sigur. Bine ați venit în viitor.",
+	"description":"Portofel oficial online pentru moneda Qwertycoin - manipulată integral în browserul dvs. pentru o securitate optimă"
   },
   "messages": {
 	"menu": {
-	  "home": "Home",
-	  "account": "Account",
-	  "send": "Send",
-	  "receive": "Receive",
+	  "home": "Acasă",
+	  "account": "Cont",
+	  "send": "Trimite",
+	  "receive": "A primi",
 	  "export": "Export",
-	  "donate": "Donate",
-	  "settings": "Settings",
-	  "disconnect": "Disconnect",
-	  "network": "Network Stats",
-	  "mining": "Mining"
+	  "donate": "Dona",
+	  "settings": "Setări",
+	  "disconnect": "Deconecta",
+	  "network": "Statistici de rețea",
+	  "mining": "Minerit"
 	},
 	"global": {
 	  "loading": "Loading",

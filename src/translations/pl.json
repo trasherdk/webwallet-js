@@ -1,20 +1,20 @@
 {
   "website":{
-	"title":"Qwertycoin Wallet | Simple, seamless, safe. Welcome to the future.",
-	"description":"Official online wallet for Qwertycoin currency - fully handled in your browser for optimal security"
+	"title":"Qwertycoin Wallet | Proste, bezproblemowe, bezpieczne. Witamy w przyszłości.",
+	"description":"Oficjalny portfel online dla waluty Qwertycoin - w pełni obsługiwany w przeglądarce dla optymalnego bezpieczeństwa"
   },
   "messages": {
 	"menu": {
-	  "home": "Home",
-	  "account": "Account",
-	  "send": "Send",
-	  "receive": "Receive",
-	  "export": "Export",
-	  "donate": "Donate",
-	  "settings": "Settings",
-	  "disconnect": "Disconnect",
-	  "network": "Network Stats",
-	  "mining": "Mining"
+	  "home": "Dom",
+	  "account": "Konto",
+	  "send": "Wysłać",
+	  "receive": "Otrzymać",
+	  "export": "Eksport",
+	  "donate": "Podarować",
+	  "settings": "Ustawienia",
+	  "disconnect": "Rozłączyć się",
+	  "network": "Statystyki sieciowe",
+	  "mining": "Górnictwo"
 	},
 	"global": {
 	  "loading": "Loading",

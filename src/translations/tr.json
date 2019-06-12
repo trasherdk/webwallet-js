@@ -1,20 +1,20 @@
 {
   "website":{
-	"title":"Qwertycoin Wallet | Simple, seamless, safe. Welcome to the future.",
-	"description":"Official online wallet for Qwertycoin currency - fully handled in your browser for optimal security"
+	"title":"Qwertycoin Cüzdanı | Basit, kesintisiz, güvenli. Geleceğe Hoşgeldiniz.",
+	"description":"Qwertycoin para birimi için resmi çevrimiçi cüzdan - en iyi güvenlik için tarayıcınızda tamamen kullanılır"
   },
   "messages": {
 	"menu": {
-	  "home": "Home",
-	  "account": "Account",
-	  "send": "Send",
-	  "receive": "Receive",
-	  "export": "Export",
-	  "donate": "Donate",
-	  "settings": "Settings",
-	  "disconnect": "Disconnect",
-	  "network": "Network Stats",
-	  "mining": "Mining"
+	  "home": "Ev",
+	  "account": "hesap",
+	  "send": "göndermek",
+	  "receive": "Teslim almak",
+	  "export": "ihracat",
+	  "donate": "bağışlamak",
+	  "settings": "Ayarlar",
+	  "disconnect": "Çıkış Yap",
+	  "network": "Ağ İstatistikleri",
+	  "mining": "madencilik"
 	},
 	"global": {
 	  "loading": "Loading",

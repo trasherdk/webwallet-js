@@ -1,20 +1,20 @@
 {
   "website":{
-	"title":"Qwertycoin Wallet | Simple, seamless, safe. Welcome to the future.",
-	"description":"Official online wallet for Qwertycoin currency - fully handled in your browser for optimal security"
+	"title":"Qwertycoin Carteira | Simples, sem costura, seguro. Bem vindo ao futuro.",
+	"description":"Carteira online oficial da moeda Qwertycoin - totalmente manuseada no seu navegador para uma segurança ideal"
   },
   "messages": {
 	"menu": {
-	  "home": "Home",
-	  "account": "Account",
-	  "send": "Send",
-	  "receive": "Receive",
-	  "export": "Export",
-	  "donate": "Donate",
-	  "settings": "Settings",
-	  "disconnect": "Disconnect",
-	  "network": "Network Stats",
-	  "mining": "Mining"
+	  "home": "Casa",
+	  "account": "Conta",
+	  "send": "Mandar",
+	  "receive": "Receber",
+	  "export": "Exportar",
+	  "donate": "Doar",
+	  "settings": "Definições",
+	  "disconnect": "desconectar",
+	  "network": "Estatística de redes",
+	  "mining": "Mineração"
 	},
 	"global": {
 	  "loading": "Loading",
@@ -337,6 +337,9 @@
 		},
 		"language":{
 		  "label":"Language"
+		},
+		"currency":{
+			"label":"National Currency"
 		},
 		"readMinerTx":{
 		  "label":"Read miner transactions (only for solo mining)"

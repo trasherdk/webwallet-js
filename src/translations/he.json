@@ -1,20 +1,20 @@
 {
   "website":{
-	"title":"Qwertycoin Wallet | Simple, seamless, safe. Welcome to the future.",
-	"description":"Official online wallet for Qwertycoin currency - fully handled in your browser for optimal security"
+	"title":"Qwertycoin ארנק | פשוט, חלק, בטוח. ברוך הבא לעתיד.",
+	"description":"ארנק מקוון רשמי עבור מטבע Qwertycoin - מטופל באופן מלא בדפדפן שלך לאבטחה אופטימלית"
   },
   "messages": {
 	"menu": {
-	  "home": "Home",
-	  "account": "Account",
-	  "send": "Send",
-	  "receive": "Receive",
-	  "export": "Export",
-	  "donate": "Donate",
-	  "settings": "Settings",
-	  "disconnect": "Disconnect",
-	  "network": "Network Stats",
-	  "mining": "Mining"
+	  "home": "בית",
+	  "account": "חשבון",
+	  "send": "שלח",
+	  "receive": "קבל",
+	  "export": "יצא",
+	  "donate": "לתרום",
+	  "settings": "הגדרות",
+	  "disconnect": "להתנתק",
+	  "network": "סטטיסטיקת רשת",
+	  "mining": "כרייה"
 	},
 	"global": {
 	  "loading": "Loading",
@@ -31,7 +31,7 @@
 	  "openWalletModal":{
 		"title":"Wallet Password",
 		"confirmText":"Open",
-		"cancelText":"Cancel"
+		"cancelText":"בטל"
 	  },
 	  "invalidPasswordModal":{
 		"title":"Oops...",
@@ -226,7 +226,7 @@
 		  "invalid":"The payment ID is invalid. The length must be 16 or 64 characters"
 		},
 		"sendButton":"Send",
-		"cancelButton":"Cancel"
+		"cancelButton":"בטל"
 	  },
 	  "qrCodeScanning":{
 		"explication":"Present the QR code"
@@ -267,7 +267,7 @@
 		"title":"Confirm transfer?",
 		"content":"Amount: {amount}<br/>Fees: {fees}<br/>Total: {total}",
 		"confirmText":"Confirm",
-		"cancelText":"Cancel"
+		"cancelText":"בטל"
 	  },
 	  "waitingNfcModal":{
 		"title":"Waiting NFC",
@@ -360,7 +360,7 @@
 		"title":"Delete My Wallet (local copy)",
 		"content":"Are you sure you REALLY want to delete your wallet ?",
 		"confirmText":"Yes I'm sure",
-		"cancelText":"Cancel"
+		"cancelText":"בטל"
 	  }
 	},
 	"importBasePage":{

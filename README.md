@@ -23,7 +23,7 @@ Encryption is done with a certified library, [Tweetnacl.Js.](https://github.com/
 - Basic network stats
 
 # How to compile & Deploy
-The project is using Typescript as main language and not other dependencies on external libraries (everything is already included).
+The project is using Typescript as main language everything else (dependencies) is already included.
 
 ## Compilation
 The first step will be to compile the typescript code into javascript code so browsers will be able to understand it. 
@@ -90,7 +90,7 @@ ETN: etnkJXJFqiH9FCt6Gq2HWHPeY92YFsmvKX7qaysvnV11M796Xmovo2nSu6EUCMnniqRqAhKX9AQ
 - Chinese: mainframer, Alex Nnian Qwertycoin.org
 - Italian: unknown :(
 
-#### Uncomplete Translations:
+#### Incomplete Translations:
 - [Arabic](https://github.com/qwertycoin-org/webwallet-js/blob/master/src/translations/ar.json)
 - [Hebrew](https://github.com/qwertycoin-org/webwallet-js/blob/master/src/translations/he.json)
 - [Hindi](https://github.com/qwertycoin-org/webwallet-js/blob/master/src/translations/hi.json)
