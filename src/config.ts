@@ -1,8 +1,9 @@
 let global : any = typeof window !== 'undefined' ? window : self;
 global.config = {
 	apiUrl: [
-		"https://01.cache.myqwertycoin.com/",
-		"https://02.cache.myqwertycoin.com/"
+		"https://03.cache.myqwertycoin.com/",
+		"https://02.cache.myqwertycoin.com/",
+		"https://01.cache.myqwertycoin.com/"
 	],
 	mainnetExplorerUrl: "https://explorer.qwertycoin.org/",
 	mainnetExplorerUrlHash: "https://explorer.qwertycoin.org/?hash={ID}#blockchain_transaction",
@@ -12,7 +13,7 @@ global.config = {
 	testnetExplorerUrlBlock: "https://testnet.qwertycoin.org/?hash={ID}#blockchain_block",
 	testnet: false,
     coinUnitPlaces: 8,
-    coinDisplayUnitPlaces: 2,
+    coinDisplayUnitPlaces: 8,
 	txMinConfirms: 10,         
 	txCoinbaseMinConfirms: 10,
 	addressPrefix: 0x14820c,

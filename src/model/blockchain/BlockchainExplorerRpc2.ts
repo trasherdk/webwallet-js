@@ -344,6 +344,8 @@ export class BlockchainExplorerRpc2 implements BlockchainExplorer {
                 if (transactions !== null) {
                     console.log("tx mempool:");
                     console.log(transactions);
+                    console.log("node:");
+                    console.log(self.serverAddress);
                     resolve(transactions);
                 }
             }).fail(function (data: any) {
