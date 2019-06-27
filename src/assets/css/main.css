@@ -278,6 +278,89 @@ body.transparent #copyright{
 	font-size: 30px;
 }
 
+.contacts table {
+	width: 100%;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+.contacts .contact {
+	border-top: 1px solid #E2E2E2;
+}
+
+#accountContacts {
+	padding: 10px 35px;
+}
+
+.contacts table tr:first-child {
+	border-top: 0 none;
+}
+
+.contacts contact td {
+	padding: 8px 0;
+}
+
+.contacts .contact .contact-icon {
+	font-size: 16px;
+	width: 5%;
+	padding-left: 5px;
+}
+
+.contacts .contact .contactname {
+	width: 45%;
+	font-size: 16px;
+	margin-left: 2vw;
+}
+
+.contacts .contact .contactinfo {
+	font-size: 16px;
+	width: 8%;
+	text-align: right;
+	padding-right: 10px;
+	cursor: pointer;
+}
+
+.elections .election {
+	margin-bottom: 3vh;
+}
+
+.elections table {
+	width: 100%;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+#nElections {
+	padding: 10px 35px;
+}
+
+.elections table tr {
+	border-top: 0 none;
+	margin-bottom: 8vh;
+}
+
+.elections election td {
+	padding: 8px 0;
+}
+
+.elections .election .electiondescription {
+	width: 100%;
+	font-size: 16px;
+	margin-left: 2vw;
+	margin-bottom: 25px;
+}
+
+.elections .election .electionLink {
+	width: 100%;
+	font-size: 16px;
+	margin-left: 2vw;
+	margin-bottom: 25px;
+}
+
+.elections table .election .electionLink a {
+	padding-top: 1vh;
+}
+
 .transactions table{
 	width: 100%;
 	border-collapse: collapse;
