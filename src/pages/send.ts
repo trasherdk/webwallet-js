@@ -28,6 +28,7 @@ import {QRReader} from "../model/QRReader";
 import {AppState} from "../model/AppState";
 import {BlockchainExplorerProvider} from "../providers/BlockchainExplorerProvider";
 import {NdefMessage, Nfc} from "../model/Nfc";
+import {Currency} from "../model/Currency";
 
 let wallet: Wallet = DependencyInjectorInstance().getInstance(Wallet.name, 'default', false);
 let blockchainExplorer: BlockchainExplorerRpc2 = BlockchainExplorerProvider.getInstance();
@@ -52,6 +53,14 @@ class SendView extends DestructableView {
 	@VueVar(false) qrScanning !: boolean;
 	@VueVar(false) nfcAvailable !: boolean;
 
+	@VueVar(0) walletAmount !: number;
+	@VueVar(0) walletAmountCurrency !: number;
+	@VueVar(0) unlockedWalletAmount !: number;
+
+	@VueVar(Math.pow(10, config.coinUnitPlaces)) currencyDivider !: number;
+
+	@VueVar('btc') countrycurrency !: string;
+
 	@Autowire(Nfc.name) nfc !: Nfc;
 
 	qrReader: QRReader | null = null;
@@ -73,6 +82,23 @@ class SendView extends DestructableView {
 		if (redirect !== null) this.redirectUrlAfterSend = decodeURIComponent(redirect);
 
 		this.nfcAvailable = this.nfc.has;
+
+		this.walletAmount = wallet.amount;
+		this.unlockedWalletAmount = wallet.unlockedAmount(wallet.lastHeight);
+
+		Currency.getCurrency().then((currency : string) => {
+			if(currency == null)
+				currency = 'btc';
+			this.countrycurrency = currency;
+		});
+
+		let self = this;
+		let randInt = Math.floor(Math.random() * Math.floor(config.apiUrl.length));
+		$.ajax({
+			url:config.apiUrl[randInt]+'price/price.php?currency='+self.countrycurrency
+		}).done(function(data : any){
+			self.walletAmountCurrency = wallet.amount * data.value * 10000;
+		});
 	}
 
 	reset() {
