@@ -271,7 +271,7 @@ class ElectionDetailsView extends DestructableView {
                     });
                     swal.close();
                 }).catch(function (error: any) {
-                    console.log(error);
+                    //console.log(error);
                     if (error && error !== '') {
                         if (typeof error === 'string')
                             swal({

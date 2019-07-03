@@ -123,8 +123,8 @@ class SendView extends DestructableView{
 		wallet.creationHeight = this.creationHeight;
 		wallet.lastHeight = this.scanHeight;
 		Currency.setCurrency(this.countrycurrency);
-		console.log("Currency choose");
-		console.log(this.countrycurrency);
+		//console.log("Currency choose");
+		//console.log(this.countrycurrency);
 		walletWatchdog.signalWalletUpdate();
 	}
 
