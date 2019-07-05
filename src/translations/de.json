@@ -65,19 +65,19 @@
       "github": "GitHub"
     },
     "homepage": {
-      "mainTitle": "Qwertycoin Web Wallet",
+      "mainTitle": "Qwertycoin Wallet",
       "tagLine": "Überall zu jeder Zeit - QWC auf jedem Gerät.",
-      "tagLineTwo": "Der schnellste Weg, Qwertycoin zu versenden.",
+      "tagLineTwo": "Der schnellste Weg, Qwertycoin zu verwenden.",
       "actions": {
         "loadWallet": "Lade meine Wallet",
         "importWallet": "Importiere eine Wallet",
-        "create": "Erstelle eine Wallet",
-        "createWallet": "Erstelle eine Wallet"
+        "create": "Erstelle eine neue Wallet",
+        "createWallet": "Erstelle eine neue Wallet"
       }
     },
     "accountPage": {
       "title": "Account",
-      "subtitle": "Überblick über deinen Account und deine Transactionshistorie",
+      "subtitle": "Überblick über deinen Account und deine Transaktionshistorie",
       "synchronizingBlock": {
         "text": "Synchronisiere "
       },
@@ -113,13 +113,13 @@
       },
       "txDetails": {
         "title": "Transaktionsdetails",
-        "txHash": "Tx hash",
-        "feesOnTx": "Gebühren der tx",
+        "txHash": "TX hash",
+        "feesOnTx": "Gebühren der TX",
         "blockHeight": "Blockhöhe",
         "paymentId": "Payment ID",
         "unlockStatus": "Status",
         "unlockConfirm": "Bestätigungen",
-        "txPrivKey": "Privater Schlüssel für die Transaktion"
+        "txPrivKey": "Privater Schlüssel für diese Transaktion"
       }
     },
     "changeWalletPasswordPage": {
@@ -156,7 +156,7 @@
         "sendTo": "Sende an ",
         "title": "Kontaktdetails"
       },
-      "subtitle": "Get in touch with other people",
+      "subtitle": "Verbinde dich mit anderen QWC Nutzern und sende Ihnen QWC",
       "title": "Kontakte"
     },
     "electionsPage": {
@@ -199,28 +199,28 @@
     },
     "donatePage": {
       "title": "Spenden",
-      "subtitle": "Hilf uns die Enwicklung zu finanzieren und die Rechnungen zu bezahlen",
+      "subtitle": "Hilf uns die Entwicklung zu finanzieren und die Rechnungen zu bezahlen",
       "webwalletBlock": {
         "title": "Webwallet",
-        "content": "Bitte denk über eine Spende nach wenn dir die App gefällt und du bei der Bezahlung der Server und der Enwicklung helfen willst.: <br/><br/>"
+        "content": "Bitte denke über eine Spende nach wenn dir die App gefällt und du bei der Bezahlung der Server und der Enwicklung helfen willst.: <br/><br/>"
       },
       "devFundBlock": {
         "title": "Qwertycoin Entwicklerfonds",
-        "content": "Spende an diese Adresse um Qwertycoin zu helfen"
+        "content": "Spende an diese Adresse um Qwertycoin zu unterstützen"
       }
     },
     "supportPage": {
       "title": "Support",
-      "subtitle": "Du brauchst Hilfe, wir sind hier um zu helfen!",
+      "subtitle": "Du brauchst Hilfe? Wir helfen dir!",
       "getInTouchBlock": {
-        "title": "Nehmen wir Kontakt auf!",
+        "title": "So erreichst du uns!",
         "content": "Wenn du Ideen oder Feedback hast um die Wallet zu verbessern, kontaktiere uns!",
         "discord": "Qwertycoin Discord Channel"
       }
     },
     "networkPage": {
       "title": "Netzwerkstatus",
-      "subtitle": "Einblick ins Qwertycoin Netzwerk",
+      "subtitle": "Einblicke ins Qwertycoin Netzwerk",
       "statsBlock": {
         "connectNode": "Verbundene Masternode",
         "hashrate": "Netzwerk Hashrate",
@@ -231,11 +231,11 @@
       }
     },
     "sendPage": {
-      "title": "Schicke QWC",
+      "title": "QWC Überweisung",
       "sendBlock": {
         "address": {
           "label": "Zieladresse",
-          "placeholder": "Schreiben Sie die Adresse, wo Sie wollen Mittel schicken",
+          "placeholder": "Empfängeradresse (QWC....)",
           "invalid": "Die Zieladresse ist ungültig",
           "fundsTo": "Das Guthaben wird an folgende Adresse gesendet werden",
           "receiver": "Empfänger",
@@ -247,7 +247,7 @@
         },
         "paymentId": {
           "label": "Payment ID (optional)",
-          "invalid": "Die payment ID ist ungültig. Sie muss aus 16 oder 64 Zeichen bestehen"
+          "invalid": "Die payment ID ist ungültig. Sie muss aus 64 Zeichen bestehen"
         },
         "sendButton": "Senden",
         "cancelButton": "Abbrechen"
@@ -294,7 +294,7 @@
         "cancelText": "Abbrechen"
       },
       "waitingNfcModal": {
-        "title": "Waiting Nfc",
+        "title": "Waiting NFC",
         "content": "Bring closer to the other device"
       }
     },
@@ -302,23 +302,23 @@
       "title": "Empfange QWC",
       "receiveBlock": {
         "address": {
-          "title": "Deine Adresse um Guthaben zu empfangen",
-          "label": "Stelle diese Adresse bereit um Guthaben zu empfangen"
+          "title": "Deine Adresse um Qwertycoin zu empfangen",
+          "label": "Stelle diese Adresse bereit um QWC zu empfangen"
         },
         "qrCode": {
-          "title": "Oder personalisiere den QR code",
-          "labelAmount": "Menge (optional)",
+          "title": "Oder erstelle einen eigenen QR-Code um Zahlungen zu erhalten",
+          "labelAmount": "Geünschte QWC (optional)",
           "labelRecipient": "Empfängername (optional)",
-          "labelDescription": "Transaktionsbeschreibung (optional)",
-          "updateButton": "Update"
+          "labelDescription": "Beschreibung wofür diese Transaktion ist (optional)",
+          "updateButton": "QR-Code generieren"
         }
       },
       "qrBlock": {
-        "title": "Dein personlisierter QR code"
+        "title": "Dein personalisierter QR code"
       },
       "waitingNfcToWriteModal": {
         "title": "Waiting Nfc",
-        "titleSuccess": "Nfc Tag written",
+        "titleSuccess": "NFC Tag written",
         "content": "Bring closer the NFC tag to write"
       },
       "nfcErrorModal": {
@@ -346,43 +346,43 @@
     },
     "settingsPage": {
       "title": "Einstellungen",
-      "subtitle": "Hier änderst du deine Parameter",
+      "subtitle": "Hier kannst du deine Einstellungen verwalten",
       "versionBlock": {
         "versionNumber": "Version number: ",
         "versionCode": "Version code: "
       },
       "settingsBlock": {
         "speed": {
-          "label": "Geschwindigkeit des Walletupdates (braucht mehr Energie)",
+          "label": "Mit welcher Geschwindigkeit soll die Wallet aktualisiert werden?",
           "fastest": "am schnellsten",
           "fast": "schnell",
           "medium": "mittel",
           "slow": "langsam"
         },
         "language": {
-          "label": "Language"
+          "label": "Systemsprache"
         },
         "currency": {
-          "label": "Landeswährung"
+          "label": "Landeswährung (Wird unter dem Kontostand angezeigt)"
         },
         "readMinerTx": {
-          "label": "Miner Transaktionen lesen (nur für Leute die solo minen)"
+          "label": "Zeige etwaige Mining Transaktionen an (optional)"
         }
       },
-      "changePasswordButton": "Ändere mein Wallet Passwort",
-      "deleteWalletButton": "Lösche meine Wallet (lokale Kopie)",
+      "changePasswordButton": "Wallet Passwort ändern",
+      "deleteWalletButton": "Entferne meine Wallet von diesem Gerät (nur wenn du ein Backup hast)",
       "walletSettings": {
         "creationHeight": {
-          "label": "Erstellhöhe der Wallet"
+          "label": "Erstellhöhe deiner Wallet"
         },
         "currentScanningHeight": {
-          "label": "Aktuelle Scanhöhe"
+          "label": "Synchronisationshöhe"
         },
-        "updateButton": "Update"
+        "updateButton": "Speichern"
       },
       "deleteWalletModal": {
         "title": "Lösche meine Wallet (lokale Kopie)",
-        "content": "Bist du SICHER das du deine Wallet löschen möchtest?",
+        "content": "Bist du SICHER, dass du deine Wallet löschen möchtest?",
         "confirmText": "Ja, ich bin sicher",
         "cancelText": "Abbrechen"
       }
@@ -415,22 +415,22 @@
       }
     },
     "exportPage": {
-      "title": "Sichere deine Daten",
+      "title": "Export deiner PrivateKeys",
       "publicAddressBlock": {
         "title": "Deine öffentliche Adresse"
       },
       "pdfBlock": {
-        "title": "Pdf Backup",
+        "title": "PDF Backup zum ausdrucken",
         "downloadButton": "Download"
       },
       "warningBlock": {
-        "title": "Warnung",
-        "content": "Wenn du deinen privaten Schlüssel oder deine mnemonische Phrase speichern möchtest, speichere sie zu deiner eigenen Sicherheit NICHT in klarer und unverschlüsselter Form..<br/>Die Datei ist eine alternative Lösung, bei der deine Schlüssel verschlüsselt sind und ein Backup all deiner Transaktionen enthält, um dir eine zukünftige Synchronisation zu ersparen.."
+        "title": "Hinweis",
+        "content": "Wenn du deinen privaten Schlüssel oder deine mnemonische Phrase speichern möchtest, speichere sie zu deiner eigenen Sicherheit NICHT in klarer und unverschlüsselter Form.<br/>Diese Datei ist eine alternative Lösung, bei der deine Schlüssel verschlüsselt sind und ein Backup all deiner Transaktionen enthält, um dir eine zukünftige Synchronisation zu ersparen.."
       },
       "exportBlock": {
-        "title": "Exportiere deine RAW Zugangsdaten",
-        "privateKeysButton": "Gib mir meine pirvaten Schlüssel",
-        "mnemonicKeysButton": "Gib mir meine Mnemonic Phrase",
+        "title": "Exportiere deine Private-Keys (Zugangsdaten)",
+        "privateKeysButton": "Zeige meine privaten Schlüssel an",
+        "mnemonicKeysButton": "Zeige meine Mnemonic Phrase",
         "fileButton": "Exportiere in eine Datei"
       },
       "walletKeysModal": {
@@ -449,11 +449,11 @@
       }
     },
     "importPage": {
-      "title": "Erstelle eine Wallet",
-      "subtitle": "Von vorher erstellten Schlüsslen, einer Datei oder einer Mnemonic Phrase",
+      "title": "Importieren einer vorhandenen Wallet",
+      "subtitle": "Du kannst eine Wallet über den Seed (mnemonische Phrase), den privaten Keys oder durch eine WebWallet Backup-Datei importieren.",
       "chooseMethod": "Wähle deine Import Methode",
       "fromKeys": "Von Schlüsseln",
-      "fromFile": "Von einer Datei",
+      "fromFile": "Von einer Backupdatei",
       "fromMnemonic": "Von einer Mnemonic Phrase",
       "fromQr": "Von einem QR code"
     },
