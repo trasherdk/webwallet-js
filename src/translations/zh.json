@@ -142,21 +142,21 @@
     },
     "contactPage": {
       "contactBlock": {
-        "cancel": "Cancel",
-        "confirm": "Add",
-        "contactAddress": "Address",
-        "contactName": "Name",
-        "getNewContacts": "Add Contact",
-        "newContact": "New Contact",
-        "noContacts": "You don't have any contacts yet.",
-        "title": "Your Contacts"
+        "cancel": "取消",
+        "confirm": "新增",
+        "contactAddress": "地址",
+        "contactName": "名字",
+        "getNewContacts": "添加联系人",
+        "newContact": "新建联系人",
+        "noContacts": "您当前有0个联系人。",
+        "title": "您的联系人"
       },
       "contactDetailsBlock": {
-        "address": "Address",
-        "sendTo": "Send to ",
-        "title": "Contactdetails"
+        "address": "地址",
+        "sendTo": "发送到 ",
+        "title": "联系人详情"
       },
-      "subtitle": "Get in touch with other people",
+      "subtitle": "多和其他人联系",
       "title": "往来"
     },
     "electionsPage": {
