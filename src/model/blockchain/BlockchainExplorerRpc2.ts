@@ -237,7 +237,7 @@ export class WalletWatchdog {
                 let previousStartBlock = self.lastBlockLoading;
                 let startBlock = Math.floor(self.lastBlockLoading / 100) * 100;
                 //console.log('=>',self.lastBlockLoading, endBlock, height, startBlock, self.lastBlockLoading);
-                //console.log('load block from ' + startBlock);
+                console.log('load block from ' + startBlock);
                 self.explorer.getTransactionsForBlocks(previousStartBlock).then(function (transactions: RawDaemonTransaction[]) {
                     //to ensure no pile explosion
                     if (transactions.length > 0) {
@@ -344,8 +344,7 @@ export class BlockchainExplorerRpc2 implements BlockchainExplorer {
                 if (transactions !== null) {
                     //console.log("tx mempool:");
                     //console.log(transactions);
-                    //console.log("node:");
-                    //console.log(self.serverAddress);
+                    console.log('connect to ' + self.serverAddress);
                     resolve(transactions);
                 }
             }).fail(function (data: any) {

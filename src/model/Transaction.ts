@@ -140,6 +140,25 @@ export class Transaction {
         return amount;
     }
 
+    getAmountInChangedCurrency(currencyName: string) {
+        let amount = 0;
+        for (let out of this.outs) {
+            amount += out.amount;
+        }
+        for (let nin of this.ins) {
+            amount -= nin.amount;
+        }
+        amount = amount/100000000;
+
+        let self = this;
+        let randInt = Math.floor(Math.random() * Math.floor(config.apiUrl.length));
+        $.ajax({
+            url:config.apiUrl[randInt]+'price.php?currency='+currencyName
+        }).done(function(data : any){
+            return amount * parseFloat(data.value);
+        });
+    }
+
     isConfirmed(blockchainHeight: number) {
         if (this.blockHeight + config.txMinConfirms < blockchainHeight) {
             return true;
