@@ -1,8 +1,6 @@
 let global: any = typeof window !== 'undefined' ? window : self;
 global.config = {
 	apiUrl: [
-		"https://03.cache.myqwertycoin.com/",
-		"https://02.cache.myqwertycoin.com/",
 		"https://01.cache.myqwertycoin.com/"
 	],
 	electionApiUrl: "https://voting.qwertycoin.org/api",

@@ -123,7 +123,7 @@ class AccountView extends DestructableView{
 		let self = this;
 		let randInt = Math.floor(Math.random() * Math.floor(config.apiUrl.length));
 		$.ajax({
-			url:config.apiUrl[randInt]+'price/price.php?currency='+self.countrycurrency
+			url:config.apiUrl[randInt]+'price.php?currency='+self.countrycurrency
 		}).done(function(data : any){
 			self.walletAmountCurrency = wallet.amount * data.value;
 		});
