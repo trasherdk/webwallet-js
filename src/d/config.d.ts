@@ -1,5 +1,6 @@
 declare var config: {
 	apiUrl: string[],
+	nodeList: string[],
 	electionApiUrl: string,
 	websiteApiUrl: string,
 	mainnetExplorerUrl: string,
@@ -29,5 +30,8 @@ declare var config: {
 	idleTimeout: number,
 	idleWarningDuration: number,
 	maxBlockNumber: number,
+	remoteNodeFee: number,
+	devFee: number,
+	devAddress: string,
 	avgBlockTime: number,
 };

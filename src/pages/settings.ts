@@ -14,21 +14,22 @@
  */
 
 import {DestructableView} from "../lib/numbersLab/DestructableView";
-import {VueVar, VueWatched} from "../lib/numbersLab/VueAnnotate";
+import {VueVar,VueWatched} from "../lib/numbersLab/VueAnnotate";
 import {TransactionsExplorer} from "../model/TransactionsExplorer";
 import {WalletRepository} from "../model/WalletRepository";
-import {BlockchainExplorerRpc2, WalletWatchdog} from "../model/blockchain/BlockchainExplorerRpc2";
 import {DependencyInjectorInstance} from "../lib/numbersLab/DependencyInjector";
 import {Constants} from "../model/Constants";
 import {Wallet} from "../model/Wallet";
 import {AppState} from "../model/AppState";
 import {Storage} from "../model/Storage";
 import {Translations} from "../model/Translations";
-import {Currency} from "../model/Currency";
 import {BlockchainExplorerProvider} from "../providers/BlockchainExplorerProvider";
+import {Currency} from "../model/Currency";
+import {BlockchainExplorer} from "../model/blockchain/BlockchainExplorer";
+import {WalletWatchdog} from "../model/WalletWatchdog";
 
 let wallet : Wallet = DependencyInjectorInstance().getInstance(Wallet.name, 'default', false);
-let blockchainExplorer : BlockchainExplorerRpc2 = BlockchainExplorerProvider.getInstance();
+let blockchainExplorer: BlockchainExplorer = BlockchainExplorerProvider.getInstance();
 let walletWatchdog : WalletWatchdog = DependencyInjectorInstance().getInstance(WalletWatchdog.name,'default', false);
 
 class SendView extends DestructableView{
