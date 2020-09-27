@@ -1,8 +1,5 @@
 let global: any = typeof window !== 'undefined' ? window : self;
 global.config = {
-	apiUrl: [
-		"https://05-cache.myqwertycoin.com/"
-	],
 	nodeList: [
 		"https://pr01.myqwertycoin.com/sync/",
 		"https://pr02.myqwertycoin.com/sync/"

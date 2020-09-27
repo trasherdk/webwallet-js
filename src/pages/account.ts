@@ -20,11 +20,15 @@ import {DestructableView} from "../lib/numbersLab/DestructableView";
 import {Constants} from "../model/Constants";
 import {AppState} from "../model/AppState";
 import {Transaction, TransactionIn} from "../model/Transaction";
+import {VueFilterSatoshis, VueFilterFiat} from "../filters/Filters";
 import {Storage} from "../model/Storage";
 import {Currency} from "../model/Currency";
 
 let wallet : Wallet = DependencyInjectorInstance().getInstance(Wallet.name,'default', false);
 let blockchainExplorer = DependencyInjectorInstance().getInstance(Constants.BLOCKCHAIN_EXPLORER);
+
+@VueRequireFilter('satoshis', VueFilterSatoshis)
+@VueRequireFilter('fiat', VueFilterFiat)
 
 class AccountView extends DestructableView{
 	@VueVar([]) transactions !: Transaction[];
@@ -36,9 +40,11 @@ class AccountView extends DestructableView{
 	@VueVar(0) blockchainHeight !: number;
 	@VueVar(Math.pow(10, config.coinUnitPlaces)) currencyDivider !: number;
 
-	@VueVar('btc') countrycurrency !: string;
+	@VueVar(0) geckoCurrentPrice !: any;
+	@VueVar(0) currency !: string;
 
 	intervalRefresh : number = 0;
+	intervalPrice: number = 0;
 
 	constructor(container : string){
 		super(container);
@@ -46,12 +52,20 @@ class AccountView extends DestructableView{
 		AppState.enableLeftMenu();
 		this.intervalRefresh = setInterval(function(){
 			self.refresh();
-		}, 1*1000);
+		}, 1000);
+		this.intervalPrice = setInterval(() => {
+			self.refreshPrice();
+		}, 60 * 1000);
 		this.refresh();
+		this.refreshPrice();
+		Currency.getCurrency().then((currency: string) => {
+			this.currency = currency;
+		});
 	}
 
 	destruct(): Promise<void> {
 		clearInterval(this.intervalRefresh);
+		clearInterval(this.intervalPrice);
 		return super.destruct();
 	}
 
@@ -115,18 +129,27 @@ class AccountView extends DestructableView{
 		if(wallet.getAll().length+wallet.txsMem.length !== this.transactions.length) {
 			this.transactions = wallet.txsMem.concat(wallet.getTransactionsCopy().reverse());
 		}
-		Currency.getCurrency().then((currency : string) => {
-			if(currency == null)
-				currency = 'btc';
-			this.countrycurrency = currency;
-		});
+	}
+
+	refreshPrice() {
 		let self = this;
-		let randInt = Math.floor(Math.random() * Math.floor(config.apiUrl.length));
-		$.ajax({
-			url:config.apiUrl[randInt]+'price.php?currency='+self.countrycurrency
-		}).done(function(data : any){
-			self.walletAmountCurrency = wallet.amount * data.value;
+		Currency.getCurrency().then((currency: string) => {
+			this.currency = currency;
 		});
+
+		self.getCoin('qwertycoin').then((json: any) => {
+			let temp = json;
+			self.geckoCurrentPrice = temp;
+		})
+	}
+
+	getCoin(coin: string): Promise<any> {
+		if (Constants.DEBUG_STATE) {
+			console.log(`Starting to fetch ${coin} market_data.`);
+		}
+
+		return fetch(`https://api.coingecko.com/api/v3/coins/${coin}`)
+			.then(res => res.json())
 	}
 }
 

@@ -26,7 +26,6 @@ import {AppState} from "../model/AppState";
 import {BlockchainExplorerProvider} from "../providers/BlockchainExplorerProvider";
 import {NdefMessage, Nfc} from "../model/Nfc";
 import {Currency} from "../model/Currency";
-import {Functions} from "../model/Functions";
 import {BlockchainExplorer} from "../model/blockchain/BlockchainExplorer";
 import {Cn} from "../model/Cn";
 import {WalletWatchdog} from "../model/WalletWatchdog";
@@ -36,6 +35,9 @@ let wallet: Wallet = DependencyInjectorInstance().getInstance(Wallet.name, 'defa
 let blockchainExplorer: BlockchainExplorer = BlockchainExplorerProvider.getInstance();
 
 AppState.enableLeftMenu();
+
+@VueRequireFilter('satoshis', VueFilterSatoshis)
+@VueRequireFilter('fiat', VueFilterFiat)
 
 class SendView extends DestructableView {
 	@VueVar('') destinationAddressUser !: string;
@@ -62,6 +64,11 @@ class SendView extends DestructableView {
 	@VueVar(Math.pow(10, config.coinUnitPlaces)) currencyDivider !: number;
 
 	@VueVar('btc') countrycurrency !: string;
+	@VueVar(0) currentScanBlock!: number;
+	@VueVar(0) blockchainHeight!: number;
+
+	@VueVar(0) geckoCurrentPrice !: any;
+	@VueVar(0) currency !: string;
 
 	@Autowire(Nfc.name) nfc !: Nfc;
 
@@ -69,6 +76,9 @@ class SendView extends DestructableView {
 	redirectUrlAfterSend: string | null = null;
 
 	ndefListener : ((data: NdefMessage)=>void)|null = null;
+
+	intervalRefresh: number = 0;
+	intervalPrice: number = 0;
 
 	constructor(container: string) {
 		super(container);
@@ -88,19 +98,52 @@ class SendView extends DestructableView {
 		this.walletAmount = wallet.amount;
 		this.unlockedWalletAmount = wallet.unlockedAmount(wallet.lastHeight);
 
-		Currency.getCurrency().then((currency : string) => {
-			if(currency == null)
-				currency = 'btc';
-			this.countrycurrency = currency;
-		});
-
 		let self = this;
-		let randInt = Math.floor(Math.random() * Math.floor(config.apiUrl.length));
-		$.ajax({
-			url:config.apiUrl[randInt]+'price.php?currency='+self.countrycurrency
-		}).done(function(data : any){
-			self.walletAmountCurrency = wallet.amount * data.value * 10000;
+		this.intervalRefresh = setInterval(function () {
+			self.refresh();
+		}, 1000);
+		this.intervalPrice = setInterval(function () {
+			self.refreshPrice();
+		}, 60 * 1000);
+		this.refresh();
+		this.refreshPrice();
+		Currency.getCurrency().then((currency: string) => {
+			this.currency = currency;
 		});
+	}
+
+	refresh() {
+		let self = this;
+		blockchainExplorer.getHeight().then(function (height: number) {
+			self.blockchainHeight = height;
+		});
+		self.refreshWallet();
+	}
+
+	refreshWallet() {
+		let self = this;
+
+		this.currentScanBlock = wallet.lastHeight;
+		this.walletAmount = wallet.amount;
+		this.unlockedWalletAmount = wallet.unlockedAmount(this.currentScanBlock);
+	}
+
+	refreshPrice() {
+		let self = this;
+		Currency.getCurrency().then((currency: string) => {
+			this.currency = currency;
+		});
+		self.getCoin('qwertycoin').then((json: any) => {
+			let temp = json;
+			self.geckoCurrentPrice = temp;
+		});
+	}
+
+	// grab coin info from coingecko
+	getCoin(coin: string): Promise<any> {
+		console.log(`Starting to fetch ${coin} market_data.`)
+		return fetch(`https://api.coingecko.com/api/v3/coins/${coin}`)
+			.then(res => res.json())
 	}
 
 	reset() {
