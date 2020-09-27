@@ -1,6 +1,6 @@
 /**
- *     Copyright (c) 2019, ExploShot
- *     Copyright (c) 2019, The Qwertycoin Project
+ *     Copyright (c) 2019-2020, ExploShot
+ *     Copyright (c) 2019-2020, The Qwertycoin Project
  * 
  *     All rights reserved.
  *     Redistribution and use in source and binary forms, with or without modification,

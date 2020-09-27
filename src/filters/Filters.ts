@@ -1,9 +1,7 @@
 /**
- *	   Copyright (c) 2018, Gnock
  *     Copyright (c) 2018-2020, ExploShot
  *     Copyright (c) 2018-2020, The Qwertycoin Project
- *     Copyright (c) 2018-2020, The Masari Project
- *     Copyright (c) 2014-2018, MyMonero.com
+ *     Copyright (c) 2020, The Masari Project
  *
  *     All rights reserved.
  *     Redistribution and use in source and binary forms, with or without modification,
@@ -31,32 +29,52 @@
  *     SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-export class MathUtil{
+export function VueFilterSatoshis(value: number) {
+    return '₿ ' + value.toFixed(8)
+}
 
-	static randomFloat(){
-		const randomBuffer = new Uint32Array(1);
-		window.crypto.getRandomValues(randomBuffer);
-		return randomBuffer[0] / (0xffffffff + 1);
-	}
+export function VueFilterPiconero(value: number) {
+    return value.toFixed(12)
+}
 
-	static randomUint32(){
-		const randomBuffer = new Uint32Array(1);
-		window.crypto.getRandomValues(randomBuffer);
-		return randomBuffer[0];
-	}
+export function VueFilterFiat(value: number, currency: string) {
+    if (currency == 'usd' || currency == 'aud' || currency == 'cad' || currency == 'nzd') {
+        return '$ ' + value.toFixed(2);
+    }
+    if (currency == 'eur') {
+        return '€ ' + value.toFixed(2);
+    }
+    if (currency == 'jpy') {
+        return '¥ ' + value.toFixed(2);
+    }
+    if (currency == 'gbp') {
+        return '£ ' + value.toFixed(2);
+    }
+    if (currency == 'chf') {
+        return 'Fr. ' + value.toFixed(2);
+    }
+    if (currency == 'sek') {
+        return 'kr ' + value.toFixed(2);
+    }
+    if (currency == 'czk') {
+        return 'CZK ' + value.toFixed(2);
+    }
+    if (currency == 'eth') {
+        return 'Ξ ' + value.toFixed(2);
+    }
+    if (currency == 'ltc') {
+        return 'Ł ' + value.toFixed(2);
+    }
+}
 
-	static getRandomInt(min : number, max : number) {
-		return Math.floor(Math.random() * (max - min + 1)) + min;
-	}
+export function VueFilterHashrate(hashrate: number) {
+    let i = 0;
+    let byteUnits = ['H', 'kH', 'MH', 'GH', 'TH', 'PH', 'EH', 'ZH', 'YH'];
 
-	static randomTriangularSimplified(max : number){
-		let r = MathUtil.randomUint32() % (1 << 53);
-		let frac = Math.sqrt(r / (1 << 53));
-		let i = (frac*max)|0;
-		// just in case rounding up to 1 occurs after sqrt
-		if (i == max)
-			--i;
-		return i;
-	}
+    while (hashrate > 1000) {
+        hashrate = hashrate / 1000;
+        i++;
+    }
 
+    return hashrate.toFixed(2) + byteUnits[i];
 }
