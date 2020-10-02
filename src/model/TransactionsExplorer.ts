@@ -61,7 +61,6 @@ type RawOutForTx = {
 	public_key: string,
 	index: number,
 	global_index: number,
-	rct: string,
 	tx_pub_key: string
 };
 
@@ -417,7 +416,6 @@ export class TransactionsExplorer {
 					public_key: out.pubKey,
 					index: out.outputIdx,
 					global_index: out.globalIndex,
-					rct: rct,
 					tx_pub_key: tr.txPubKey,
 				});
 			}

@@ -2138,7 +2138,6 @@ export namespace CnTransactions{
 										   public_key:string,
 										   index:number,
 										   global_index:number,
-										   rct:string,
 										   tx_pub_key:string,
 									   }[],
 									   mix_outs:{
@@ -2235,14 +2234,17 @@ export namespace CnTransactions{
 						key:out.public_key,
 						commit:''
 					};
+					/*
 					if (rct){
 						if (out.rct){
 							oe.commit = out.rct.slice(0,64); //add commitment from rct mix outs
 						} else {
-							if (outputs[i].rct) {throw "mix rct outs missing commit";}
+							if (outputs[i]['rct']) {throw "mix rct outs missing commit";}
 							oe.commit = zeroCommit(CnUtils.d2s(src.amount)); //create identity-masked commitment for non-rct mix input
 						}
 					}
+
+					 */
 					src.outputs.push(oe);
 					j++;
 				}
@@ -2253,6 +2255,7 @@ export namespace CnTransactions{
 				commit:'',
 			};
 			console.log('OUT FOR REAL:',outputs[i].global_index);
+			/*
 			if (rct){
 				if (outputs[i].rct) {
 					real_oe.commit = outputs[i].rct.slice(0,64); //add commitment for real input
@@ -2261,6 +2264,8 @@ export namespace CnTransactions{
 					real_oe.commit = zeroCommit(CnUtils.d2s(src.amount)); //create identity-masked commitment for non-rct input
 				}
 			}
+
+			 */
 			let real_index = src.outputs.length;
 			for (j = 0; j < src.outputs.length; j++) {
 				if (new JSBigInt(real_oe.index).compare(src.outputs[j].index) < 0) {
@@ -2276,6 +2281,7 @@ export namespace CnTransactions{
 			src.real_out = real_index;
 			src.real_out_in_tx = outputs[i].index;
 			console.log('check mask', outputs, rct, i);
+			/*
 			if (rct){
 				if (outputs[i].rct) {
 					src.mask = outputs[i].rct.slice(64,128); //encrypted or idenity mask for coinbase txs.
@@ -2284,6 +2290,8 @@ export namespace CnTransactions{
 					src.mask = null; //will be set by generate_key_image_helper_rct
 				}
 			}
+
+			 */
 			sources.push(src);
 		}
 		console.log('sources: ', sources);
