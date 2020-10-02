@@ -275,7 +275,14 @@ body.transparent #copyright{
 }
 
 .walletAmount {
-	font-size: 30px;
+	display: block;
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+
+.btcValue {
+	font-size: 1rem;
+	display: block;
 }
 
 .contacts table {
