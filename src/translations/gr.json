@@ -1,7 +1,7 @@
 {
   "website": {
-    "title": "Επίσημο πορτοφόλι ιστού Qwertycoin",
-    "description": "Επίσημο online πορτοφόλι για το νόμισμα Qwertycoin - ανώνυμο, ασφαλές, και πλήρως διαχειριζόμενο από τον φυλλομετρητή σας για μέγιστη ασφάλεια"
+    "title": "Επίσημο πορτοφόλι ιστού Societatis",
+    "description": "Επίσημο online πορτοφόλι για το νόμισμα Societatis - ανώνυμο, ασφαλές, και πλήρως διαχειριζόμενο από τον φυλλομετρητή σας για μέγιστη ασφάλεια"
   },
   "messages": {
     "menu": {
@@ -65,9 +65,9 @@
       "github": "GitHub"
     },
     "homepage": {
-      "mainTitle": "Ασφαλισμένο Πορτοφόλι Qwertycoin",
-      "tagLine": "Ο απλούστερος τρόπος χρήσης του Qwertycoin - οπουδήποτε, οποτεδήποτε",
-      "tagLineTwo": "Ο απλούστερος τρόπος χρήσης του Qwertycoin",
+      "mainTitle": "Ασφαλισμένο Πορτοφόλι Societatis",
+      "tagLine": "Ο απλούστερος τρόπος χρήσης του Societatis - οπουδήποτε, οποτεδήποτε",
+      "tagLineTwo": "Ο απλούστερος τρόπος χρήσης του Societatis",
       "actions": {
         "loadWallet": "Φόρτωσε το πορτοφόλι μου",
         "importWallet": "Εισαγωγή πορτοφολιού",
@@ -170,7 +170,7 @@
       },
       "finalizationStep": {
         "title": "Αυτό ήταν απλό. Ο λογαριασμός σας είναι έτοιμος!",
-        "subtitle": "Ετοιμαστείτε να χρησιμοποιήσετε το Qwertycoin όπως δεν το έχετε ξανακάνει",
+        "subtitle": "Ετοιμαστείτε να χρησιμοποιήσετε το Societatis όπως δεν το έχετε ξανακάνει",
         "passwordSelectionBlock": {
           "label": "Προστατέψτε το πορτοφόλι σας με έναν κωδικό"
         },
@@ -193,8 +193,8 @@
         }
       },
       "disclaimerBlock": {
-        "title": "Κίνδυνος χρήσης του QwertycoinWallet",
-        "content": "Το QwertycoinWallet είναι ένα πορτοφόλι βασισμένο στον ιστό. Σας επιτρέπει να χρησιμοποιήσετε το Qwertycoin χωρίς να χρειάζετε να λειτουργείτε έναν δικό σας κόμβο Qwertycoin. <br/> Σας συνιστούμε να θεωρείτε το QwertycoinWallet ως ένα κανονικό πορτοφόλι"
+        "title": "Κίνδυνος χρήσης του SocietatisWallet",
+        "content": "Το SocietatisWallet είναι ένα πορτοφόλι βασισμένο στον ιστό. Σας επιτρέπει να χρησιμοποιήσετε το Societatis χωρίς να χρειάζετε να λειτουργείτε έναν δικό σας κόμβο Societatis. <br/> Σας συνιστούμε να θεωρείτε το SocietatisWallet ως ένα κανονικό πορτοφόλι"
       }
     },
     "donatePage": {
@@ -204,9 +204,9 @@
         "title": "Webwallet",
         "content": "Αυτό το πορτοφόλι ιστού αναπτύχθηκε από τον Gnock στον ελεύθερό του χρόνο.<br/> Εαν θέλετε να βοηθήσετε στην ανάπτυξη, να συνεισφέρετε στα έξοδα των διακομιστών και σας αρέσει αυτή η εφαρμογή, παρακαλώ σκεφτείτε να κάνετε μια δωρεά: <br/><br/>"
       },
-      "QwertycoinFundBlock": {
-        "title": "Qwertycoin Dev fund",
-        "content": "Για να βοηθήσετε το Qwertycoin, μπορείτε να κάνετε δωρεά στις παρακάτω διευθύνσεις"
+      "SocietatisFundBlock": {
+        "title": "Societatis Dev fund",
+        "content": "Για να βοηθήσετε το Societatis, μπορείτε να κάνετε δωρεά στις παρακάτω διευθύνσεις"
       }
     },
     "supportPage": {
@@ -215,12 +215,12 @@
       "getInTouchBlock": {
         "title": "Ας έρθουμε σε επικοινωνία!",
         "content": "'Εχετε ιδέες που θα μπορούσαν να μας βοηθήσουν να βελτιώσουμε το πορτοφόλι; Επικοινωνήστε μαζί μας!",
-        "discord": "Qwertycoin Discord Channel"
+        "discord": "Societatis Discord Channel"
       }
     },
     "networkPage": {
       "title": "Στατιστικά Δικτύου΄",
-      "subtitle": "Επισκόπηση τπυ δικτύου Qwertycoin",
+      "subtitle": "Επισκόπηση τπυ δικτύου Societatis",
       "statsBlock": {
         "connectNode": "Συνδεδεμένο Masternode",
         "hashrate": "Network hashrate",
@@ -262,7 +262,7 @@
       },
       "thankYouDonationModal": {
         "title": "Ευχαριστούμε για τη δωρεά σας!",
-        "content": "Εκτιμούμε τη βοήθειά σας. <br/>Αυτή η δωρεά θα βοηθήσει στο να κάνουμε το Qwertycoin καλύτερο",
+        "content": "Εκτιμούμε τη βοήθειά σας. <br/>Αυτή η δωρεά θα βοηθήσει στο να κάνουμε το Societatis καλύτερο",
         "confirmText": "OK"
       },
       "transferSentModal": {
@@ -341,7 +341,7 @@
         "hashrate": "Hashrate",
         "maxHashrate": "Μέγιστο Hashrate",
         "dedicatedHardware": "Με εξειδικευμένο λογισμικό και υλισμοκό για mining μπορείτε να αμοιφθείτε περισσότερα και να βοηθήσει στην αποκέντρωση του δικτύου.",
-        "miningHandledBy": "Το mining σε αυτή τη σελίδα διαχειρίζεται από το pool https://qwertycoin.org"
+        "miningHandledBy": "Το mining σε αυτή τη σελίδα διαχειρίζεται από το pool https://societatis.io"
       }
     },
     "settingsPage": {

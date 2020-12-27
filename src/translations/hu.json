@@ -1,7 +1,7 @@
 {
   "website": {
-    "title": "Hivatalos Qwertycoin webtárca",
-    "description": "A Qwertycoin hivatalos online tárcája - névtelen, biztonságos és teljes mértékben böngészőből kezelt az optimális biztonság érdekében"
+    "title": "Hivatalos Societatis webtárca",
+    "description": "A Societatis hivatalos online tárcája - névtelen, biztonságos és teljes mértékben böngészőből kezelt az optimális biztonság érdekében"
   },
   "messages": {
     "menu": {
@@ -65,9 +65,9 @@
       "github": "GitHub"
     },
     "homepage": {
-      "mainTitle": "Biztonságos Qwertycoin tárca",
-      "tagLine": "A Qwertycoin használatának legegyszerűbb módja - bárhol és bármikor",
-      "tagLineTwo": "A legegyszerűbb módja a Qwertycoin használatának",
+      "mainTitle": "Biztonságos Societatis tárca",
+      "tagLine": "A Societatis használatának legegyszerűbb módja - bárhol és bármikor",
+      "tagLineTwo": "A legegyszerűbb módja a Societatis használatának",
       "actions": {
         "loadWallet": "Tárca betöltése",
         "importWallet": "Tárcaimportálás",
@@ -170,7 +170,7 @@
       },
       "finalizationStep": {
         "title": "Ez egyszerű volt. A számlád rendelkezésre áll!",
-        "subtitle": "Állj készen a Qwertycoin használatára",
+        "subtitle": "Állj készen a Societatis használatára",
         "passwordSelectionBlock": {
           "label": "Védd a tárcád"
         },
@@ -193,8 +193,8 @@
         }
       },
       "disclaimerBlock": {
-        "title": "A QwertycoinWallet használatának kockázatai",
-        "content": "A QwertycoinWallet egy webes felület, mely lehetővé teszi a Qwertycoin használatát teljes csomópont futtatása nélkül.<br/>Kezeld úgy a QwertycoinWalletet, mintha az a valódi pénztárcád lenne."
+        "title": "A SocietatisWallet használatának kockázatai",
+        "content": "A SocietatisWallet egy webes felület, mely lehetővé teszi a Societatis használatát teljes csomópont futtatása nélkül.<br/>Kezeld úgy a SocietatisWalletet, mintha az a valódi pénztárcád lenne."
       }
     },
     "donatePage": {
@@ -205,8 +205,8 @@
         "content": "A webtárcát Gnock fejleszti szabadidejében.<br/>Ha szeretnéd segíteni a fejlesztést, a szerverek fizetését és tetszik az applikáció, úgy vedd fontolóra az adományozást:<br/><br/>"
       },
       "devFundBlock": {
-        "title": "Qwertycoin fejlesztési alap",
-        "content": "Ha szeretnél segíteni a Qwertycoinnak, az alábbi címekre adományozhatsz"
+        "title": "Societatis fejlesztési alap",
+        "content": "Ha szeretnél segíteni a Societatisnak, az alábbi címekre adományozhatsz"
       }
     },
     "supportPage": {
@@ -215,12 +215,12 @@
       "getInTouchBlock": {
         "title": "Lépjünk kapcsolatba!",
         "content": "Visszajelzésed vagy ötleted van a tárcával kapcsolatban? Keress fel bennünket!",
-        "discord": "Qwertycoin Discord-csatorna"
+        "discord": "Societatis Discord-csatorna"
       }
     },
     "networkPage": {
       "title": "Hálózati statisztika",
-      "subtitle": "Betekintés a Qwertycoin hálózatába",
+      "subtitle": "Betekintés a Societatis hálózatába",
       "statsBlock": {
         "connectNode": "Csatlakoztatott Masternode",
         "hashrate": "Hálózati hashrate",
@@ -262,7 +262,7 @@
       },
       "thankYouDonationModal": {
         "title": "Köszönjük az adományt!",
-        "content": "Értékeljük a segítséged.<br/>Ez az adomány is segít jobbá tenni a Qwertycoint.",
+        "content": "Értékeljük a segítséged.<br/>Ez az adomány is segít jobbá tenni a Societatist.",
         "confirmText": "OK"
       },
       "transferSentModal": {
@@ -327,7 +327,7 @@
     },
     "miningPage": {
       "title": "Bányássz közvetlenül böngészőből",
-      "subtitle": "Támogasd a hálózatot a bányászással és szerezz érte jutalmat Qwertycoinban",
+      "subtitle": "Támogasd a hálózatot a bányászással és szerezz érte jutalmat Societatisban",
       "parameterBlock": {
         "title": "Paraméterek",
         "labelDestinationAddress": "Céltárca",
@@ -341,7 +341,7 @@
         "hashrate": "Hashrate",
         "maxHashrate": "Maximális hashrate",
         "dedicatedHardware": "Bányászásra dedikált szoftver és hardver használatával nagyobb bevételre tehetsz szert és segíthetsz a hálózat decentralizálásában.",
-        "miningHandledBy": "Ezt a bányászást a pool.qwertycoin.org pool kezeli"
+        "miningHandledBy": "Ezt a bányászást a pool.societatis.io pool kezeli"
       }
     },
     "settingsPage": {

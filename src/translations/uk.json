@@ -1,7 +1,7 @@
 {
   "website": {
-    "title": "Веб-гаманець Qwertycoin",
-    "description": "Офіційний онлайн гаманець криптовалюти Qwertycoin - анонімний, надійний, працює повністю у вашому браузері для найвищої безпеки"
+    "title": "Веб-гаманець Societatis",
+    "description": "Офіційний онлайн гаманець криптовалюти Societatis - анонімний, надійний, працює повністю у вашому браузері для найвищої безпеки"
   },
   "messages": {
     "menu": {
@@ -65,9 +65,9 @@
       "github": "GitHub"
     },
     "homepage": {
-      "mainTitle": "Безпечний Гаманець Qwertycoinванця",
+      "mainTitle": "Безпечний Гаманець Societatisванця",
       "tagLine": "де завгодно. в будь-який час. будь яке місце. будь-який пристрій.",
-      "tagLineTwo": "Найпростіший спосіб використання Qwertycoin",
+      "tagLineTwo": "Найпростіший спосіб використання Societatis",
       "actions": {
         "loadWallet": "Завантажити мій гаманець",
         "importWallet": "Імпортувати гаманець",
@@ -170,7 +170,7 @@
       },
       "finalizationStep": {
         "title": "Все. Ваш гаманець готовий!",
-        "subtitle": "Приготуйтеся використовувати Qwertycoin як ніколи до цього",
+        "subtitle": "Приготуйтеся використовувати Societatis як ніколи до цього",
         "passwordSelectionBlock": {
           "label": "Захистіть ваш гаманець"
         },
@@ -193,8 +193,8 @@
         }
       },
       "disclaimerBlock": {
-        "title": "Ризики використання QwertycoinWallet",
-        "content": "QwertycoinWallet це веб-інтерфейс. Він допомагає вам використовувати Qwertycoin без необхідності тримати повний вузол мережі Qwertycoin. <br/>Ми рекомендуємо ставитися до QwertycoinWallet з усією серйозністю, як до вашого гаманця."
+        "title": "Ризики використання SocietatisWallet",
+        "content": "SocietatisWallet це веб-інтерфейс. Він допомагає вам використовувати Societatis без необхідності тримати повний вузол мережі Societatis. <br/>Ми рекомендуємо ставитися до SocietatisWallet з усією серйозністю, як до вашого гаманця."
       }
     },
     "donatePage": {
@@ -205,8 +205,8 @@
         "content": "Якщо ви хочете підтримати розробку, допомогти з оплатою хостингу, якщо вам подобається аплікація, будь ласка зробіть пожертву: <br/><br/>"
       },
       "devFundBlock": {
-        "title": "Офіційний фонд Qwertycoin",
-        "content": "Щоб підтримати Qwertycoinванець, ви можете зробити пожертвування на ці адреси"
+        "title": "Офіційний фонд Societatis",
+        "content": "Щоб підтримати Societatisванець, ви можете зробити пожертвування на ці адреси"
       }
     },
     "supportPage": {
@@ -215,12 +215,12 @@
       "getInTouchBlock": {
         "title": "Зв'яжіться з нами!",
         "content": "Є ідеї або побажання щодо поліпшення гаманця? Напишіть нам!",
-        "discord": "Канал Qwertycoin в Discord"
+        "discord": "Канал Societatis в Discord"
       }
     },
     "networkPage": {
       "title": "Статистика мережі",
-      "subtitle": "Огляд мережі Qwertycoin",
+      "subtitle": "Огляд мережі Societatis",
       "statsBlock": {
         "connectNode": "Підключено Masternode",
         "hashrate": "Хешрейт",
@@ -262,7 +262,7 @@
       },
       "thankYouDonationModal": {
         "title": "Спасибі за ваше пожертвування!",
-        "content": "Ми цінуємо вашу підтримку. <br/>Це пожертвування допоможе зробити Qwertycoin краще",
+        "content": "Ми цінуємо вашу підтримку. <br/>Це пожертвування допоможе зробити Societatis краще",
         "confirmText": "Гаразд"
       },
       "transferSentModal": {
@@ -340,8 +340,8 @@
         "validShares": "Валідні частки",
         "hashrate": "Хешрейт",
         "maxHashrate": "Макс. Хешрейт",
-        "dedicatedHardware": "Майнінг допомагає в децентралізації мережі і дозволяє вам заробити Qwertycoinванці.",
-        "miningHandledBy": "Майнінг проходить на пулі https://pool.qwertycoin.org"
+        "dedicatedHardware": "Майнінг допомагає в децентралізації мережі і дозволяє вам заробити Societatisванці.",
+        "miningHandledBy": "Майнінг проходить на пулі https://pool.societatis.io"
       }
     },
     "settingsPage": {

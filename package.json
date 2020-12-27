@@ -1,7 +1,7 @@
 {
-  "name": "qwertycoinwebwallet",
+  "name": "societatiswebwallet",
   "version": "2.0.2",
-  "description": "Fully client side web wallet for Qwertycoin",
+  "description": "Fully client side web wallet for Societatis",
   "main": "index.js",
   "dependencies": {
     "typescript": "^2.9.2",

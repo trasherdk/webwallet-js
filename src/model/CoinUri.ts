@@ -33,8 +33,8 @@
 
 export class CoinUri{
 
-	static coinTxPrefix = 'qwertycoin:';
-	static coinWalletPrefix = 'qwertycoin:';
+	static coinTxPrefix = 'societatis:';
+	static coinWalletPrefix = 'societatis:';
 	static coinAddressLength = 98;
 
 	static decodeTx(str : string) : {

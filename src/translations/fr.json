@@ -1,7 +1,7 @@
 {
   "website": {
-    "title": "Portefeuille officiel en ligne pour Qwertycoin ",
-    "description": "Portefeuille en ligne officiel pour la monnaie Qwertycoin, anonyme, sécurisé et entièrement géré dans votre navigateur for une sécurité optimale"
+    "title": "Portefeuille officiel en ligne pour Societatis ",
+    "description": "Portefeuille en ligne officiel pour la monnaie Societatis, anonyme, sécurisé et entièrement géré dans votre navigateur for une sécurité optimale"
   },
   "messages": {
     "menu": {
@@ -65,9 +65,9 @@
       "github": "GitHub"
     },
     "homepage": {
-      "mainTitle": "Portefeuille sécurisé pour Qwertycoin",
-      "tagLine": "Le moyen le plus simple d'utiliser Qwertycoin, n'importe où, n'importe quand",
-      "tagLineTwo": "Le moyen le plus simple d'utiliser Qwertycoin",
+      "mainTitle": "Portefeuille sécurisé pour Societatis",
+      "tagLine": "Le moyen le plus simple d'utiliser Societatis, n'importe où, n'importe quand",
+      "tagLineTwo": "Le moyen le plus simple d'utiliser Societatis",
       "actions": {
         "loadWallet": "Charger mon portefeuille",
         "importWallet": "Importer un portefeuille",
@@ -170,7 +170,7 @@
       },
       "finalizationStep": {
         "title": "C'était simple. Votre portefeuille est prêt !",
-        "subtitle": "Soyer près à utiliser Qwertycoin le plus simplement possible",
+        "subtitle": "Soyer près à utiliser Societatis le plus simplement possible",
         "passwordSelectionBlock": {
           "label": "Sécuriser mon portefeuille"
         },
@@ -193,8 +193,8 @@
         }
       },
       "disclaimerBlock": {
-        "title": "Risques liés à l'utilisation de QwertycoinWallet",
-        "content": "QwertycoinWallet est un service web. Il vous aide à utiliser Qwertycoin facilement sans avoir un installer des logiciels. <br/>Nous vous conseillons de traiter ce site comme vous traiteriez votre portefeuille."
+        "title": "Risques liés à l'utilisation de SocietatisWallet",
+        "content": "SocietatisWallet est un service web. Il vous aide à utiliser Societatis facilement sans avoir un installer des logiciels. <br/>Nous vous conseillons de traiter ce site comme vous traiteriez votre portefeuille."
       }
     },
     "donatePage": {
@@ -205,8 +205,8 @@
         "content": "Ce portefeuille est développé par Gnock sur son temps libre.<br/>Si vous voulez aider au développement, payer les serveur et que vous aimez ce service, considérez une petite donation: <br/><br/>"
       },
       "devFundBlock": {
-        "title": "Fond de développement de Qwertycoin",
-        "content": "Pour aidez Qwertycoin globalement, vous pouvez donner à cette adresse"
+        "title": "Fond de développement de Societatis",
+        "content": "Pour aidez Societatis globalement, vous pouvez donner à cette adresse"
       }
     },
     "supportPage": {
@@ -215,12 +215,12 @@
       "getInTouchBlock": {
         "title": "Reston en contact !",
         "content": "Vous avez des idées, des retours pour aider à améliorer le service ? Contactez nous !",
-        "discord": "Discord Officiel de Qwertycoin"
+        "discord": "Discord Officiel de Societatis"
       }
     },
     "networkPage": {
       "title": "Statistiques du réseau",
-      "subtitle": "Détails sur le réseaux Qwertycoin",
+      "subtitle": "Détails sur le réseaux Societatis",
       "statsBlock": {
         "connectNode": "Masternode connecté",
         "hashrate": "Hashrate du réseau",
@@ -262,7 +262,7 @@
       },
       "thankYouDonationModal": {
         "title": "Merci pour votre donation !",
-        "content": "Votre aide est apprécié. <br/>Cette donation contribuera à améliorer Qwertycoin",
+        "content": "Votre aide est apprécié. <br/>Cette donation contribuera à améliorer Societatis",
         "confirmText": "Fermer"
       },
       "transferSentModal": {
@@ -341,7 +341,7 @@
         "hashrate": "HashRate",
         "maxHashrate": "HashRate max",
         "dedicatedHardware": "Avec un logiciel spécifique pour le minage, vous pourriez obtenir entre 2 et 3 fois plus de hashrate.<br/>Cela vous permettrait également de miner avec votre carte graphique (si vous en avez une).",
-        "miningHandledBy": "Le minage est géré par la pool pool.qwertycoin.org"
+        "miningHandledBy": "Le minage est géré par la pool pool.societatis.io"
       }
     },
     "settingsPage": {

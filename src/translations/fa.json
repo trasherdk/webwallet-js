@@ -1,7 +1,7 @@
 {
   "website": {
-    "title": "کیف پول Qwertycoin رسمی",
-    "description": "کیف پول Qwertycoin به طور کامل امن و کاربر است و تمام کربوهیدرات شما در دستگاه شما ذخیره می شود"
+    "title": "کیف پول Societatis رسمی",
+    "description": "کیف پول Societatis به طور کامل امن و کاربر است و تمام کربوهیدرات شما در دستگاه شما ذخیره می شود"
   },
   "messages": {
     "menu": {
@@ -66,7 +66,7 @@
     "homepage": {
       "mainTitle": "کیف پول زیر وب",
       "tagLine": "آسان ترین راه برای استفاده از کربو",
-      "tagLineTwo": "ساده ترین راه استفاده از Qwertycoin",
+      "tagLineTwo": "ساده ترین راه استفاده از Societatis",
       "actions": {
         "loadWallet": "بارگیری کیف پول",
         "importWallet": "درون ریزی کیف پول",

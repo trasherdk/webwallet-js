@@ -1,7 +1,7 @@
 {
   "website": {
-    "title": "Qwertycoin Cüzdanı | Basit, kesintisiz, güvenli. Geleceğe Hoşgeldiniz.",
-    "description": "Qwertycoin para birimi için resmi çevrimiçi cüzdan - en iyi güvenlik için tarayıcınızda tamamen kullanılır"
+    "title": "Societatis Cüzdanı | Basit, kesintisiz, güvenli. Geleceğe Hoşgeldiniz.",
+    "description": "Societatis para birimi için resmi çevrimiçi cüzdan - en iyi güvenlik için tarayıcınızda tamamen kullanılır"
   },
   "messages": {
     "menu": {
@@ -65,9 +65,9 @@
       "github": "GitHub"
     },
     "homepage": {
-      "mainTitle": "Qwertycoin Wallet",
+      "mainTitle": "Societatis Wallet",
       "tagLine": "anywhere. anytime. anyplace. any device.",
-      "tagLineTwo": "The simplest way to use Qwertycoin",
+      "tagLineTwo": "The simplest way to use Societatis",
       "actions": {
         "loadWallet": "Load my wallet",
         "importWallet": "Import a wallet",
@@ -170,7 +170,7 @@
       },
       "finalizationStep": {
         "title": "That was simple. Your account is ready!",
-        "subtitle": "Be ready to use Qwertycoin like you never have",
+        "subtitle": "Be ready to use Societatis like you never have",
         "passwordSelectionBlock": {
           "label": "Protect your wallet"
         },
@@ -193,8 +193,8 @@
         }
       },
       "disclaimerBlock": {
-        "title": "Risk of Using QwertycoinWallet",
-        "content": "QwertycoinWallet is a web-based interface. It helps you use Qwertycoin without running a full Qwertycoin node. <br/>We recommend you treat QwertycoinWallet like you will treat your actual wallet."
+        "title": "Risk of Using SocietatisWallet",
+        "content": "SocietatisWallet is a web-based interface. It helps you use Societatis without running a full Societatis node. <br/>We recommend you treat SocietatisWallet like you will treat your actual wallet."
       }
     },
     "donatePage": {
@@ -205,8 +205,8 @@
         "content": "If you want to help to pay for the servers, to support new features development, and like this app, please consider a donation: <br/><br/>"
       },
       "devFundBlock": {
-        "title": "Qwertycoin Dev fund",
-        "content": "To help Qwertycoin, you can donate at these addresses"
+        "title": "Societatis Dev fund",
+        "content": "To help Societatis, you can donate at these addresses"
       }
     },
     "supportPage": {
@@ -215,12 +215,12 @@
       "getInTouchBlock": {
         "title": "Let's Get In Touch!",
         "content": "Do you have ideas or feedback that could help us improve the wallet? Contact us!",
-        "discord": "Qwertycoin Discord Channel"
+        "discord": "Societatis Discord Channel"
       }
     },
     "networkPage": {
       "title": "Network stats",
-      "subtitle": "Insights on the Qwertycoin network",
+      "subtitle": "Insights on the Societatis network",
       "statsBlock": {
         "connectNode": "Connected Masternode",
         "hashrate": "Network hashrate",
@@ -262,7 +262,7 @@
       },
       "thankYouDonationModal": {
         "title": "Thank you for your donation!",
-        "content": "Your help is appreciated. This donation will help make Qwertycoin better",
+        "content": "Your help is appreciated. This donation will help make Societatis better",
         "confirmText": "OK"
       },
       "transferSentModal": {
@@ -341,7 +341,7 @@
         "hashrate": "Hashrate",
         "maxHashrate": "Max Hashrate",
         "dedicatedHardware": "With dedicating mining software and hardware, you could earn more and help decentralize the network.",
-        "miningHandledBy": "This mining is handled by the mining pool pool.qwertycoin.org"
+        "miningHandledBy": "This mining is handled by the mining pool pool.societatis.io"
       }
     },
     "settingsPage": {

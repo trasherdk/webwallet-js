@@ -1,7 +1,7 @@
 {
   "website": {
-    "title": "Веб-кошелек Qwertycoin",
-    "description": "Официальный онлайн кошелек криптовалюты Qwertycoin - анонимный, надежный, работающий полностью в вашем браузере для наилучшей безопасности"
+    "title": "Веб-кошелек Societatis",
+    "description": "Официальный онлайн кошелек криптовалюты Societatis - анонимный, надежный, работающий полностью в вашем браузере для наилучшей безопасности"
   },
   "messages": {
     "menu": {
@@ -65,9 +65,9 @@
       "github": "GitHub"
     },
     "homepage": {
-      "mainTitle": "Защищенный Кошелек Qwertycoin",
+      "mainTitle": "Защищенный Кошелек Societatis",
       "tagLine": "в любом месте. в любой момент. любое место. любое устройство.",
-      "tagLineTwo": "Самый простой способ использовать Qwertycoin",
+      "tagLineTwo": "Самый простой способ использовать Societatis",
       "actions": {
         "loadWallet": "Загрузить мой кошелек",
         "importWallet": "Импортировать кошелек",
@@ -170,7 +170,7 @@
       },
       "finalizationStep": {
         "title": "Все. Ваш кошелек готов!",
-        "subtitle": "Приготовьтесь использовать Qwertycoin как никогда до этого",
+        "subtitle": "Приготовьтесь использовать Societatis как никогда до этого",
         "passwordSelectionBlock": {
           "label": "Защитите ваш кошелек"
         },
@@ -193,8 +193,8 @@
         }
       },
       "disclaimerBlock": {
-        "title": "Риски использования QwertycoinWallet",
-        "content": "QwertycoinWallet это веб-интерфейс. Он помогает вам использовать Qwertycoin без необходимости держать полный узел сети Qwertycoin. <br/>Мы рекомендуем относиться к QwertycoinWallet со всей серьезностью, как к вашему бумажнику."
+        "title": "Риски использования SocietatisWallet",
+        "content": "SocietatisWallet это веб-интерфейс. Он помогает вам использовать Societatis без необходимости держать полный узел сети Societatis. <br/>Мы рекомендуем относиться к SocietatisWallet со всей серьезностью, как к вашему бумажнику."
       }
     },
     "donatePage": {
@@ -205,8 +205,8 @@
         "content": "Если вы хотите поддержать разработку, помочь с оплатой хостинга, если вам нравится аппликация, пожалуйста сделайте пожертвование: <br/><br/>"
       },
       "devFundBlock": {
-        "title": "Официальный фонд Qwertycoin",
-        "content": "Чтобы поддержать Qwertycoinванец, вы можете сделать пожертвование на эти адреса"
+        "title": "Официальный фонд Societatis",
+        "content": "Чтобы поддержать Societatisванец, вы можете сделать пожертвование на эти адреса"
       }
     },
     "supportPage": {
@@ -215,12 +215,12 @@
       "getInTouchBlock": {
         "title": "Свяжитесь с нами!",
         "content": "Есть идеи или пожелания по улучшению кошелька? Напишите нам!",
-        "discord": "Канал Qwertycoin в Discord"
+        "discord": "Канал Societatis в Discord"
       }
     },
     "networkPage": {
       "title": "Статистика сети",
-      "subtitle": "Обзор сети Qwertycoin",
+      "subtitle": "Обзор сети Societatis",
       "statsBlock": {
         "connectNode": "Подключенный Мастернод",
         "hashrate": "Хешрейт",
@@ -262,7 +262,7 @@
       },
       "thankYouDonationModal": {
         "title": "Спасибо за ваше пожертвование!",
-        "content": "Мы ценим вашу поддержку. <br/>Это пожертвование поможет сделать Qwertycoin лучше",
+        "content": "Мы ценим вашу поддержку. <br/>Это пожертвование поможет сделать Societatis лучше",
         "confirmText": "OK"
       },
       "transferSentModal": {
@@ -340,8 +340,8 @@
         "validShares": "Валидные доли",
         "hashrate": "Хешрейт",
         "maxHashrate": "Макс. Хешрейт",
-        "dedicatedHardware": "Майнинг помогает в децентрализации сети и позволяет вам заработать Qwertycoin.",
-        "miningHandledBy": "Майнинг проходит на пуле https://pool.qwertycoin.org"
+        "dedicatedHardware": "Майнинг помогает в децентрализации сети и позволяет вам заработать Societatis.",
+        "miningHandledBy": "Майнинг проходит на пуле https://pool.societatis.io"
       }
     },
     "settingsPage": {

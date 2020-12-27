@@ -1,7 +1,7 @@
 {
   "website": {
-    "title": "Qwertycoin钱包| 简单，无缝，安全。 欢迎来到未来。",
-    "description": "Qwertycoin币的官方在线钱包 - 完全在浏览器端处理，兼顾最优化的安全性。"
+    "title": "Societatis钱包| 简单，无缝，安全。 欢迎来到未来。",
+    "description": "Societatis币的官方在线钱包 - 完全在浏览器端处理，兼顾最优化的安全性。"
   },
   "messages": {
     "menu": {
@@ -65,9 +65,9 @@
       "github": "GitHub"
     },
     "homepage": {
-      "mainTitle": "Qwertycoin钱包",
+      "mainTitle": "Societatis钱包",
       "tagLine": "无论何时、何地、何种设备。",
-      "tagLineTwo": "使用Qwertycoin最简单的方法",
+      "tagLineTwo": "使用Societatis最简单的方法",
       "actions": {
         "loadWallet": "加载我的钱包",
         "importWallet": "导入钱包",
@@ -170,7 +170,7 @@
       },
       "finalizationStep": {
         "title": "这很简单，您的帐户已准备就绪！",
-        "subtitle": "准备迎接Qwertycoin钱包的全新体验吧！",
+        "subtitle": "准备迎接Societatis钱包的全新体验吧！",
         "passwordSelectionBlock": {
           "label": "保护您的钱包"
         },
@@ -193,8 +193,8 @@
         }
       },
       "disclaimerBlock": {
-        "title": "Qwertycoin钱包安全风险须知",
-        "content": "Qwertycoin钱包是一个基于Web的界面. 它能帮助你在无须运行一个完整的QwertyCoin节点就可以使用QwertyCoin。 <br/>我们建议像对待您真实的钱包那样对待Qwertycoin钱包。"
+        "title": "Societatis钱包安全风险须知",
+        "content": "Societatis钱包是一个基于Web的界面. 它能帮助你在无须运行一个完整的QwertyCoin节点就可以使用QwertyCoin。 <br/>我们建议像对待您真实的钱包那样对待Societatis钱包。"
       }
     },
     "donatePage": {
@@ -205,8 +205,8 @@
         "content": "如果您愿意帮助支付服务器费用，用来支持开发新的功能，或者您喜欢这个应用，那么可以考虑捐助我们: <br/><br/>"
       },
       "devFundBlock": {
-        "title": "Qwertycoin开发者基金",
-        "content": "想捐助Qwertycoin, 您可以捐助到如下这些地址"
+        "title": "Societatis开发者基金",
+        "content": "想捐助Societatis, 您可以捐助到如下这些地址"
       }
     },
     "supportPage": {
@@ -215,12 +215,12 @@
       "getInTouchBlock": {
         "title": "让我们联系吧！",
         "content": "您若有能帮助我们改善钱包哦的建议或者想法，欢迎联系我们!",
-        "discord": "Qwertycoin Discord频道"
+        "discord": "Societatis Discord频道"
       }
     },
     "networkPage": {
       "title": "网络统计",
-      "subtitle": "Qwertycoin网络详情",
+      "subtitle": "Societatis网络详情",
       "statsBlock": {
         "connectNode": "连接的Masternode",
         "hashrate": "网络哈希值",
@@ -262,7 +262,7 @@
       },
       "thankYouDonationModal": {
         "title": "感谢您的捐赠！",
-        "content": "感谢您的帮助。您的捐助将会使Qwertycoin变得更好。",
+        "content": "感谢您的帮助。您的捐助将会使Societatis变得更好。",
         "confirmText": "确认"
       },
       "transferSentModal": {
@@ -341,7 +341,7 @@
         "hashrate": "算力",
         "maxHashrate": "最大算力",
         "dedicatedHardware": "使用算力贡献的挖矿硬件和挖矿软件，你可以获得更多奖励，帮助去中心化的网络。",
-        "miningHandledBy": "本次挖矿由矿池pool.qwertycoin.org处理"
+        "miningHandledBy": "本次挖矿由矿池pool.societatis.io处理"
       }
     },
     "settingsPage": {

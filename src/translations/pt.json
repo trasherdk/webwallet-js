@@ -1,7 +1,7 @@
 {
   "website":{
-	"title":"Carteira Qwertycoin | Simples, sem costura, seguro. Bem vindo ao futuro.",
-	"description":"Carteira online oficial da moeda Qwertycoin - totalmente manipulado em seu navegador para segurança ideal"
+	"title":"Carteira Societatis | Simples, sem costura, seguro. Bem vindo ao futuro.",
+	"description":"Carteira online oficial da moeda Societatis - totalmente manipulado em seu navegador para segurança ideal"
   },
   "messages": {
 	"menu": {
@@ -63,9 +63,9 @@
 	  "github": "GitHub"
 	},
 	"homepage": {
-	  "mainTitle": "Carteira Qwertycoin",
+	  "mainTitle": "Carteira Societatis",
 	  "tagLine": "qualquer lugar. a qualquer momento. qualquer dispositivo.",
-	  "tagLineTwo": "A maneira mais simples de usar Qwertycoin",
+	  "tagLineTwo": "A maneira mais simples de usar Societatis",
 	  "actions": {
 		"loadWallet": "Carregar minha carteira",
 		"importWallet": "Importar uma carteira",
@@ -146,7 +146,7 @@
 	  },
 	  "finalizationStep":{
 		"title":"Isso foi simples. Sua conta está pronta!",
-		"subtitle":"Esteja pronto para usar o Qwertycoin como você nunca viu",
+		"subtitle":"Esteja pronto para usar o Societatis como você nunca viu",
 		"passwordSelectionBlock":{
 		  "label":"Proteja sua carteira"
 		},
@@ -169,8 +169,8 @@
 		}
 	  },
 	  "disclaimerBlock":{
-		"title":"Risco de usar Carteira Qwertycoin",
-		"content":"Carteira Qwertycoin é uma interface baseada na Web. Ajuda você a usar o Qwertycoin sem executar um nó completo do Qwertycoin. <br/> Recomendamos que você trate o QwertycoinWallet como tratará sua carteira real."
+		"title":"Risco de usar Carteira Societatis",
+		"content":"Carteira Societatis é uma interface baseada na Web. Ajuda você a usar o Societatis sem executar um nó completo do Societatis. <br/> Recomendamos que você trate o SocietatisWallet como tratará sua carteira real."
 	  }
 	},
 	"donatePage":{
@@ -181,8 +181,8 @@
 		"content":"Se você quiser ajudar a pagar pelos servidores, apoiar o desenvolvimento de novos recursos e, como este aplicativo, considere uma doação: <br/><br/>"
 	  },
 	  "devFundBlock":{
-		"title":"Fundo Qwertycoin Dev",
-		"content":"Para ajudar o Qwertycoin, você pode doar nesses endereços"
+		"title":"Fundo Societatis Dev",
+		"content":"Para ajudar o Societatis, você pode doar nesses endereços"
 	  }
 	},
 	"supportPage":{
@@ -191,12 +191,12 @@
 	  "getInTouchBlock":{
 		"title":"Vamos entrar em contato!",
 		"content":"Você tem idéias ou comentários que podem nos ajudar a melhorar a carteira? Contate-Nos!",
-		"discord":"Canal Discord de Qwertycoin"
+		"discord":"Canal Discord de Societatis"
 	  }
 	},
 	"networkPage":{
 	  "title":"Estatísticas da rede",
-	  "subtitle":"Informações sobre a rede Qwertycoin",
+	  "subtitle":"Informações sobre a rede Societatis",
 	  "statsBlock":{
 	  	"connectNode": "Masternode conectado",
 		"hashrate":"Hash de rede",
@@ -238,7 +238,7 @@
 	  },
 	  "thankYouDonationModal":{
 		"title":"Obrigado por sua doação!",
-		"content":"Sua ajuda é apreciada. Esta doação ajudará a melhorar o Qwertycoin",
+		"content":"Sua ajuda é apreciada. Esta doação ajudará a melhorar o Societatis",
 		"confirmText":"OK"
 	  },
 	  "transferSentModal":{
@@ -317,7 +317,7 @@
 		"hashrate":"Taxa de hash",
 		"maxHashrate":"Taxa máxima de hash",
 		"dedicatedHardware":"Com a dedicação de software e hardware de mineração, você pode ganhar mais e ajudar a descentralizar a rede.",
-		"miningHandledBy":"Esta mineração é tratado pela associação mineira pool.qwertycoin.org"
+		"miningHandledBy":"Esta mineração é tratado pela associação mineira pool.societatis.io"
 	  }
 	},
 	"settingsPage":{

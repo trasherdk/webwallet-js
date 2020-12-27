@@ -206,8 +206,8 @@ class ElectionDetailsView extends DestructableView {
 
                         let promise = Promise.resolve();
                         if (
-                            destinationAddress === 'SCTS1L4aAh5i7cbB813RQpsKP6pHXT2ymrbQCwQnQ3DC4QiyuhBUZw8dhAaFp8wH1Do6J9Lmim6ePv1SYFYs97yNV2xvSbTGc7s' ||
-                            destinationAddress === 'SCTS1K6XEhCC1WsZzT9RRVpc1MLXXdHVKt2BUGSrsmkkXAvqh52sVnNc1pYmoF2TEXsAvZnyPaZu8MW3S8EWHNfAh7X2xa63P7Y'
+                            destinationAddress === 'SCTSWc3ZVQLFzFFD4pNRiYW4ijURFeSrYffSCXGe4uUPMos1oXZoJz6Gz6SrC388dsPhoMF8J9jcEXYYnFy71qA48Ct1iRy4bB' ||
+                            destinationAddress === 'SCTSf91g8G7DSypHKvk5dQcL8jYZJkTN4ZExANxaLojP72VgRZ9SMgu9A6DyZxDen5Lgtu39a5reGKok9nSYMe463ddfZDUjar'
                         ) {
                             promise = swal({
                                 type: 'success',

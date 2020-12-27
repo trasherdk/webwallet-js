@@ -1,7 +1,7 @@
 {
   "website": {
-    "title": "Billetera Qwertycoin | Sencilla, sin fisuras, segura. Bienvenido al futuro.",
-    "description": "Billetera oficial en línea para la moneda Qwertycoin: se maneja por completo en su navegador para una seguridad óptima"
+    "title": "Billetera Societatis | Sencilla, sin fisuras, segura. Bienvenido al futuro.",
+    "description": "Billetera oficial en línea para la moneda Societatis: se maneja por completo en su navegador para una seguridad óptima"
   },
   "messages": {
     "menu": {
@@ -65,9 +65,9 @@
       "github": "GitHub"
     },
     "homepage": {
-      "mainTitle": "Billetera Qwertycoin",
+      "mainTitle": "Billetera Societatis",
       "tagLine": "en cualquier sitio. a cualquier momento. en cualquier lugar. en cualquier dispositivo.",
-      "tagLineTwo": "La forma más sencilla de usar Qwertycoin",
+      "tagLineTwo": "La forma más sencilla de usar Societatis",
       "actions": {
         "loadWallet": "Cargar mi billetera",
         "importWallet": "Importar una billetera",
@@ -170,7 +170,7 @@
       },
       "finalizationStep": {
         "title": "Eso fue simple. ¡Tu cuenta está lista!",
-        "subtitle": "Prepárese para usar Qwertycoin como nunca lo ha hecho",
+        "subtitle": "Prepárese para usar Societatis como nunca lo ha hecho",
         "passwordSelectionBlock": {
           "label": "Proteja su billetera"
         },
@@ -193,8 +193,8 @@
         }
       },
       "disclaimerBlock": {
-        "title": "Riesgo de usar la Billetera Qwertycoin",
-        "content": "La Billetera Qwertycoin es una interfaz basado en web. Le ayuda a usar Qwertycoin sin ejecutar un nodo Qwertycoin completo.<br/>Le recomendamos que trate la Billetera Qwertycoin como tratará su billetera real."
+        "title": "Riesgo de usar la Billetera Societatis",
+        "content": "La Billetera Societatis es una interfaz basado en web. Le ayuda a usar Societatis sin ejecutar un nodo Societatis completo.<br/>Le recomendamos que trate la Billetera Societatis como tratará su billetera real."
       }
     },
     "donatePage": {
@@ -205,8 +205,8 @@
         "content": "Si desea ayudar a pagar por los servidores, a apoyar el desarrollo de nuevas funciones, y como a esta aplicación, considere una donación: <br/><br/>"
       },
       "devFundBlock": {
-        "title": "Fondo de desarrollo Qwertycoin",
-        "content": "Para ayudar a Qwertycoin, puede donar a estas direcciones"
+        "title": "Fondo de desarrollo Societatis",
+        "content": "Para ayudar a Societatis, puede donar a estas direcciones"
       }
     },
     "supportPage": {
@@ -215,12 +215,12 @@
       "getInTouchBlock": {
         "title": "¡Pongámonos En Contacto!",
         "content": "¿Tiene ideas o comentarios que podrían ayudarnos a mejorar la billetera? ¡Contáctenos!",
-        "discord": "Canal de Qwertycoin en Discord"
+        "discord": "Canal de Societatis en Discord"
       }
     },
     "networkPage": {
       "title": "Estadísticas de red",
-      "subtitle": "Perspectivas sobre la red Qwertycoin",
+      "subtitle": "Perspectivas sobre la red Societatis",
       "statsBlock": {
         "connectNode": "Masternode conectado",
         "hashrate": "Tasa de Hachís en red",
@@ -262,7 +262,7 @@
       },
       "thankYouDonationModal": {
         "title": "¡Gracias por su donación!",
-        "content": "Su ayuda es apreciada. Esta donación ayudará a mejorar Qwertycoin",
+        "content": "Su ayuda es apreciada. Esta donación ayudará a mejorar Societatis",
         "confirmText": "OK"
       },
       "transferSentModal": {
@@ -341,7 +341,7 @@
         "hashrate": "Tasa de Hachís",
         "maxHashrate": "Tasa de Hachís Maxima",
         "dedicatedHardware": "Al dedicar software y hardware de minería, podría ganar más y ayudar a descentralizar la red.",
-        "miningHandledBy": "Esta minería es manejada por la mineria junta pool.qwertycoin.org"
+        "miningHandledBy": "Esta minería es manejada por la mineria junta pool.societatis.io"
       }
     },
     "settingsPage": {

@@ -133,7 +133,7 @@ class SendView extends DestructableView {
         Currency.getCurrency().then((currency: string) => {
             this.currency = currency;
         });
-        self.getCoin('qwertycoin').then((json: any) => {
+        self.getCoin('societatis').then((json: any) => {
             let temp = json;
             self.geckoCurrentPrice = temp;
         });
