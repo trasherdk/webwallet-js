@@ -50,11 +50,11 @@ class ElectionDetailsView extends DestructableView {
     @VueVar('') question!: string;
     @VueVar('') description!: string;
     @VueVar([]) answers!: any[];
-    @VueVar('') qwcPerVote!: string;
+    @VueVar('') sctsPerVote!: string;
     @VueVar('') neededBTC!: string;
     @VueVar('') minimumVotes!: string;
 
-    @VueVar('') qwcPerVote2!: string;
+    @VueVar('') sctsPerVote2!: string;
     @VueVar('') neededBTC2!: string;
     @VueVar('') minimumVotes2!: string;
 
@@ -103,7 +103,7 @@ class ElectionDetailsView extends DestructableView {
             self.question = temp.question;
             self.answers = temp.answers;
             self.description = temp.description.replace(/<br\/>/g, " ");
-            self.qwcPerVote = temp.qwcPerVote;
+            self.sctsPerVote = temp.sctsPerVote;
             self.neededBTC = temp.neededBTC;
             self.minimumVotes = temp.minimumVotes;
         });
@@ -114,7 +114,7 @@ class ElectionDetailsView extends DestructableView {
     send(address: string) {
         let self = this;
         blockchainExplorer.getHeight().then(function (blockchainHeight: number) {
-            let amount = parseFloat(self.qwcPerVote);
+            let amount = parseFloat(self.sctsPerVote);
             if (address !== null) {
                 //todo use BigInteger
                 if (amount * Math.pow(10, config.coinUnitPlaces) > wallet.unlockedAmount(blockchainHeight)) {
@@ -206,8 +206,8 @@ class ElectionDetailsView extends DestructableView {
 
                         let promise = Promise.resolve();
                         if (
-                            destinationAddress === 'QWC1L4aAh5i7cbB813RQpsKP6pHXT2ymrbQCwQnQ3DC4QiyuhBUZw8dhAaFp8wH1Do6J9Lmim6ePv1SYFYs97yNV2xvSbTGc7s' ||
-                            destinationAddress === 'QWC1K6XEhCC1WsZzT9RRVpc1MLXXdHVKt2BUGSrsmkkXAvqh52sVnNc1pYmoF2TEXsAvZnyPaZu8MW3S8EWHNfAh7X2xa63P7Y'
+                            destinationAddress === 'SCTS1L4aAh5i7cbB813RQpsKP6pHXT2ymrbQCwQnQ3DC4QiyuhBUZw8dhAaFp8wH1Do6J9Lmim6ePv1SYFYs97yNV2xvSbTGc7s' ||
+                            destinationAddress === 'SCTS1K6XEhCC1WsZzT9RRVpc1MLXXdHVKt2BUGSrsmkkXAvqh52sVnNc1pYmoF2TEXsAvZnyPaZu8MW3S8EWHNfAh7X2xa63P7Y'
                         ) {
                             promise = swal({
                                 type: 'success',

@@ -107,7 +107,7 @@
 		"emptyWallet": "No momento, você não tem fundos nesta carteira.",
 		"waitSync": "Aguarde até que a carteira seja atualizada",
 		"beReallyPatient": "A configuração inicial pode levar algum tempo...",
-		"getCoinAddress": "Receba QWC"
+		"getCoinAddress": "Receba SCTS"
 	  },
 	  "txDetails":{
 		"title":"Detalhes da transação",
@@ -207,7 +207,7 @@
 	  }
 	},
 	"sendPage":{
-	  "title":"Enviar QWC",
+	  "title":"Enviar SCTS",
 	  "sendBlock":{
 		"address":{
 		  "label":"Endereço de destino",
@@ -275,7 +275,7 @@
 	  }
 	},
 	"receivePage":{
-	  "title":"Receba QWC",
+	  "title":"Receba SCTS",
 	  "receiveBlock":{
 		"address":{
 		  "title":"Seu endereço para receber fundos:",
@@ -303,7 +303,7 @@
 	},
 	"miningPage":{
 	  "title":"Mine diretamente no seu navegador",
-	  "subtitle":"Ofereça suporte à rede por mineração e seja recompensado com a QWC",
+	  "subtitle":"Ofereça suporte à rede por mineração e seja recompensado com a SCTS",
 	  "parameterBlock":{
 		"title":"Parâmetros",
 		"labelDestinationAddress":"Carteira para a minha",

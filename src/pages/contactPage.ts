@@ -31,7 +31,7 @@
 /**
  *  Contacts: 
  *  "Contacts": [
- *      {"ExploShot": "QWC1Nsegh9NRyaSH7A1hch59VpvsjjwZwGRFvEUXFbs9QMj145gXJQDbdcR5r6rTQPX6hPy1ij5SCTr2SFkrnuNBAH1Gh2EshP"}
+ *      {"ExploShot": "SCTS1Nsegh9NRyaSH7A1hch59VpvsjjwZwGRFvEUXFbs9QMj145gXJQDbdcR5r6rTQPX6hPy1ij5SCTr2SFkrnuNBAH1Gh2EshP"}
  *  ]
  */
 
@@ -74,14 +74,14 @@ class ContactPageView extends DestructableView {
     }
 
     hasOneStored(): Promise < boolean > {
-        return Storage.getItem('qwcContacts').then((contacts: any) => {
+        return Storage.getItem('sctsContacts').then((contacts: any) => {
             return JSON.parse(contacts).length !== 0;
         });
     }
 
     getContacts() {
         if (this.hasOneStored()) {
-            return Storage.getItem('qwcContacts').then((contacts: any) => {
+            return Storage.getItem('sctsContacts').then((contacts: any) => {
                 this.contacts = JSON.parse(contacts);
                 /*
                 swal({

@@ -109,7 +109,7 @@
         "emptyWallet": "あなたは現在この財布に資金を持っていません。",
         "waitSync": "財布が更新されるまでお待ちください",
         "beReallyPatient": "初期設定にはしばらく時間がかかります...",
-        "getCoinAddress": "QWCを受け取る"
+        "getCoinAddress": "SCTSを受け取る"
       },
       "txDetails": {
         "title": "取引の詳細",
@@ -231,7 +231,7 @@
       }
     },
     "sendPage": {
-      "title": "QWCを送る",
+      "title": "SCTSを送る",
       "sendBlock": {
         "address": {
           "label": "Destination address",
@@ -299,7 +299,7 @@
       }
     },
     "receivePage": {
-      "title": "Receive QWC",
+      "title": "Receive SCTS",
       "receiveBlock": {
         "address": {
           "title": "Your address to receive funds:",
@@ -327,7 +327,7 @@
     },
     "miningPage": {
       "title": "Mine directly in your browser",
-      "subtitle": "Support the network by mining and be rewarded with QWC",
+      "subtitle": "Support the network by mining and be rewarded with SCTS",
       "parameterBlock": {
         "title": "Parameters",
         "labelDestinationAddress": "Wallet to mine",

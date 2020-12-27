@@ -109,7 +109,7 @@
         "emptyWallet": "Actualmente no tiene fondos en esta billetera.",
         "waitSync": "Por favor, espere hasta que la billetera se actualice",
         "beReallyPatient": "La configuración inicial puede tomar algún tiempo...",
-        "getCoinAddress": "Recibir QWC"
+        "getCoinAddress": "Recibir SCTS"
       },
       "txDetails": {
         "title": "Detalles de la transacción",
@@ -231,7 +231,7 @@
       }
     },
     "sendPage": {
-      "title": "Enviar QWC",
+      "title": "Enviar SCTS",
       "sendBlock": {
         "address": {
           "label": "Dirección de destino",
@@ -299,7 +299,7 @@
       }
     },
     "receivePage": {
-      "title": "Recibir QWC",
+      "title": "Recibir SCTS",
       "receiveBlock": {
         "address": {
           "title": "Su dirección para recibir fondos.:",
@@ -327,7 +327,7 @@
     },
     "miningPage": {
       "title": "Minar directamente en tu navegador",
-      "subtitle": "Apoye la red minando y sea recompensado con QWC",
+      "subtitle": "Apoye la red minando y sea recompensado con SCTS",
       "parameterBlock": {
         "title": "Parámetros",
         "labelDestinationAddress": "Billetera a minar",

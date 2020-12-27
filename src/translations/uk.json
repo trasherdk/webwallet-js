@@ -109,7 +109,7 @@
         "emptyWallet": "У цьому гаманці поки немає коштів.",
         "waitSync": "Будь ласка, зачекайте гаманець оновлює дані",
         "beReallyPatient": "Початкова установка може зайняти деякий час...",
-        "getCoinAddress": "Отримати QWC"
+        "getCoinAddress": "Отримати SCTS"
       },
       "txDetails": {
         "title": "Деталі транзакції",
@@ -231,7 +231,7 @@
       }
     },
     "sendPage": {
-      "title": "Надіслати QWC",
+      "title": "Надіслати SCTS",
       "sendBlock": {
         "address": {
           "label": "Адреса одержувача",
@@ -299,7 +299,7 @@
       }
     },
     "receivePage": {
-      "title": "Отримати QWC",
+      "title": "Отримати SCTS",
       "receiveBlock": {
         "address": {
           "title": "Ваша адреса для отримання:",
@@ -327,7 +327,7 @@
     },
     "miningPage": {
       "title": "Інформація про майнінг",
-      "subtitle": "Підтримайте мережу майнінгом і отримайте в нагороду QWC",
+      "subtitle": "Підтримайте мережу майнінгом і отримайте в нагороду SCTS",
       "parameterBlock": {
         "title": "Параметри",
         "labelDestinationAddress": "Гаманець на який майнити",

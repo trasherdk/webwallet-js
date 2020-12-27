@@ -1,7 +1,7 @@
 {
   "website": {
-    "title": "Qwertycoin Web Wallet",
-    "description": "Offizielle Online Wallet für Qwertycoin Kryptowährung! Anonym, sicher und für optimale Sicherheit vollständig in deinem Browser verwaltet"
+    "title": "Societatis Web Wallet",
+    "description": "Offizielle Online Wallet für Societatis Kryptowährung! Anonym, sicher und für optimale Sicherheit vollständig in deinem Browser verwaltet"
   },
   "messages": {
     "menu": {
@@ -65,9 +65,9 @@
       "github": "GitHub"
     },
     "homepage": {
-      "mainTitle": "Qwertycoin Wallet",
-      "tagLine": "Überall zu jeder Zeit - QWC auf jedem Gerät.",
-      "tagLineTwo": "Der schnellste Weg, Qwertycoin zu verwenden.",
+      "mainTitle": "Societatis Wallet",
+      "tagLine": "Überall zu jeder Zeit - SCTS auf jedem Gerät.",
+      "tagLineTwo": "Der schnellste Weg, Societatis zu verwenden.",
       "actions": {
         "loadWallet": "Lade meine Wallet",
         "importWallet": "Importiere eine Wallet",
@@ -109,7 +109,7 @@
         "emptyWallet": "Du hast zur Zeit kein Guthaben auf dieser Wallet",
         "waitSync": "Warte bis die Wallet synchronisiert ist.",
         "beReallyPatient": "Die erste Einrichtung kann etwas dauern...",
-        "getCoinAddress": "Hol dir deine Adresse um QWC zu empfangen"
+        "getCoinAddress": "Hol dir deine Adresse um SCTS zu empfangen"
       },
       "txDetails": {
         "title": "Transaktionsdetails",
@@ -156,7 +156,7 @@
         "sendTo": "Sende an ",
         "title": "Kontaktdetails"
       },
-      "subtitle": "Verbinde dich mit anderen QWC Nutzern und sende Ihnen QWC",
+      "subtitle": "Verbinde dich mit anderen SCTS Nutzern und sende Ihnen SCTS",
       "title": "Kontakte"
     },
     "electionsPage": {
@@ -170,7 +170,7 @@
       },
       "finalizationStep": {
         "title": "Das war einfach. Dein Account ist bereit!",
-        "subtitle": "Benutze Qwertycoin wie noch nie zuvor",
+        "subtitle": "Benutze Societatis wie noch nie zuvor",
         "passwordSelectionBlock": {
           "label": "Schütze deine Daten mit einem Passwort"
         },
@@ -188,13 +188,13 @@
           "mnemonicPhrase": "Mnemonic phrase",
           "separatorManualMethodsSolution": " oder ",
           "confirmManuallyWritten": "Ich habe es aufgeschieben",
-          "warningMessage": "**Auf keinen Fall verlieren!** Sie können nicht wiederhergestellt werden wenn du sie verlierst.<br/>**Nicht weitergeben!** Deine Qwertycoin werden gestohlen werden wenn diese Datei auf einer bösartigen/Phishing Seite benutzt.<br/>**Mache ein Backup!** Sichere es so wie die Millionen Euro, die es eines Tages vielleicht wert sein wird.<br/>",
+          "warningMessage": "**Auf keinen Fall verlieren!** Sie können nicht wiederhergestellt werden wenn du sie verlierst.<br/>**Nicht weitergeben!** Deine Societatis werden gestohlen werden wenn diese Datei auf einer bösartigen/Phishing Seite benutzt.<br/>**Mache ein Backup!** Sichere es so wie die Millionen Euro, die es eines Tages vielleicht wert sein wird.<br/>",
           "finishButton": "Ich habe verstanden. Weiter"
         }
       },
       "disclaimerBlock": {
-        "title": "Risiko beim benutzen der QwertycoinWallet",
-        "content": "QwertycoinWallet ist ein web-basierendes Interface. Es hilft beim Nutzen von Qwertycoin ohne einen vollen Node zu betreiben. <br/>Wir empfehlen QwertycoinWallet sicherheitstechnisch wie eine richtige Wallet zu behandeln."
+        "title": "Risiko beim benutzen der SocietatisWallet",
+        "content": "SocietatisWallet ist ein web-basierendes Interface. Es hilft beim Nutzen von Societatis ohne einen vollen Node zu betreiben. <br/>Wir empfehlen SocietatisWallet sicherheitstechnisch wie eine richtige Wallet zu behandeln."
       }
     },
     "donatePage": {
@@ -205,8 +205,8 @@
         "content": "Bitte denke über eine Spende nach wenn dir die App gefällt und du bei der Bezahlung der Server und der Enwicklung helfen willst.: <br/><br/>"
       },
       "devFundBlock": {
-        "title": "Qwertycoin Entwicklerfonds",
-        "content": "Spende an diese Adresse um Qwertycoin zu unterstützen"
+        "title": "Societatis Entwicklerfonds",
+        "content": "Spende an diese Adresse um Societatis zu unterstützen"
       }
     },
     "supportPage": {
@@ -215,12 +215,12 @@
       "getInTouchBlock": {
         "title": "So erreichst du uns!",
         "content": "Wenn du Ideen oder Feedback hast um die Wallet zu verbessern, kontaktiere uns!",
-        "discord": "Qwertycoin Discord Channel"
+        "discord": "Societatis Discord Channel"
       }
     },
     "networkPage": {
       "title": "Netzwerkstatus",
-      "subtitle": "Einblicke ins Qwertycoin Netzwerk",
+      "subtitle": "Einblicke ins Societatis Netzwerk",
       "statsBlock": {
         "connectNode": "Verbundene Masternode",
         "hashrate": "Netzwerk Hashrate",
@@ -231,11 +231,11 @@
       }
     },
     "sendPage": {
-      "title": "QWC Überweisung",
+      "title": "SCTS Überweisung",
       "sendBlock": {
         "address": {
           "label": "Zieladresse",
-          "placeholder": "Empfängeradresse (QWC....)",
+          "placeholder": "Empfängeradresse (SCTS....)",
           "invalid": "Die Zieladresse ist ungültig",
           "fundsTo": "Das Guthaben wird an folgende Adresse gesendet werden",
           "receiver": "Empfänger",
@@ -262,7 +262,7 @@
       },
       "thankYouDonationModal": {
         "title": "Danke für deine Spende!",
-        "content": "Deine Hilfe wird sehr geschätzt. Diese Spende wird helfen Qwertycoin noch beser zu machen",
+        "content": "Deine Hilfe wird sehr geschätzt. Diese Spende wird helfen Societatis noch beser zu machen",
         "confirmText": "Schließen"
       },
       "transferSentModal": {
@@ -299,15 +299,15 @@
       }
     },
     "receivePage": {
-      "title": "Empfange QWC",
+      "title": "Empfange SCTS",
       "receiveBlock": {
         "address": {
-          "title": "Deine Adresse um Qwertycoin zu empfangen",
-          "label": "Stelle diese Adresse bereit um QWC zu empfangen"
+          "title": "Deine Adresse um Societatis zu empfangen",
+          "label": "Stelle diese Adresse bereit um SCTS zu empfangen"
         },
         "qrCode": {
           "title": "Oder erstelle einen eigenen QR-Code um Zahlungen zu erhalten",
-          "labelAmount": "Geünschte QWC (optional)",
+          "labelAmount": "Geünschte SCTS (optional)",
           "labelRecipient": "Empfängername (optional)",
           "labelDescription": "Beschreibung wofür diese Transaktion ist (optional)",
           "updateButton": "QR-Code generieren"
@@ -327,7 +327,7 @@
     },
     "miningPage": {
       "title": "Mine direkt in deinem Browser",
-      "subtitle": "Unterstütze das Netzwerk für mehr Stabilität und werde mit QWC belohnt",
+      "subtitle": "Unterstütze das Netzwerk für mehr Stabilität und werde mit SCTS belohnt",
       "parameterBlock": {
         "title": "Parameter",
         "labelDestinationAddress": "Wallet für die gemined werden soll",
@@ -341,7 +341,7 @@
         "hashrate": "Hashrate",
         "maxHashrate": "Max Hashrate",
         "dedicatedHardware": "Mit spezieller Software könnetest du zwei- bis dreimal höhere Hashraten erreichen.<br/>Spezielle Software würde auch mithilfe einer Grafikkarte minen(wenn du einge Gaming GPU hast).",
-        "miningHandledBy": "Minen erfolgt über den Mining Pool pool.qwertycoin.org"
+        "miningHandledBy": "Minen erfolgt über den Mining Pool pool.societatis.org"
       }
     },
     "settingsPage": {

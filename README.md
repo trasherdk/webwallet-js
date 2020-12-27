@@ -1,8 +1,4 @@
-![image](https://cdn.qwertycoin.org/images/press/other/qwc-github-3.png)
-#### Master Build Status
-[![Build Status](https://travis-ci.org/qwertycoin-org/webwallet-js.svg?branch=master)](https://travis-ci.org/qwertycoin-org/webwallet-js) [![Build status](https://ci.appveyor.com/api/projects/status/rvsgv9p8wbolxfkt/branch/master?svg=true)](https://ci.appveyor.com/project/Qwertycoin/webwallet-js-iiaw6/branch/master)
-
-# Qwertycoin Web Wallet - Fully client-side
+# Societatis Web Wallet - Fully client-side
 This web wallet is doing everything client-side to give the best privacy to users.
 The API servers are currently only used to optimize the communication with the daemon and compress the blockchain.
 
@@ -48,7 +44,7 @@ That's all
 ### Donate
 
 ```
-QWC: QWC1K6XEhCC1WsZzT9RRVpc1MLXXdHVKt2BUGSrsmkkXAvqh52sVnNc1pYmoF2TEXsAvZnyPaZu8MW3S8EWHNfAh7X2xa63P7Y
+SCTS: SCTS1K6XEhCC1WsZzT9RRVpc1MLXXdHVKt2BUGSrsmkkXAvqh52sVnNc1pYmoF2TEXsAvZnyPaZu8MW3S8EWHNfAh7X2xa63P7Y
 ```
 ```
 BTC: 1DkocMNiqFkbjhCmG4sg9zYQbi4YuguFWw
@@ -92,12 +88,12 @@ ETN: etnkJXJFqiH9FCt6Gq2HWHPeY92YFsmvKX7qaysvnV11M796Xmovo2nSu6EUCMnniqRqAhKX9AQ
 - Ukrainian: [Aiwe](https://github.com/aivve)
 
 #### Incomplete Translations:
-- [Arabic](https://github.com/qwertycoin-org/webwallet-js/blob/master/src/translations/ar.json)
-- [Hebrew](https://github.com/qwertycoin-org/webwallet-js/blob/master/src/translations/he.json)
-- [Hindi](https://github.com/qwertycoin-org/webwallet-js/blob/master/src/translations/hi.json)
-- [Polish](https://github.com/qwertycoin-org/webwallet-js/blob/master/src/translations/pl.json)
-- [Portuguese](https://github.com/qwertycoin-org/webwallet-js/blob/master/src/translations/pk.json)
-- [Romanian](https://github.com/qwertycoin-org/webwallet-js/blob/master/src/translations/ro.json)
-- [Turkish](https://github.com/qwertycoin-org/webwallet-js/blob/master/src/translations/tr.json)
-- [Urdu](https://github.com/qwertycoin-org/webwallet-js/blob/master/src/translations/pk.json)
-- [Vietnamese ](https://github.com/qwertycoin-org/webwallet-js/blob/master/src/translations/vn.json)
+- [Arabic](https://github.com/societatis/webwallet-js/blob/master/src/translations/ar.json)
+- [Hebrew](https://github.com/societatis/webwallet-js/blob/master/src/translations/he.json)
+- [Hindi](https://github.com/societatis/webwallet-js/blob/master/src/translations/hi.json)
+- [Polish](https://github.com/societatis/webwallet-js/blob/master/src/translations/pl.json)
+- [Portuguese](https://github.com/societatis/webwallet-js/blob/master/src/translations/pk.json)
+- [Romanian](https://github.com/societatis/webwallet-js/blob/master/src/translations/ro.json)
+- [Turkish](https://github.com/societatis/webwallet-js/blob/master/src/translations/tr.json)
+- [Urdu](https://github.com/societatis/webwallet-js/blob/master/src/translations/pk.json)
+- [Vietnamese ](https://github.com/societatis/webwallet-js/blob/master/src/translations/vn.json)

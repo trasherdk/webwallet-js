@@ -10,12 +10,12 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qwertycoin-org/webwallet-js.git"
+    "url": "git+https://github.com/societatis/webwallet-js.git"
   },
   "author": "Gnock,Aiwe,Alex",
   "license": "BSD-3",
   "bugs": {
-    "url": "https://github.com/qwertycoin-org/webwallet-js/issues"
+    "url": "https://github.com/societatis/webwallet-js/issues"
   },
-  "homepage": "https://github.com/qwertycoin-org/webwallet-js#readme"
+  "homepage": "https://github.com/societatis/webwallet-js#readme"
 }

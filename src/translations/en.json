@@ -1,7 +1,7 @@
 {
   "website": {
-    "title": "Qwertycoin Wallet | Simple, seamless, safe. Welcome to the future.",
-    "description": "Official online wallet for Qwertycoin currency - fully handled in your browser for optimal security"
+    "title": "Societatis Wallet | Simple, seamless, safe. Welcome to the future.",
+    "description": "Official online wallet for Societatis currency - fully handled in your browser for optimal security"
   },
   "messages": {
     "menu": {
@@ -109,7 +109,7 @@
         "emptyWallet": "You currently have no funds in this wallet.",
         "waitSync": "Please wait until the wallet is updated",
         "beReallyPatient": "The initial setup can take some time...",
-        "getCoinAddress": "Receive QWC"
+        "getCoinAddress": "Receive SCTS"
       },
       "txDetails": {
         "title": "Transaction details",
@@ -231,7 +231,7 @@
       }
     },
     "sendPage": {
-      "title": "Send QWC",
+      "title": "Send SCTS",
       "sendBlock": {
         "address": {
           "label": "Destination address",
@@ -299,7 +299,7 @@
       }
     },
     "receivePage": {
-      "title": "Receive QWC",
+      "title": "Receive SCTS",
       "receiveBlock": {
         "address": {
           "title": "Your address to receive funds:",
@@ -327,7 +327,7 @@
     },
     "miningPage": {
       "title": "Mine directly in your browser",
-      "subtitle": "Support the network by mining and be rewarded with QWC",
+      "subtitle": "Support the network by mining and be rewarded with SCTS",
       "parameterBlock": {
         "title": "Parameters",
         "labelDestinationAddress": "Wallet to mine",

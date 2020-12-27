@@ -109,7 +109,7 @@
         "emptyWallet": "Jelenleg nincsen egyenleged ebben a tárcában.",
         "waitSync": "Kérlek, várj, míg a tárca naprakész lesz",
         "beReallyPatient": "A kezdeti beállítás némi időbe telhet...",
-        "getCoinAddress": "QWC fogadása"
+        "getCoinAddress": "SCTS fogadása"
       },
       "txDetails": {
         "title": "Tranzakciórészletek",
@@ -231,7 +231,7 @@
       }
     },
     "sendPage": {
-      "title": "QWC küldése",
+      "title": "SCTS küldése",
       "sendBlock": {
         "address": {
           "label": "Kedvezményezett címe",
@@ -299,7 +299,7 @@
       }
     },
     "receivePage": {
-      "title": "QWC fogadása",
+      "title": "SCTS fogadása",
       "receiveBlock": {
         "address": {
           "title": "Pénz fogadására szolgáló cím:",

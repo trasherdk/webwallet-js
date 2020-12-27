@@ -40,7 +40,7 @@
     category: string,
     question: string,
     description: string,
-    QWCPerVote: string,
+    SCTSPerVote: string,
     minimumVotes: string,
     neededBTC: string,
     answers: Answer[],
