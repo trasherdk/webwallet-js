@@ -22,7 +22,6 @@
 
 /* Create two equal columns that floats next to each other */
 .column {
-  float: left;
   width: 50%;
   padding: 10px;
 }
@@ -669,7 +668,7 @@ body.native .indexTab .mainBlock > .actions{
 }
 .indexTab .mainBlock > .actions .btn.basic{
 	background: #0e0e0e;
-	color:#e0e1e2;
+	color:#8f8f8f;
 	border-color: 2px solid #717171;
 }
 .indexTab .mainBlock > .actions .right{
@@ -948,7 +947,7 @@ body{
 /*=================BUTTONS====================*/
 .btn{
 	text-decoration: none;
-	background:#e0e1e2 none;
+	background:#8f8f8f none;
 	cursor: pointer;
 	color: rgba(0,0,0,.6);
 	border: none;
@@ -973,20 +972,20 @@ body{
 	transition: all .25s ease;
 	padding: .78571429em 1.5em .78571429em;
 }
-.btn.basic{background:#0e0e0e;color:#e0e1e2;border:2px solid #e0e1e2;}
-.btn.basic:hover{background:#1d1d1d !important;color:#e0e1e2;border:2px solid #e0e1e2;}
+.btn.basic{background:#fff;color:#ff9993;border:2px solid #fff;margin-right: 3vw;transition: 0.25s;}
+.btn.basic:hover{background:#ff9993 !important;color:#fff;border:2px solid #fff;box-shadow: 0 0.5em 0.5em -0.4em #d6d6d6;transform: translateY(-0.25em);}
 .btn:hover{background-color: #cacbcd;color: rgba(0,0,0,.8);}
 
-.btn.primary{color: #111111;background-color: #00bd07;}
-.btn.primary.basic{color: #00bd07;border-color: #00bd07;}
-.btn.primary:hover {background-color: #009a06;}
-.btn.primary.basic:hover{color: #009a06;border-color: #009a06;}
+.btn.primary{color: #fff;background-color: #d6d6d6;border: 2px solid #d6d6d6;transition: 0.25s;}
+.btn.primary.basic{color: #fff;border-color: #d6d6d6;transition: 0.25s;}
+.btn.primary:hover {background-color: #ff9993;color:#fff;border:2px solid #fff;box-shadow: 0 0.5em 0.5em -0.4em #d6d6d6;transform: translateY(-0.25em);}
+.btn.primary.basic:hover{color: #fff;background-color: #ff9993;border:2px solid #fff;box-shadow: 0 0.5em 0.5em -0.4em #d6d6d6;transform: translateY(-0.25em);}
 
 .btn.teal{background-color: #00b5ad;color: #fff;}
 .btn.teal:hover{background-color: #009c95;color: #fff;}
 
-.btn.green{background-color: #4cb860;color: #fff;}
-.btn.green:hover{background-color: #499c4e;color: #fff;}
+.btn.green{background-color: #ff9993;color: #fff;}
+.btn.green:hover{background-color: #fdaca8;color: #fff;}
 
 .btn:disabled,.btn.disabled{
 	cursor: default;
@@ -1018,17 +1017,17 @@ body{
 	margin-bottom:5px;
 }
 .field input, .field .subfield, .field select{
-	border: 1px solid #D9DCE7;
+	border: 1px solid #676767;
 	border-radius: 5px;
 	font-size: 14px;
 	padding: 17px 16px 15px;
 	width: 100%;
-	color: rgba(71, 78, 93, 0.7);
-	background: #FFFFFF;
+	color: #f1f1f1;
+	background: #222222;
 }
 
 .field input:read-only, .field input.readonly, .field .subfield.readonly{
-	background:#f8f8f9;
+	background:#8f8f8f;
 }
 
 .field input[type=checkbox],
@@ -1089,7 +1088,7 @@ body{
 	transform: none;
 	border: none;
 	top: 0;
-	background: rgba(0,0,0,.05);
+	background: #8f8f8f;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	width: 3.5rem;
@@ -1097,7 +1096,7 @@ body{
 	border-radius: 500rem;
 }
 .field.checkbox input:checked~label:before{
-	background-color: #00bd07;
+	background-color: #ff9993;
 }
 .field.checkbox label:after{
 	background: #fff -webkit-gradient(linear,left top,left bottom,from(transparent),to(rgba(0,0,0,.05)));
