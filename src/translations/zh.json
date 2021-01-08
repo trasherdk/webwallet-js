@@ -194,7 +194,7 @@
       },
       "disclaimerBlock": {
         "title": "Societatis钱包安全风险须知",
-        "content": "Societatis钱包是一个基于Web的界面. 它能帮助你在无须运行一个完整的QwertyCoin节点就可以使用QwertyCoin。 <br/>我们建议像对待您真实的钱包那样对待Societatis钱包。"
+        "content": "Societatis钱包是一个基于Web的界面. 它能帮助你在无须运行一个完整的Societatis节点就可以使用Societatis。 <br/>我们建议像对待您真实的钱包那样对待Societatis钱包。"
       }
     },
     "donatePage": {
