@@ -621,6 +621,9 @@ body.native .indexTab .mainBlock {
 @media screen and (max-width: 940px) {
 	.indexTab .mainBlock{
 		margin-bottom:40px;
+		background-image: -webkit-linear-gradient(rgba(62, 75, 92, 0.10), rgba(62, 75, 92, 0.10)), url(../img/landing/wp_mobil.jpg);
+		background-image: -o-linear-gradient(rgba(62, 75, 92, 0.10), rgba(62, 75, 92, 0.10)), url(../img/landing/wp_mobil.jpg);
+		background-image: linear-gradient(rgba(62, 75, 92, 0.10), rgba(62, 75, 92, 0.10)), url(../img/landing/wp_mobil.jpg);
 	}
 }
 .indexTab .mainBlock .step:first-child{

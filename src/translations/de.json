@@ -70,8 +70,8 @@
       "tagLineTwo": "Der schnellste Weg, Societatis zu verwenden.",
       "actions": {
         "loadWallet": "Lade meine Wallet",
-        "importWallet": "Importiere eine Wallet",
-        "create": "Erstelle eine neue Wallet",
+        "importWallet": "Importieren",
+        "create": "Erstellen",
         "createWallet": "Erstelle eine neue Wallet"
       }
     },
@@ -177,7 +177,7 @@
         "passwordConfirmBlock": {
           "label": "Bestätige das Passwort"
         },
-        "validPassword": "Benutze diese Passwort",
+        "validPassword": "Benutze dieses Passwort",
         "backupBlock": {
           "title": "Bitte lade eine verschlüsselte Kopie deiner Zugangsdaten für zukünftige Verwendung herunter",
           "option1": "Option 1: ",

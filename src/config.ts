@@ -1,7 +1,8 @@
 let global: any = typeof window !== 'undefined' ? window : self;
 global.config = {
 	nodeList: [
-		"https://api.societatis.io/sslnode/"
+		"https://api.societatis.io/sslnode/",
+		"https://wallet.societatis.io/sslnode/"
 	],
 	websiteApiUrl: "https://societatis.iog/wp-json",
 

@@ -257,7 +257,13 @@ export class BlockchainExplorerRpcDaemon implements BlockchainExplorer {
             //load compressed blocks (100 blocks) containing the blocks referred by their index
             for (let compressedBlock in compressedBlocksToGet) {
                 promiseGetCompressedBlocks = promiseGetCompressedBlocks.then(() => {
-                    return self.getTransactionsForBlocks(parseInt(compressedBlock), Math.min(parseInt(compressedBlock) + 99, height - config.txCoinbaseMinConfirms)).then(function (rawTransactions: RawDaemon_Transaction[]) {
+                    return self.getTransactionsForBlocks(
+                        parseInt(compressedBlock), 
+                        Math.min(parseInt(compressedBlock) + 99, 
+                            height - config.txCoinbaseMinConfirms))
+                            .then((rawTransactions: RawDaemon_Transaction[]) => {
+                        console.log('rawTransactions: ', rawTransactions);
+                        console.log('txs: ', txs);
                         txs.push.apply(txs, rawTransactions);
                     });
                 });
