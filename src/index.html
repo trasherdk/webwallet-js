@@ -60,7 +60,6 @@
 	<a href="#!account" class="onlyWhenConnected"><span class="icon" ><i class="fa fa-tachometer" aria-hidden="true"></i></span> {{ $t("menu.account") }}</a>
 	<a href="#!send" class="onlyWhenConnected notViewOnlyWallet"><span class="icon" ><i class="fa fa-paper-plane" aria-hidden="true"></i></span> {{ $t("menu.send") }}</a>
 	<a href="#!receive" class="onlyWhenConnected"><span class="icon" ><i class="fa fa-inbox" aria-hidden="true"></i></span> {{ $t("menu.receive") }}</a>
-	<a href="#!contactPage" class="onlyWhenConnected"><span class="icon"><i class="fa fa-address-card-o" aria-hidden="true"></i></span> {{ $t("menu.contacts")}}</a>
 	<a href="#!export" class="onlyWhenConnected"><span class="icon" ><i class="fa fa-download" aria-hidden="true"></i></span> {{ $t("menu.export") }}</a>
 	<a href="#!settings" class="onlyWhenConnected"><span class="icon" ><i class="fa fa-cog" aria-hidden="true"></i></span> {{ $t("menu.settings") }}</a>
 	<a href="#!disconnect"  class="onlyWhenConnected"><span class="icon" ><i class="fa fa-times" aria-hidden="true"></i></span> {{ $t("menu.disconnect") }}</a>
@@ -74,7 +73,6 @@
 <div id="page" ></div>
 
 <div id="copyright" v-cloak="">
-	<div class="links" >
 		<select v-model="language" class="hideOnNative">
 			<option value="en">English</option>
 			<option value="ar">Arabic (عربى )</option>
@@ -100,8 +98,6 @@
 			<option value="pk">Urdu (اکستان )</option>
 			<option value="vn">Vietnamese (Việt Nam)</option>
 		</select>
-	</div>
-	<div class="cb" ></div>
 </div>
 
 <!--<script src="lib/polyfills/weakmap.min.js"></script>-->

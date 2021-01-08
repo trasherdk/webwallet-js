@@ -16,8 +16,8 @@ global.config = {
 	txCoinbaseMinConfirms: 10,
 
 	addressPrefix: 0x199296,
-	integratedAddressPrefix: 0x148201,
-	subAddressPrefix: 0x148202,
+	integratedAddressPrefix: 0x199297,
+	subAddressPrefix: 0x199298,
 
 	coinFee: new JSBigInt('10000'),
 	feePerKB: new JSBigInt('10000'),

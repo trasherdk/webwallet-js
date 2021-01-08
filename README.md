@@ -1,6 +1,5 @@
 # Societatis Web Wallet - Fully client-side
 This web wallet is doing everything client-side to give the best privacy to users.
-The API servers are currently only used to optimize the communication with the daemon and compress the blockchain.
 
 # Security
 **No keys, seeds, or sensitive data is sent to the server**  
