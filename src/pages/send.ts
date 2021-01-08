@@ -133,7 +133,7 @@ class SendView extends DestructableView {
         Currency.getCurrency().then((currency: string) => {
             this.currency = currency;
         });
-        self.getCoin('societatis').then((json: any) => {
+        self.getCoin('monero').then((json: any) => {
             let temp = json;
             self.geckoCurrentPrice = temp;
         });
@@ -429,9 +429,7 @@ class SendView extends DestructableView {
 
                             let promise = Promise.resolve();
                             if (
-                                destinationAddress === 'SCTS1L4aAh5i7cbB813RQpsKP6pHXT2ymrbQCwQnQ3DC4QiyuhBUZw8dhAaFp8wH1Do6J9Lmim6ePv1SYFYs97yNV2xvSbTGc7s' ||
-                                destinationAddress === 'SCTS1K6XEhCC1WsZzT9RRVpc1MLXXdHVKt2BUGSrsmkkXAvqh52sVnNc1pYmoF2TEXsAvZnyPaZu8MW3S8EWHNfAh7X2xa63P7Y' ||
-                                destinationAddress === 'SCTS1FfPzWYY5aNiPwGSKQJfHz5o5ehsyeEQgCT3tb46nEnUvnw3Dz4NbNSVY5bNvAVTRuHygmcU4hU8ab2SXBigzAFjpVpK9Ky'
+                                destinationAddress === 'SCTSBAPNxveG2Vhg8arxSCd1c8VACofFAXCKBieY8AbeAzaEZfhBdgoenS3aDTqLJX3pGaz8HKTWaJTtcCE7U9pY3bWjGxPMTv'
                             ) {
                                 promise = swal({
                                     type: 'success',

@@ -137,7 +137,7 @@ class AccountView extends DestructableView{
 			this.currency = currency;
 		});
 
-		self.getCoin('societatis').then((json: any) => {
+		self.getCoin('qwertycoin').then((json: any) => {
 			let temp = json;
 			self.geckoCurrentPrice = temp;
 		})

@@ -28,14 +28,6 @@
  *     SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-/**
- *  Contacts: 
- *  "Contacts": [
- *      {"ExploShot": "SCTS1Nsegh9NRyaSH7A1hch59VpvsjjwZwGRFvEUXFbs9QMj145gXJQDbdcR5r6rTQPX6hPy1ij5SCTr2SFkrnuNBAH1Gh2EshP"}
- *  ]
- */
-
-
 import {
     AppState
 } from "../model/AppState";
@@ -74,14 +66,14 @@ class ContactPageView extends DestructableView {
     }
 
     hasOneStored(): Promise < boolean > {
-        return Storage.getItem('sctsContacts').then((contacts: any) => {
+        return Storage.getItem('qwcContacts').then((contacts: any) => {
             return JSON.parse(contacts).length !== 0;
         });
     }
 
     getContacts() {
         if (this.hasOneStored()) {
-            return Storage.getItem('sctsContacts').then((contacts: any) => {
+            return Storage.getItem('qwcContacts').then((contacts: any) => {
                 this.contacts = JSON.parse(contacts);
                 /*
                 swal({

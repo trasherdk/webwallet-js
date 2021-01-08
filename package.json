@@ -1,7 +1,7 @@
 {
   "name": "societatiswebwallet",
   "version": "2.0.2",
-  "description": "Fully client side web wallet for Societatis",
+  "description": "Client side web wallet for Societatis",
   "main": "index.js",
   "dependencies": {
     "typescript": "^2.9.2",
@@ -10,9 +10,9 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/societatis/webwallet-js.git"
+    "url": "git+https://github.com/qwertycoin-org/webwallet-js.git"
   },
-  "author": "Gnock,Aiwe,Alex",
+  "author": "Gnock,Aiwe,Alex Qwertycoin Organization",
   "license": "BSD-3",
   "bugs": {
     "url": "https://github.com/societatis/webwallet-js/issues"

@@ -1,6 +1,6 @@
 {
-  "name": "Societatis Web Wallet",
-  "short_name": "SocietatisWallet",
+  "name": "Qwertycoin Web Wallet",
+  "short_name": "QwertycoinWallet",
   "icons": [{
 	"src": "assets/img/icons/icon-128x128.png",
 	"sizes": "128x128",

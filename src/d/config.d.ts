@@ -1,6 +1,5 @@
 declare var config: {
 	nodeList: string[],
-	electionApiUrl: string,
 	websiteApiUrl: string,
 	mainnetExplorerUrl: string,
 	mainnetExplorerUrlHash: string,
