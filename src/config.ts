@@ -4,23 +4,21 @@ global.config = {
 		"https://api.societatis.io/sslnode/"
 	],
 	websiteApiUrl: "https://societatis.iog/wp-json",
+
 	mainnetExplorerUrl: "https://explorer.societatis.io/",
 	mainnetExplorerUrlHash: "https://explorer.societatis.io/?hash={ID}#blockchain_transaction",
 	mainnetExplorerUrlBlock: "https://explorer.societatis.io/?hash={ID}#blockchain_block",
-	testnetExplorerUrl: "https://explorer.testnet.societatis.io/",
-	testnetExplorerUrlHash: "https://explorer.testnet.societatis.io/?hash={ID}#blockchain_transaction",
-	testnetExplorerUrlBlock: "https://explorer.testnet.societatis.io/?hash={ID}#blockchain_block",
+
 	testnet: false,
 	coinUnitPlaces: 8,
 	coinDisplayUnitPlaces: 2,
 	txMinConfirms: 10,
 	txCoinbaseMinConfirms: 10,
+
 	addressPrefix: 0x199296,
 	integratedAddressPrefix: 0x148201,
-	addressPrefixTestnet: 0x199296,
-	integratedAddressPrefixTestnet: 0x148201,
 	subAddressPrefix: 0x148202,
-	subAddressPrefixTestnet: 0x148202,
+
 	coinFee: new JSBigInt('10000'),
 	feePerKB: new JSBigInt('10000'),
 	dustThreshold: new JSBigInt('100000'), //used for choosing outputs/change - we decompose all the way down if the receiver wants now regardless of threshold

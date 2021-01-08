@@ -47,7 +47,7 @@ class AddContactView extends DestructableView {
     }
 
     static hasOneStored(): Promise<boolean> {
-        return Storage.getItem('qwcContacts', null).then(function(contacts: any[]) {
+        return Storage.getItem('walletContacts', null).then(function(contacts: any[]) {
             return contacts !== null;
         });
     }
@@ -60,11 +60,11 @@ class AddContactView extends DestructableView {
                 title: `We have Contacts`,
                 confirmButtonText:i18n.t('changeWalletPasswordPage.modalSuccess.confirmText'),
             });
-            return Storage.getItem('qwcContacts', null).then((existingContacts) => {
+            return Storage.getItem('walletContacts', null).then((existingContacts) => {
                 if (existingContacts !== null) {
                     let tempContacts: any[] = JSON.parse(existingContacts);
                     tempContacts.push(contact);
-                    return Storage.setItem('qwcContacts', JSON.stringify(tempContacts)).then((contacties: any) => {
+                    return Storage.setItem('walletContacts', JSON.stringify(tempContacts)).then((contacties: any) => {
                         swal({
                             type:'success',
                             title: `We have saved Contacts: ${JSON.parse(contacties).length}`,
@@ -80,7 +80,7 @@ class AddContactView extends DestructableView {
                     });
                     let newContacts: any[] = [];
                     newContacts.push(contact);
-                    return Storage.setItem('qwcContacts', JSON.stringify(newContacts)).then(() => {
+                    return Storage.setItem('walletContacts', JSON.stringify(newContacts)).then(() => {
                         return window.location.href = '#contactPage';
                     });
                 }
@@ -93,7 +93,7 @@ class AddContactView extends DestructableView {
                 confirmButtonText:i18n.t('changeWalletPasswordPage.modalSuccess.confirmText'),
             });
             newContacts.push(contact);
-            return Storage.setItem('qwcContacts', JSON.stringify(newContacts)).then(() => {
+            return Storage.setItem('walletContacts', JSON.stringify(newContacts)).then(() => {
                 return window.location.href = '#contactPage';
             });
         }

@@ -25,16 +25,6 @@ import {Cn, CnUtils} from "../model/Cn";
 let wallet : Wallet = DependencyInjectorInstance().getInstance(Wallet.name,'default', false);
 
 function setTextInClipboard(inputId : string){
-	/*let inputElement : HTMLInputElement = <HTMLInputElement>document.getElementById(inputId);
-	let textarea : HTMLInputElement = <HTMLInputElement> document.getElementById('clipboardTextarea');
-	if(textarea !== null && inputElement !== null) {
-		textarea.value = inputElement.value;
-		textarea.select();
-	}
-	try {
-		document.execCommand('copy');
-	} catch (err) {
-	}*/
 	let inputElement : HTMLInputElement = <HTMLInputElement>document.getElementById(inputId);
 	if(inputElement !== null) {
 		inputElement.select();

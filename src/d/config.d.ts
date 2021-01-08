@@ -4,9 +4,6 @@ declare var config: {
 	mainnetExplorerUrl: string,
 	mainnetExplorerUrlHash: string,
 	mainnetExplorerUrlBlock: string,
-	testnetExplorerUrl: string,
-	testnetExplorerUrlHash: string,
-	testnetExplorerUrlBlock: string,
 	testnet: boolean,
 	coinUnitPlaces: number,
 	txMinConfirms: number, // corresponds to CRYPTONOTE_DEFAULT_TX_SPENDABLE_AGE in Monero
@@ -17,10 +14,7 @@ declare var config: {
 	coinUriPrefix: string,
 	addressPrefix: number,
 	integratedAddressPrefix: number,
-	addressPrefixTestnet: number,
-	integratedAddressPrefixTestnet: number,
 	subAddressPrefix: number,
-	subAddressPrefixTestnet: number,
 	feePerKB: any,
 	dustThreshold: any,
 	defaultMixin: number, // default mixin

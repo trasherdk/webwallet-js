@@ -323,7 +323,7 @@ class SendView extends DestructableView {
                     devAmount = config.devFee * Math.pow(10, config.coinUnitPlaces);
                     nodeAmount = nodeValue * Math.pow(10, config.coinUnitPlaces);
 
-                    console.log(`Destiantion address: ${self.destinationAddress}`);
+                    console.log(`Destination address: ${self.destinationAddress}`);
                     let destinationAddress = self.destinationAddress;
 
                     destinations.push(
@@ -349,8 +349,8 @@ class SendView extends DestructableView {
                     }
 
                     if (Constants.DEBUG_STATE) {
-                        console.log(`Destiantion address 1: ${destinationAddress}`);
-                        console.log(`Creating transfer modal`)
+                        console.log(`Destination address 1: ${destinationAddress}`);
+                        console.log(`Creating transfer model`)
                     }
 
                     swal({

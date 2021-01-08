@@ -79,9 +79,9 @@ class AccountView extends DestructableView{
 	}
 
 	moreInfoOnTx(transaction : Transaction){
-		let explorerUrlHash = config.testnet ? config.testnetExplorerUrlHash : config.mainnetExplorerUrlHash;
-		let explorerUrlBlock = config.testnet ? config.testnetExplorerUrlBlock : config.mainnetExplorerUrlBlock;
-		let transFee = 100000000; //TODO
+		let explorerUrlHash = config.mainnetExplorerUrlHash;
+		let explorerUrlBlock = config.mainnetExplorerUrlBlock;
+		let transFee = 10000; //TODO
 		
 		let feesHtml = '';
 		if(transaction.getAmount() < 0)

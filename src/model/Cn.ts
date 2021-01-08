@@ -44,12 +44,7 @@ let ENCRYPTED_PAYMENT_ID_TAIL = 141;
 let CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX = config.addressPrefix;
 let CRYPTONOTE_PUBLIC_INTEGRATED_ADDRESS_BASE58_PREFIX = config.integratedAddressPrefix;
 let CRYPTONOTE_PUBLIC_SUBADDRESS_BASE58_PREFIX = config.subAddressPrefix;
-if (config.testnet === true)
-{
-	CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX = config.addressPrefixTestnet;
-	CRYPTONOTE_PUBLIC_INTEGRATED_ADDRESS_BASE58_PREFIX = config.integratedAddressPrefixTestnet;
-	CRYPTONOTE_PUBLIC_SUBADDRESS_BASE58_PREFIX = config.subAddressPrefixTestnet;
-}
+
 let UINT64_MAX = new JSBigInt(2).pow(64);
 let CURRENT_TX_VERSION = 1;
 let OLD_TX_VERSION = 1;
