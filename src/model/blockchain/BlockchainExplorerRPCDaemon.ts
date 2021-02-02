@@ -159,7 +159,7 @@ export class BlockchainExplorerRpcDaemon implements BlockchainExplorer {
 
         return this.makeRequest('POST', 'get_transactions_by_heights', {
             heights: [tempStartBlock, endBlock],
-            include_miner_txs: false,
+            include_miner_txs: true,
             as_json: true,
             as_hex: false,
             range: true
@@ -258,8 +258,8 @@ export class BlockchainExplorerRpcDaemon implements BlockchainExplorer {
             for (let compressedBlock in compressedBlocksToGet) {
                 promiseGetCompressedBlocks = promiseGetCompressedBlocks.then(() => {
                     return self.getTransactionsForBlocks(
-                        parseInt(compressedBlock), 
-                        Math.min(parseInt(compressedBlock) + 99, 
+                        parseInt(compressedBlock),
+                        Math.min(parseInt(compressedBlock) + 99,
                             height - config.txCoinbaseMinConfirms))
                             .then((rawTransactions: RawDaemon_Transaction[]) => {
                         console.log('rawTransactions: ', rawTransactions);

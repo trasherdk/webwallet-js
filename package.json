@@ -1,6 +1,6 @@
 {
   "name": "societatiswebwallet",
-  "version": "1.0.4",
+  "version": "1.0.20",
   "description": "Web wallet for Societatis",
   "main": "index.js",
   "dependencies": {

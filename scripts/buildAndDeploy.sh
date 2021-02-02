@@ -12,4 +12,4 @@ nodejs build.js
 
 echo "deploy Webwallet"
 
-sudo cp -rf src/api.html src/config.ts src/lib/ src/service-worker-raw.js src/api.js src/d/ src/manifest.json src/service-worker-raw.ts src/api.ts src/index.html src/model/ src/translations/ src/assets/ src/index.js src/pages/ src/utils/ src/config.js src/index.ts src/providers/ src/workers/ /var/www/html
+sudo cp -rf src/config.ts src/lib/ src/service-worker-raw.js src/d/ src/manifest.json src/service-worker-raw.ts src/index.html src/model/ src/translations/ src/assets/ src/index.js src/pages/ src/utils/ src/config.js src/index.ts src/providers/ src/workers/ /var/www/html
