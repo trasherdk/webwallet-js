@@ -38,5 +38,5 @@ global.config = {
 	maxBlockNumber: 500000000,
 	remoteNodeFee: 0.25,
 	devFee: 1,
-	devAddress: "SCTSWG4YNrAji9xN8dxY5T94hox3Yz2LTgP3BJTJTFVxPorRmCLVQ61g9sCbnK67umjoGrhEdhPoSEPBUGsnYhLC8216QXb2dh"
+	devAddress: "SCTST1AgEUM947PoDNMxvD93LEL6QGxY14djDjT4iwhGQyn8ettU1qqcQNozheDUPfSwLXqUgqohzQzpXRMu9whn1Hpp6HZuxo"
 };
