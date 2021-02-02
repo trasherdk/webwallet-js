@@ -436,12 +436,12 @@
       "walletKeysModal": {
         "title": "Private Schlüssel",
         "confirmText": "OK",
-        "content": "Diese Schlüssel bitte sorgfältig speichern. <b>Der Besitz dieser bedeutetd den Besitz des zugeordneten Guthabens</b> !<br/>Spend key: {privSpendKey}<br/>Private view key: {privViewKey}"
+        "content": "Diese Schlüssel bitte sorgfältig speichern. <b>Der Besitz dieser bedeutet den Besitz des zugeordneten Guthabens</b> !<br/>Spend key: {privSpendKey}<br/>Private view key: {privViewKey}"
       },
       "mnemonicKeyModal": {
         "title": "Mnemonic Phrase",
         "confirmText": "OK",
-        "content": "Diese Mnemonic Phrase bitte sorgfältig speichern. <b>Der Besitz dieser Phrase bedeutetd den Besitz des zugeordneten Guthabens</b> ! Die Phrase lautet:<br/>{mnemonic}"
+        "content": "Diese Mnemonic Phrase bitte sorgfältig speichern. <b>Der Besitz dieser Phrase bedeutet den Besitz des zugeordneten Guthabens</b> ! Die Phrase lautet:<br/>{mnemonic}"
       },
       "mnemonicLangSelectionModal": {
         "title": "In welcher Sprache möchtest du deine  Mnemonic Phrase ?",

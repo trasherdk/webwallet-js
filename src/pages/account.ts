@@ -81,7 +81,7 @@ class AccountView extends DestructableView{
 	moreInfoOnTx(transaction : Transaction){
 		let explorerUrlHash = config.mainnetExplorerUrlHash;
 		let explorerUrlBlock = config.mainnetExplorerUrlBlock;
-		let transFee = 10000; //TODO
+		let transFee = 100000; //TODO
 		
 		let feesHtml = '';
 		if(transaction.getAmount() < 0)
@@ -137,7 +137,7 @@ class AccountView extends DestructableView{
 			this.currency = currency;
 		});
 
-		self.getCoin('monero').then((json: any) => {
+		self.getCoin('bytecoin').then((json: any) => {
 			let temp = json;
 			self.geckoCurrentPrice = temp;
 		})

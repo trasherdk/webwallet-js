@@ -2,6 +2,8 @@ let global: any = typeof window !== 'undefined' ? window : self;
 global.config = {
 	nodeList: [
 		"https://api.societatis.io/sslnode/",
+		"https://holon-01.societatis.io/sslnode/",
+		"https://holon-03.societatis.io/sslnode/",
 		"https://wallet.societatis.io/sslnode/"
 	],
 	websiteApiUrl: "https://societatis.iog/wp-json",
@@ -22,7 +24,7 @@ global.config = {
 
 	coinFee: new JSBigInt('10000'),
 	feePerKB: new JSBigInt('10000'),
-	dustThreshold: new JSBigInt('100000'), //used for choosing outputs/change - we decompose all the way down if the receiver wants now regardless of threshold
+	dustThreshold: new JSBigInt('1000'), //used for choosing outputs/change - we decompose all the way down if the receiver wants now regardless of threshold
 	defaultMixin: 0, // default value mixin
 
 	idleTimeout: 30,
@@ -36,5 +38,5 @@ global.config = {
 	maxBlockNumber: 500000000,
 	remoteNodeFee: 0.25,
 	devFee: 1,
-	devAddress: "SCTSBAPNxveG2Vhg8arxSCd1c8VACofFAXCKBieY8AbeAzaEZfhBdgoenS3aDTqLJX3pGaz8HKTWaJTtcCE7U9pY3bWjGxPMTv"
+	devAddress: "SCTSWG4YNrAji9xN8dxY5T94hox3Yz2LTgP3BJTJTFVxPorRmCLVQ61g9sCbnK67umjoGrhEdhPoSEPBUGsnYhLC8216QXb2dh"
 };
